@@ -55,10 +55,6 @@ Y por último está Alberto, que tiene 68 años y busca un detalle para su nieta
 
 ### 2.3 Análisis de la competencia
 
-### 2.3 Análisis de la competencia
-
-### 2.3 Análisis de la competencia
-
 Para no ir a ciegas, he estado analizando a fondo cómo funcionan cuatro aplicaciones y tiendas online de ropa infantil que dominan el mercado actual. En la siguiente tabla detallo qué hace bien cada una, en qué fallan, cómo manejan el acceso y qué conclusiones me llevo para aplicarlas directamente en el diseño de Pequeño Davante:
 
 | Tienda | Qué hacen bien | Qué hacen mal | Sistema de registro y acceso | Qué me llevo para Pequeño Davante |

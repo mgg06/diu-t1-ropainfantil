@@ -1,111 +1,111 @@
-# Documentación de la interfaz · Pequeño Davante
+# Documentación de la interfaz - Pequeño Davante
 
 ## 1. Justificación del diseño
 
 ### 1.1 Importancia del diseño centrado en el usuario
 
-Al plantear la app de Pequeño Davante, me he centrado en cómo la usaría alguien que entra a comprar ropa infantil desde el móvil. Muchas veces será una madre, un padre o un familiar que tiene poco tiempo y mira la tienda mientras hace otra cosa. Por eso he intentado que las opciones principales se vean sin tener que ir abriendo menús.
+Al plantear la app de Pequeño Davante, me he centrado en cómo la usaría alguien que entra a comprar ropa infantil desde el móvil. Muchas veces será una madre, un padre o un familiar que tiene poco tiempo y mira la tienda mientras hace otra cosa. Por eso he intentado que las opciones principales se vean sin tener que ir abriendo menús
 
-Una de las cosas que más dudas puede dar es la talla. Saber los años que tiene un niño no siempre sirve para acertar con la ropa. He dejado la guía en la propia ficha, al lado del selector de talla, para poder consultarla sin salir de la prenda. Las tallas sin stock tienen un estado distinto para no confundirlas con las disponibles.
+Una de las cosas que más dudas puede dar es la talla. Saber los años que tiene un niño no siempre sirve para acertar con la ropa. He dejado la guía en la propia ficha, al lado del selector de talla, para poder consultarla sin salir de la prenda. Las tallas sin stock tienen un estado distinto para no confundirlas con las disponibles
 
-El botón de añadir al carrito está en la parte baja de la pantalla para tenerlo más a mano. En el carrito aparecen la cantidad y el importe, y en el formulario de entrega hay un ejemplo de email incorrecto con un mensaje de ayuda. Me interesa que se entienda qué hay que hacer en cada paso y cómo corregir un error.
+El botón de añadir al carrito está en la parte baja de la pantalla para tenerlo más a mano. En el carrito aparecen la cantidad y el importe, y en el formulario de entrega hay un ejemplo de email incorrecto con un mensaje de ayuda. Me interesa que se entienda qué hay que hacer en cada paso y cómo corregir un error
 
 ### 1.2 Objetivos y metas del proyecto
 
-Para comprobar si el diseño se entiende, he marcado cuatro objetivos. Los tres primeros se medirán en las pruebas con al menos dos compañeros de otro grupo. El último se comprobará con los colores de la guía de estilo.
+Para comprobar si el diseño se entiende, he marcado cuatro objetivos. Los tres primeros se medirán en las pruebas con al menos dos compañeros de otro grupo. El último se comprobará con los colores de la guía de estilo
 
-- Completar la compra de la chaqueta en verde oliva, talla 4 y cantidad 2 en menos de dos minutos y sin ayuda. Contaré desde Inicio hasta Confirmación. Es el recorrido que quiero probar cuando estén resueltas las conexiones pendientes del apartado 3.1.
-- Encontrar y abrir la guía de tallas desde el detalle en menos de diez segundos, sin indicar dónde está. Apuntaré si la encuentran a la primera o si antes pulsan en otro sitio.
-- Corregir el error de email y continuar desde Entrega sin ayuda. Mediré el tiempo y los intentos fallidos para ver si el mensaje explica bien qué hay que cambiar.
-- Revisar que todas las parejas de color y texto de la guía tengan un contraste mínimo de 4,5 a 1, tanto en claro como en oscuro. Los valores quedarán en el apartado 3.3.
+- Completar la compra de la chaqueta en verde oliva, talla 4 y cantidad 2 en menos de dos minutos y sin ayuda. Contaré desde Inicio hasta Confirmación. Es el recorrido que quiero probar cuando estén resueltas las conexiones pendientes del apartado 3.1
+- Encontrar y abrir la guía de tallas desde el detalle en menos de diez segundos, sin indicar dónde está. Apuntaré si la encuentran a la primera o si antes pulsan en otro sitio
+- Corregir el error de email y continuar desde Entrega sin ayuda. Mediré el tiempo y los intentos fallidos para ver si el mensaje explica bien qué hay que cambiar
+- Revisar que todas las parejas de color y texto de la guía tengan un contraste mínimo de 4,5 a 1, tanto en claro como en oscuro. Los valores quedarán en el apartado 3.3
 
-Son objetivos para las pruebas, no resultados que ya haya conseguido. Como participarán pocos compañeros, recogeré lo que le ocurra a cada uno sin sacar porcentajes sobre todos los posibles clientes.
+Son objetivos para las pruebas, no resultados que ya haya conseguido. Como participarán pocos compañeros, recogeré lo que le ocurra a cada uno sin sacar porcentajes sobre todos los posibles clientes
 
 ### 1.3 Beneficios esperados
 
-Para quien compra, la idea es poder consultar la talla, ver el precio y revisar la cantidad sin ir saltando entre pantallas. Si el formulario explica qué dato está mal, debería ser más fácil corregirlo y seguir con la compra.
+Para quien compra, la idea es poder consultar la talla, ver el precio y revisar la cantidad sin ir saltando entre pantallas. Si el formulario explica qué dato está mal, debería ser más fácil corregirlo y seguir con la compra
 
-Para la tienda, una guía de tallas clara podría evitar algunas dudas y compras equivocadas. Un proceso fácil de seguir podría ayudar a que menos personas dejen el carrito a medias. De momento son beneficios que espero del diseño. Para saber si bajan las devoluciones o suben las ventas haría falta probar la app con clientes reales.
+Para la tienda, una guía de tallas clara podría evitar algunas dudas y compras equivocadas. Un proceso fácil de seguir podría ayudar a que menos personas dejen el carrito a medias. De momento son beneficios que espero del diseño. Para saber si bajan las devoluciones o suben las ventas haría falta probar la app con clientes reales
 
 ## 2. Investigación y análisis de usuarios
 
 ### 2.1 Datos demográficos y segmentación
 
-Pequeño Davante está pensada para personas adultas que compran ropa y calzado para niños de 0 a 14 años desde un móvil Android. Quien usa la app y decide la compra no tiene por qué ser quien va a llevar la prenda. Esto importa sobre todo al hacer un regalo, porque se puede conocer la edad del niño sin saber su talla.
+Pequeño Davante está pensada para personas adultas que compran ropa y calzado para niños de 0 a 14 años desde un móvil Android. Quien usa la app y decide la compra no tiene por qué ser quien va a llevar la prenda. Esto importa sobre todo al hacer un regalo, porque se puede conocer la edad del niño sin saber su talla
 
-He dividido el público en tres grupos según la situación de compra. Las edades son orientativas y me sirven para plantear los perfiles, no salen de una encuesta.
+He dividido el público en tres grupos según la situación de compra. Las edades son orientativas y me sirven para plantear los perfiles, no salen de una encuesta
 
 | Grupo | Situación de compra | Qué necesita resolver | Qué debo tener en cuenta en el diseño |
 | --- | --- | --- | --- |
-| Padres y madres, aproximadamente de 30 a 45 años | Reponen ropa que se ha quedado pequeña o buscan prendas para otra temporada. Pueden consultar el catálogo en ratos cortos. | Localizar una prenda, comprobar la talla y revisar el importe antes de terminar. | Categorías visibles, precio junto a la prenda y controles de cantidad en el carrito. |
-| Familiares y amigos, aproximadamente de 20 a 30 años | Compran un regalo de forma puntual y pueden tener poca información sobre las medidas del niño. | Entender las tallas y completar la compra sin tener que crear una cuenta. | Guía de tallas accesible desde el detalle y recorrido de compra sin un paso de registro. |
-| Abuelos y otros familiares, aproximadamente de 60 a 75 años | Buscan una prenda para un nieto y pueden preferir revisar cada paso antes de confirmar. | Leer los datos con comodidad, reconocer las acciones y corregir una equivocación. | Texto con contraste, botones con etiqueta, áreas táctiles amplias y opción de deshacer al eliminar. |
+| Padres y madres, aproximadamente de 30 a 45 años | Reponen ropa que se ha quedado pequeña o buscan prendas para otra temporada. Pueden consultar el catálogo en ratos cortos | Localizar una prenda, comprobar la talla y revisar el importe antes de terminar | Categorías visibles, precio junto a la prenda y controles de cantidad en el carrito |
+| Familiares y amigos, aproximadamente de 20 a 30 años | Compran un regalo de forma puntual y pueden tener poca información sobre las medidas del niño | Entender las tallas y completar la compra sin tener que crear una cuenta | Guía de tallas accesible desde el detalle y recorrido de compra sin un paso de registro |
+| Abuelos y otros familiares, aproximadamente de 60 a 75 años | Buscan una prenda para un nieto y pueden preferir revisar cada paso antes de confirmar | Leer los datos con comodidad, reconocer las acciones y corregir una equivocación | Texto con contraste, botones con etiqueta, áreas táctiles amplias y opción de deshacer al eliminar |
 
-La edad no dice por sí sola cómo usa alguien el móvil. Una persona joven puede perderse con las tallas y una persona mayor puede comprar online sin problemas. Me he fijado en lo que necesita resolver cada perfil.
+La edad no dice por sí sola cómo usa alguien el móvil. Una persona joven puede perderse con las tallas y una persona mayor puede comprar online sin problemas. Me he fijado en lo que necesita resolver cada perfil
 
-El poco tiempo y el uso con una mano vienen del enunciado. Las pruebas con compañeros servirán para ver dónde se atascan al usar el prototipo. No sustituyen una investigación con los clientes de la tienda.
+El poco tiempo y el uso con una mano vienen del enunciado. Las pruebas con compañeros servirán para ver dónde se atascan al usar el prototipo. No sustituyen una investigación con los clientes de la tienda
 
 ### 2.2 Personas
 
-He creado tres perfiles para tener en cuenta distintas formas de comprar. Son personajes inventados para la actividad, no personas a las que haya entrevistado.
+He creado tres perfiles para tener en cuenta distintas formas de comprar. Son personajes inventados para la actividad, no personas a las que haya entrevistado
 
-#### Persona 1 · Laura, 36 años
+#### Persona 1 - Laura, 36 años
 
-- Laura tiene dos hijos y suele encargarse de comprarles la ropa. Mira la tienda por la noche, cuando tiene un rato, y a veces deja una compra a medias.
-- Quiere encontrar una chaqueta, comprobar si queda su talla y ver cuánto cuestan dos unidades.
-- Le molesta entrar en una prenda y descubrir después que no hay stock. Si deja la compra para otro día, quiere poder volver a lo que le había gustado.
-- Para ella he tenido en cuenta el precio visible en el catálogo, los estados de talla y Favoritos. El carrito reúne los controles de cantidad y el importe. El guardado de favoritos entre sesiones quedaría para una app real.
+- Laura tiene dos hijos y suele encargarse de comprarles la ropa. Mira la tienda por la noche, cuando tiene un rato, y a veces deja una compra a medias
+- Quiere encontrar una chaqueta, comprobar si queda su talla y ver cuánto cuestan dos unidades
+- Le molesta entrar en una prenda y descubrir después que no hay stock. Si deja la compra para otro día, quiere poder volver a lo que le había gustado
+- Para ella he tenido en cuenta el precio visible en el catálogo, los estados de talla y Favoritos. El carrito reúne los controles de cantidad y el importe. El guardado de favoritos entre sesiones quedaría para una app real
 
-#### Persona 2 · David, 25 años
+#### Persona 2 - David, 25 años
 
-- David busca un regalo para su sobrino. Sabe los años que tiene, pero no conoce sus medidas ni suele comprar ropa infantil.
-- Quiere entender qué talla elegir y comprar sin tener que crear una cuenta.
-- Le cuesta decidir si la talla aparece solo como un número. Tampoco quiere perder la ficha de la prenda al abrir la ayuda.
-- Por eso la guía se abre sobre el detalle y permite volver a la misma prenda al cerrarla. El recorrido está planteado sin un paso de registro. El archivo definitivo no tiene login ni un sistema de cuentas.
+- David busca un regalo para su sobrino. Sabe los años que tiene, pero no conoce sus medidas ni suele comprar ropa infantil
+- Quiere entender qué talla elegir y comprar sin tener que crear una cuenta
+- Le cuesta decidir si la talla aparece solo como un número. Tampoco quiere perder la ficha de la prenda al abrir la ayuda
+- Por eso la guía se abre sobre el detalle y permite volver a la misma prenda al cerrarla. El recorrido está planteado sin un paso de registro. El archivo definitivo no tiene login ni un sistema de cuentas
 
-#### Persona 3 · Alberto, 68 años
+#### Persona 3 - Alberto, 68 años
 
-- Alberto quiere comprarle una prenda a su nieta. Usa el móvil para mensajes y algunas compras, pero prefiere ir despacio cuando no conoce una pantalla. Para este perfil he supuesto que necesita la letra más grande.
-- Quiere leer bien el precio, elegir la talla y comprobar que no ha añadido algo de más.
-- Le frustra no entender un icono o borrar un producto sin saber cómo recuperarlo.
-- Para él he tenido en cuenta las etiquetas de los botones, el contraste y las áreas táctiles. La recuperación con Deshacer queda pendiente de comprobar. Como los frames tienen un tamaño fijo, tampoco se puede probar aquí qué pasaría al aumentar la letra desde los ajustes de Android.
+- Alberto quiere comprarle una prenda a su nieta. Usa el móvil para mensajes y algunas compras, pero prefiere ir despacio cuando no conoce una pantalla. Para este perfil he supuesto que necesita la letra más grande
+- Quiere leer bien el precio, elegir la talla y comprobar que no ha añadido algo de más
+- Le frustra no entender un icono o borrar un producto sin saber cómo recuperarlo
+- Para él he tenido en cuenta las etiquetas de los botones, el contraste y las áreas táctiles. La recuperación con Deshacer queda pendiente de comprobar. Como los frames tienen un tamaño fijo, tampoco se puede probar aquí qué pasaría al aumentar la letra desde los ajustes de Android
 
 ### 2.3 Análisis de la competencia
 
-He revisado las webs y la ayuda en español de cuatro tiendas. Me he fijado sobre todo en las tallas y en los pasos para comprar, porque son las dudas que aparecen en los perfiles. La tabla separa lo que he podido comprobar de lo que yo cambiaría para Pequeño Davante. No he hecho compras ni probado sus apps Android.
+He revisado las webs y la ayuda en español de cuatro tiendas. Me he fijado sobre todo en las tallas y en los pasos para comprar, porque son las dudas que aparecen en los perfiles. La tabla separa lo que he podido comprobar de lo que yo cambiaría para Pequeño Davante. No he hecho compras ni probado sus apps Android
 
 | Tienda y fuente | Qué hace bien | Qué veo mejorable o qué límite encuentro | Registro y acceso comprobado | Qué me llevo para Pequeño Davante |
 | --- | --- | --- | --- | --- |
-| [Mayoral, ficha de una camiseta infantil](https://www.mayoral.com/es/es/camiseta-volante-nina-anis-2603008074-5) | Reúne fotos, precio, opciones de color, selección de talla y acceso a la guía en la ficha. | La descripción combina información de la prenda con una explicación sobre el algodón. Para una consulta rápida, prefiero separar la selección de compra de ese contenido adicional. | La ficha se puede consultar públicamente. Esta revisión no confirma si el pago exige una cuenta. | Mantener foto, precio, talla y guía en el mismo detalle, con la acción de compra fácil de localizar. |
-| [Vertbaudet, guía de calzado](https://www.vertbaudet.es/page/asesoramiento/guias/calzado.htm) | Explica cómo medir el pie e incluye una calculadora que parte de su longitud en milímetros. Da una referencia más concreta que la edad. | La guía reúne muchos consejos por etapas. Para consultar una medida mientras elijo una prenda, prefiero una ayuda más breve y centrada en esa duda. | La guía es pública. La página ofrece acceso a una cuenta, pero eso no demuestra que el registro sea obligatorio para comprar. | Usar medidas y una explicación visual en la guía. Abrirla como panel sobre el detalle para poder volver a la prenda al cerrarla. |
-| [Kiabi, ayuda para hacer un pedido](https://www.kiabi.es/servicios/pedido.html) | Explica la compra como invitado, la confirmación por email y el seguimiento sin cuenta. | El invitado no tiene el seguimiento desde una cuenta ni las ventajas de fidelidad. Me parece un límite que conviene explicar al elegir cómo comprar. | Confirma que se puede continuar sin cuenta. Por tanto, no corresponde describir su registro como obligatorio. | Dejar el inicio de sesión como opción. Para una futura app, explicar qué se guarda con una cuenta antes de pedir que se cree. |
-| [Zara, centro de ayuda en España](https://www.zara.com/es/es/help/compra-segura-h28.html) | Separa los temas de tallas, favoritos, pedidos y devoluciones en grupos reconocibles. | La ayuda cubre muchos servicios de la marca. Para resolver una duda concreta sobre una talla, prefiero ofrecer un acceso desde la propia prenda sin obligar a buscar entre todos los temas. | El índice de ayuda es público y contiene un apartado de registro. El índice por sí solo no permite confirmar las condiciones de compra sin cuenta. | Mantener la guía junto al selector de talla y los destinos principales visibles en la navegación inferior. |
+| [Mayoral, ficha de una camiseta infantil](https://www.mayoral.com/es/es/camiseta-volante-nina-anis-2603008074-5) | Reúne fotos, precio, opciones de color, selección de talla y acceso a la guía en la ficha | La descripción combina información de la prenda con una explicación sobre el algodón. Para una consulta rápida, prefiero separar la selección de compra de ese contenido adicional | La ficha se puede consultar públicamente. Esta revisión no confirma si el pago exige una cuenta | Mantener foto, precio, talla y guía en el mismo detalle, con la acción de compra fácil de localizar |
+| [Vertbaudet, guía de calzado](https://www.vertbaudet.es/page/asesoramiento/guias/calzado.htm) | Explica cómo medir el pie e incluye una calculadora que parte de su longitud en milímetros. Da una referencia más concreta que la edad | La guía reúne muchos consejos por etapas. Para consultar una medida mientras elijo una prenda, prefiero una ayuda más breve y centrada en esa duda | La guía es pública. La página ofrece acceso a una cuenta, pero eso no demuestra que el registro sea obligatorio para comprar | Usar medidas y una explicación visual en la guía. Abrirla como panel sobre el detalle para poder volver a la prenda al cerrarla |
+| [Kiabi, ayuda para hacer un pedido](https://www.kiabi.es/servicios/pedido.html) | Explica la compra como invitado, la confirmación por email y el seguimiento sin cuenta | El invitado no tiene el seguimiento desde una cuenta ni las ventajas de fidelidad. Me parece un límite que conviene explicar al elegir cómo comprar | Confirma que se puede continuar sin cuenta. Por tanto, no corresponde describir su registro como obligatorio | Dejar el inicio de sesión como opción. Para una futura app, explicar qué se guarda con una cuenta antes de pedir que se cree |
+| [Zara, centro de ayuda en España](https://www.zara.com/es/es/help/compra-segura-h28.html) | Separa los temas de tallas, favoritos, pedidos y devoluciones en grupos reconocibles | La ayuda cubre muchos servicios de la marca. Para resolver una duda concreta sobre una talla, prefiero ofrecer un acceso desde la propia prenda sin obligar a buscar entre todos los temas | El índice de ayuda es público y contiene un apartado de registro. El índice por sí solo no permite confirmar las condiciones de compra sin cuenta | Mantener la guía junto al selector de talla y los destinos principales visibles en la navegación inferior |
 
-De estas tiendas me quedo con la ayuda cerca de la talla y con no pedir una cuenta antes de mirar las prendas. En Pequeño Davante he intentado que la ficha y el carrito tengan la información necesaria para decidir sin llenarlos de opciones.
+De estas tiendas me quedo con la ayuda cerca de la talla y con no pedir una cuenta antes de mirar las prendas. En Pequeño Davante he intentado que la ficha y el carrito tengan la información necesaria para decidir sin llenarlos de opciones
 
-Fuentes consultadas el 15 de octubre de 2026. Los enlaces quedan guardados en FUENTES.md para preparar las referencias del apartado 6.
+Fuentes consultadas el 15 de octubre de 2026. Los enlaces quedan guardados en FUENTES.md para preparar las referencias del apartado 6
 
 ### 2.4 Insights y hallazgos clave
 
-Del enunciado, los perfiles y la comparativa he sacado estas seis ideas. Cada una tiene una decisión de diseño y una forma de comprobarla. Las pruebas con compañeros todavía están pendientes.
+Del enunciado, los perfiles y la comparativa he sacado estas seis ideas. Cada una tiene una decisión de diseño y una forma de comprobarla. Las pruebas con compañeros todavía están pendientes
 
 | Idea que orienta el diseño | De dónde sale | Decisión en Pequeño Davante | Cómo comprobarla |
 | --- | --- | --- | --- |
-| Conocer la edad del niño no resuelve por sí solo la elección de talla. | La duda con las tallas aparece en el enunciado y en el perfil de David. Vertbaudet muestra una ayuda basada en medidas. | Poner la guía junto al selector de talla y abrirla como panel sobre el detalle. | Pedir que consulten la guía y registrar si la encuentran sin ayuda y cuánto tardan. |
-| Una compra puede interrumpirse antes de tomar una decisión. | Es una situación prevista en el perfil de Laura, no una frecuencia medida. | Incluir Favoritos como destino de la navegación inferior para poder volver a las prendas mostradas allí. | Comprobar si localizan Favoritos y vuelven al detalle. La persistencia después de cerrar la app queda fuera del prototipo. |
-| Eliminar una prenda por error no debería obligar a buscarla otra vez. | El perfil de Alberto plantea dudas al tocar acciones que cambian la compra. | Prever Deshacer en el aviso de eliminación del carrito. Su funcionamiento en el archivo definitivo queda pendiente de comprobación. | Cuando se compruebe la interacción, observar si la persona reconoce la acción y recupera el producto. Puede ser una tarea adicional a las tres principales. |
-| Pedir una cuenta puede añadir un paso que no necesita quien compra de forma puntual. | Necesidad planteada para David y existencia de compra como invitado en Kiabi. | Plantear el recorrido sin un paso de registro. El archivo definitivo no tiene pantalla de inicio de sesión. | Revisar el recorrido cuando estén resueltas las conexiones pendientes. La ausencia de una pantalla de acceso no equivale a tener un sistema de compra como invitado implementado. |
-| Un error de formulario necesita explicar qué corregir. | Objetivo de evitar bloqueos en Entrega y necesidad de Alberto de entender cómo seguir. | Mostrar el email en estado de error con un mensaje de ayuda en el propio campo. | Pedir que corrijan el error y medir tiempo, intentos y necesidad de ayuda. |
-| Antes de confirmar conviene poder relacionar la cantidad con el importe. | Laura quiere comprar dos unidades y revisar el coste. | Mantener los controles de cantidad y el resumen juntos en el carrito. Dos chaquetas de 39 € deberían dar un total de 78 €. Es un resultado esperado que habrá que comprobar, no un estado acreditado en esta revisión. | Comprobar si identifican la cantidad y el total durante la tarea de compra. |
+| Conocer la edad del niño no resuelve por sí solo la elección de talla | La duda con las tallas aparece en el enunciado y en el perfil de David. Vertbaudet muestra una ayuda basada en medidas | Poner la guía junto al selector de talla y abrirla como panel sobre el detalle | Pedir que consulten la guía y registrar si la encuentran sin ayuda y cuánto tardan |
+| Una compra puede interrumpirse antes de tomar una decisión | Es una situación prevista en el perfil de Laura, no una frecuencia medida | Incluir Favoritos como destino de la navegación inferior para poder volver a las prendas mostradas allí | Comprobar si localizan Favoritos y vuelven al detalle. La persistencia después de cerrar la app queda fuera del prototipo |
+| Eliminar una prenda por error no debería obligar a buscarla otra vez | El perfil de Alberto plantea dudas al tocar acciones que cambian la compra | Prever Deshacer en el aviso de eliminación del carrito. Su funcionamiento en el archivo definitivo queda pendiente de comprobación | Cuando se compruebe la interacción, observar si la persona reconoce la acción y recupera el producto. Puede ser una tarea adicional a las tres principales |
+| Pedir una cuenta puede añadir un paso que no necesita quien compra de forma puntual | Necesidad planteada para David y existencia de compra como invitado en Kiabi | Plantear el recorrido sin un paso de registro. El archivo definitivo no tiene pantalla de inicio de sesión | Revisar el recorrido cuando estén resueltas las conexiones pendientes. La ausencia de una pantalla de acceso no equivale a tener un sistema de compra como invitado implementado |
+| Un error de formulario necesita explicar qué corregir | Objetivo de evitar bloqueos en Entrega y necesidad de Alberto de entender cómo seguir | Mostrar el email en estado de error con un mensaje de ayuda en el propio campo | Pedir que corrijan el error y medir tiempo, intentos y necesidad de ayuda |
+| Antes de confirmar conviene poder relacionar la cantidad con el importe | Laura quiere comprar dos unidades y revisar el coste | Mantener los controles de cantidad y el resumen juntos en el carrito. Dos chaquetas de 39 € deberían dar un total de 78 €. Es un resultado esperado que habrá que comprobar, no un estado acreditado en esta revisión | Comprobar si identifican la cantidad y el total durante la tarea de compra |
 
-Si en las pruebas alguien no encuentra la guía o no entiende una acción, usaré ese problema para decidir qué mejorar.
+Si en las pruebas alguien no encuentra la guía o no entiende una acción, usaré ese problema para decidir qué mejorar
 
 ## 3. Diseño de la interfaz
 ### 3.1 Mapa de navegación
 
-El mapa muestra cómo se pasa de una pantalla a otra. La compra va de Inicio a Catálogo, después al detalle y al carrito. Desde ahí se pasa a los datos de entrega y a la confirmación. Favoritos queda como otro destino de la barra inferior.
+El mapa muestra cómo se pasa de una pantalla a otra. La compra va de Inicio a Catálogo, después al detalle y al carrito. Desde ahí se pasa a los datos de entrega y a la confirmación. Favoritos queda como otro destino de la barra inferior
 
-Lo he hecho con un bloque Mermaid, como pide el reto 2. Al revisar el archivo el 15 de octubre, varias conexiones aparecían sin destino. Las he marcado con flechas discontinuas. Las continuas son las que sí tenían destino.
+Lo he hecho con un bloque Mermaid, como pide el reto 2. Al revisar el archivo el 15 de octubre, varias conexiones aparecían sin destino. Las he marcado con flechas discontinuas. Las continuas son las que sí tenían destino
 
 ```mermaid
 flowchart TD
@@ -116,81 +116,81 @@ flowchart TD
     ENT["Datos de entrega"]
     CON["Pedido confirmado"]
     FAV["Favoritos"]
-    GUI["Guía de tallas · panel superpuesto"]
+    GUI["Guía de tallas - panel superpuesto"]
 
-    INI -.->|"Ver catálogo · destino pendiente"| CAT
-    CAT -.->|"Abrir prenda · destino pendiente"| DET
+    INI -.->|"Ver catálogo - destino pendiente"| CAT
+    CAT -.->|"Abrir prenda - destino pendiente"| DET
     DET -->|"Añadir al carrito"| CAR
-    CAR -.->|"Continuar · destino pendiente"| ENT
-    ENT -.->|"Confirmar · destino pendiente"| CON
+    CAR -.->|"Continuar - destino pendiente"| ENT
+    ENT -.->|"Confirmar - destino pendiente"| CON
     CON -->|"Volver a Inicio"| INI
 
     DET -->|"Abrir guía"| GUI
     GUI -->|"Cerrar y recuperar el detalle"| DET
 
-    INI -.->|"Barra inferior · destino pendiente"| FAV
+    INI -.->|"Barra inferior - destino pendiente"| FAV
     CAT -->|"Barra inferior"| FAV
     FAV -->|"Ver catálogo o barra inferior"| CAT
-    CAT -.->|"Barra inferior · destino pendiente"| INI
-    FAV -.->|"Barra inferior · destino pendiente"| INI
-    FAV -.->|"Abrir prenda · destino pendiente"| DET
+    CAT -.->|"Barra inferior - destino pendiente"| INI
+    FAV -.->|"Barra inferior - destino pendiente"| INI
+    FAV -.->|"Abrir prenda - destino pendiente"| DET
 ```
 
-La guía de tallas se abre como un bottom sheet sobre el detalle. Al cerrarla se vuelve a la prenda. Inicio y Detalle tienen una versión oscura, pero siguen siendo las mismas pantallas del recorrido.
+La guía de tallas se abre como un bottom sheet sobre el detalle. Al cerrarla se vuelve a la prenda. Inicio y Detalle tienen una versión oscura, pero siguen siendo las mismas pantallas del recorrido
 
-La barra inferior tiene Inicio, Catálogo y Favoritos. En el detalle y durante la compra, la flecha de la cabecera permite volver a la pantalla anterior.
+La barra inferior tiene Inicio, Catálogo y Favoritos. En el detalle y durante la compra, la flecha de la cabecera permite volver a la pantalla anterior
 
-El mapa corresponde al archivo definitivo, que tiene las páginas Wireframes y Prototipo y no incluye login. Queda pendiente revisar los destinos señalados y el punto de inicio, y probar el recorrido en Present. No he cambiado el archivo de Figma.
+El mapa corresponde al archivo definitivo, que tiene las páginas Wireframes y Prototipo y no incluye login. Queda pendiente revisar los destinos señalados y el punto de inicio, y probar el recorrido en Present. No he cambiado el archivo de Figma
 
 ### 3.2 Wireframes
 
-He incluido los siete wireframes de la página de Figma. Todos tienen un tamaño de 360 × 800. En ellos se ve dónde va cada elemento, sin entrar todavía en los colores y las fotos del diseño final.
+He incluido los siete wireframes de la página de Figma. Todos tienen un tamaño de 360 × 800. En ellos se ve dónde va cada elemento, sin entrar todavía en los colores y las fotos del diseño final
 
-Las fotos están representadas con bloques y los botones llevan su texto para entender qué hace cada uno. Predominan los grises, aunque en la confirmación queda un texto con un ligero tono azul.
+Las fotos están representadas con bloques y los botones llevan su texto para entender qué hace cada uno. Predominan los grises, aunque en la confirmación queda un texto con un ligero tono azul
 
 #### Inicio
 
-He colocado el buscador arriba y las categorías justo debajo. Después aparece la prenda de temporada con el botón Ver catálogo. Así se puede empezar por una categoría o ir directamente a ver la ropa.
+He colocado el buscador arriba y las categorías justo debajo. Después aparece la prenda de temporada con el botón Ver catálogo. Así se puede empezar por una categoría o ir directamente a ver la ropa
 
 ![Wireframe de Inicio con buscador, categorías y prenda destacada](capturas/wireframes/01-inicio.png)
 
 #### Catálogo
 
-Los filtros están encima de los productos. He usado dos columnas y he dejado el nombre y el precio debajo de cada foto para comparar las prendas sin entrar en todas las fichas.
+Los filtros están encima de los productos. He usado dos columnas y he dejado el nombre y el precio debajo de cada foto para comparar las prendas sin entrar en todas las fichas
 
 ![Wireframe de Catálogo con filtros y cuatro productos en dos columnas](capturas/wireframes/02-catalogo.png)
 
 #### Detalle del producto
 
-La foto va arriba, seguida del nombre y el precio. Debajo están las tallas y la guía para consultarla antes de añadir la prenda. La talla agotada lleva el texto sin stock y el botón de compra queda en la parte baja.
+La foto va arriba, seguida del nombre y el precio. Debajo están las tallas y la guía para consultarla antes de añadir la prenda. La talla agotada lleva el texto sin stock y el botón de compra queda en la parte baja
 
 ![Wireframe de Detalle con selector de talla, guía y botón de compra](capturas/wireframes/03-detalle.png)
 
 #### Carrito
 
-Junto a la prenda están la cantidad y la opción de eliminarla. Debajo aparecen el subtotal y el total antes de continuar. Esta captura muestra una chaqueta de talla 4, una unidad y un total de 39 €.
+Junto a la prenda están la cantidad y la opción de eliminarla. Debajo aparecen el subtotal y el total antes de continuar. Esta captura muestra una chaqueta de talla 4, una unidad y un total de 39 €
 
 ![Wireframe de Carrito con cantidad, eliminación y resumen de una unidad](capturas/wireframes/04-carrito.png)
 
 #### Datos de entrega
 
-He puesto los campos en una columna, primero los datos de contacto y después la dirección. El email tiene un ejemplo de ayuda. En el prototipo final se verá el campo con el estado de error.
+He puesto los campos en una columna, primero los datos de contacto y después la dirección. El email tiene un ejemplo de ayuda. En el prototipo final se verá el campo con el estado de error
 
 ![Wireframe de Datos de entrega con cinco campos y ayuda para el email](capturas/wireframes/05-entrega.png)
 
 #### Pedido confirmado
 
-La pantalla muestra Pedido realizado, el número 12-PD y el resumen de la chaqueta. He dejado el botón Volver a Inicio abajo para seguir mirando la tienda. El pedido es de demostración.
+La pantalla muestra Pedido realizado, el número 12-PD y el resumen de la chaqueta. He dejado el botón Volver a Inicio abajo para seguir mirando la tienda. El pedido es de demostración
 
 ![Wireframe de Pedido confirmado con identificador y vuelta a Inicio](capturas/wireframes/06-confirmacion.png)
 
 #### Favoritos
 
-He mantenido las dos columnas del catálogo para que las tarjetas se vean igual. Una prenda aparece como agotada y la barra inferior marca Favoritos como pantalla activa.
+He mantenido las dos columnas del catálogo para que las tarjetas se vean igual. Una prenda aparece como agotada y la barra inferior marca Favoritos como pantalla activa
 
 ![Wireframe de Favoritos con prendas guardadas y un producto agotado](capturas/wireframes/07-favoritos.png)
 
-Queda por comprobar en el historial de Figma la versión con nombre Reto 2 – wireframes que pide la actividad.
+Queda por comprobar en el historial de Figma la versión con nombre Reto 2 – wireframes que pide la actividad
 
 ### 3.3 Guía de estilo Material Design 3
 ### 3.4 Prototipo de alta fidelidad

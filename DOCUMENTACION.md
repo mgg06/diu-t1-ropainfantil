@@ -109,7 +109,49 @@ A partir del enunciado, los perfiles ficticios y las referencias de otras tienda
 Estas decisiones cubren problemas distintos. Si las pruebas muestran que la guía no se encuentra o que Deshacer pasa desapercibido, la mejora tendrá que responder a ese problema concreto. No daré una decisión por validada solo porque esté dibujada en Figma.
 
 ## 3. Diseño de la interfaz
-### 3.1 Mapa de navegación                   
+### 3.1 Mapa de navegación
+
+He organizado la compra alrededor de siete pantallas. Inicio presenta la tienda, Catálogo permite ver las prendas y Detalle reúne la información para elegir. Después están Carrito, Datos de entrega y Pedido confirmado. Favoritos permite volver a las prendas mostradas como guardadas.
+
+El mapa recoge la estructura prevista y el estado de las conexiones en el archivo definitivo. Las flechas continuas son enlaces con un destino identificado en Figma. Las discontinuas indican pasos necesarios para el recorrido que aparecen sin destino en la consulta del archivo del 15 de octubre de 2026. No doy esos pasos por comprobados.
+
+```mermaid
+flowchart TD
+    INI["Inicio"]
+    CAT["Catálogo"]
+    DET["Detalle del producto"]
+    CAR["Carrito"]
+    ENT["Datos de entrega"]
+    CON["Pedido confirmado"]
+    FAV["Favoritos"]
+    GUI["Guía de tallas · panel superpuesto"]
+
+    INI -.->|"Ver catálogo · destino pendiente"| CAT
+    CAT -.->|"Abrir prenda · destino pendiente"| DET
+    DET -->|"Añadir al carrito"| CAR
+    CAR -.->|"Continuar · destino pendiente"| ENT
+    ENT -.->|"Confirmar · destino pendiente"| CON
+    CON -->|"Volver a Inicio"| INI
+
+    DET -->|"Abrir guía"| GUI
+    GUI -->|"Cerrar y recuperar el detalle"| DET
+
+    INI -.->|"Barra inferior · destino pendiente"| FAV
+    CAT -->|"Barra inferior"| FAV
+    FAV -->|"Ver catálogo o barra inferior"| CAT
+    CAT -.->|"Barra inferior · destino pendiente"| INI
+    FAV -.->|"Barra inferior · destino pendiente"| INI
+    FAV -.->|"Abrir prenda · destino pendiente"| DET
+```
+
+La guía de tallas es un bottom sheet. Se abre sobre el detalle y tiene acciones de cierre. No la cuento como una octava pantalla principal. Inicio y Detalle tienen además una versión oscura, que cambia la presentación visual sin añadir una etapa de compra.
+
+La barra inferior tiene tres destinos, Inicio, Catálogo y Favoritos. En el detalle y durante la compra se usa el retorno de la cabecera. El archivo contiene acciones de volver atrás, que dependen de la pantalla desde la que se haya llegado.
+
+El archivo definitivo consultado tiene las páginas Wireframes y Prototipo. No contiene la pantalla de inicio de sesión que figuraba en las notas de una versión anterior. Por eso no la incluyo en este mapa.
+
+Para dar por terminado el requisito de navegación habría que asignar los destinos que faltan, definir el punto inicial del flujo y recorrer la compra en Present. En esta revisión no se ha modificado Figma.
+
 ### 3.2 Wireframes
 ### 3.3 Guía de estilo Material Design 3
 ### 3.4 Prototipo de alta fidelidad

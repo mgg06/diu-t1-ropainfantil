@@ -8,7 +8,7 @@ Al pensar en la app de Pequeño Davante, he partido de una situación bastante n
 
 La talla es una de las dudas que he tenido más en cuenta. Saber la edad del niño no siempre basta para elegir una prenda. En el detalle he dejado la guía de tallas junto a la selección de talla, para poder consultarla sin salir de la ficha. Las opciones sin stock tienen un estado distinto para que se vea que no están disponibles.
 
-He colocado el botón de añadir al carrito en la parte baja del detalle. En el carrito se puede cambiar la cantidad y deshacer una eliminación. Así, si alguien toca donde no quería, tiene una forma de recuperar la prenda. El formulario de entrega muestra un error de email con un mensaje de ayuda. Son decisiones pensadas para que la persona sepa qué puede hacer y cómo corregirse.
+He colocado el botón de añadir al carrito en la parte baja del detalle. En el carrito se presentan controles de cantidad. La recuperación de una eliminación mediante Deshacer es una función que debe comprobarse en la interacción, para que alguien que toque donde no quería pueda recuperar la prenda. El formulario de entrega muestra un error de email con un mensaje de ayuda. Son decisiones pensadas para que la persona sepa qué puede hacer y cómo corregirse.
 
 ### 1.2 Objetivos y metas del proyecto
 
@@ -26,7 +26,7 @@ Las pruebas se harán con al menos dos compañeros de otro grupo. Con una muestr
 
 ### 1.3 Beneficios esperados
 
-Para quien compra, espero que la guía de tallas ayude a decidir con más información. Tener el precio y la selección de talla en la misma ficha evita tener que recordar datos de otras pantallas. Poder revisar la cantidad y recuperar una prenda eliminada permite corregir la compra antes de confirmarla.
+Para quien compra, espero que la guía de tallas ayude a decidir con más información. Tener el precio y la selección de talla en la misma ficha evita tener que recordar datos de otras pantallas. Revisar la cantidad y disponer de una forma de recuperar una prenda eliminada ayudaría a corregir la compra antes de confirmarla.
 
 Para Pequeño Davante, una ficha clara podría reducir las consultas sobre tallas y evitar algunas compras equivocadas. Un formulario que explique los errores podría ayudar a que menos personas abandonen el proceso por no saber cómo seguir. Son beneficios esperados. El prototipo no permite demostrar una reducción de devoluciones ni un aumento de ventas.
 
@@ -40,8 +40,8 @@ He separado tres situaciones de compra. Las edades son orientativas y me sirven 
 
 | Grupo | Situación de compra | Qué necesita resolver | Qué debo tener en cuenta en el diseño |
 | --- | --- | --- | --- |
-| Padres y madres, aproximadamente de 30 a 45 años | Reponen ropa que se ha quedado pequeña o buscan prendas para otra temporada. Pueden consultar el catálogo en ratos cortos. | Localizar una prenda, comprobar la talla y revisar el importe antes de terminar. | Categorías visibles, precio junto a la prenda y un carrito donde se pueda cambiar la cantidad. |
-| Familiares y amigos, aproximadamente de 20 a 30 años | Compran un regalo de forma puntual y pueden tener poca información sobre las medidas del niño. | Entender las tallas y completar la compra sin tener que crear una cuenta. | Guía de tallas accesible desde el detalle y acceso opcional a la cuenta. |
+| Padres y madres, aproximadamente de 30 a 45 años | Reponen ropa que se ha quedado pequeña o buscan prendas para otra temporada. Pueden consultar el catálogo en ratos cortos. | Localizar una prenda, comprobar la talla y revisar el importe antes de terminar. | Categorías visibles, precio junto a la prenda y controles de cantidad en el carrito. |
+| Familiares y amigos, aproximadamente de 20 a 30 años | Compran un regalo de forma puntual y pueden tener poca información sobre las medidas del niño. | Entender las tallas y completar la compra sin tener que crear una cuenta. | Guía de tallas accesible desde el detalle y recorrido de compra sin un paso de registro. |
 | Abuelos y otros familiares, aproximadamente de 60 a 75 años | Buscan una prenda para un nieto y pueden preferir revisar cada paso antes de confirmar. | Leer los datos con comodidad, reconocer las acciones y corregir una equivocación. | Texto con contraste, botones con etiqueta, áreas táctiles amplias y opción de deshacer al eliminar. |
 
 No doy por hecho que una persona joven maneje bien cualquier app ni que alguien mayor necesite ayuda. Lo que cambia entre estos grupos es la situación que he elegido estudiar. Las dificultades de lectura, los toques imprecisos o las dudas con las tallas pueden aparecer a cualquier edad.
@@ -58,7 +58,7 @@ Laura tiene dos hijos y suele encargarse de comprarles la ropa. Revisa la tienda
 
 Su objetivo es encontrar una chaqueta, comprobar la talla disponible y revisar cuánto cuestan dos unidades. Le molesta entrar en una prenda para descubrir después que no queda la talla que necesita. Si interrumpe la compra, quiere poder localizar otra vez lo que le había gustado.
 
-Para ella he tenido en cuenta el precio visible en el catálogo, los estados de talla y la pantalla de Favoritos. En el carrito puede ajustar la cantidad y revisar el importe. El prototipo permite ensayar ese recorrido con la chaqueta preparada para la compra. No demuestra que las prendas guardadas se conserven después de cerrar la app.
+Para ella he tenido en cuenta el precio visible en el catálogo, los estados de talla y la pantalla de Favoritos. El carrito presenta controles de cantidad y un resumen del importe. Antes de ensayar el recorrido completo hay que resolver las conexiones pendientes que se recogen en el apartado 3.1. No demuestra que las prendas guardadas se conserven después de cerrar la app.
 
 #### Persona 2 · David, 25 años
 
@@ -66,7 +66,7 @@ David quiere comprar un regalo para su sobrino. Sabe cuántos años tiene, pero 
 
 Su objetivo es entender qué talla elegir y terminar el recorrido sin registrarse. Le frustra que una talla aparezca solo como un número sin ninguna referencia. Tampoco quiere perder la prenda que estaba viendo al consultar una ayuda.
 
-La guía de tallas se abre sobre el detalle para que pueda consultarla y volver a la misma ficha. El inicio de sesión es opcional y tiene una salida para seguir sin cuenta. En Figma se simula esa elección, sin crear usuarios ni guardar datos personales. La guía es una referencia y no garantiza que una prenda le vaya a quedar bien al niño.
+La guía de tallas se abre sobre el detalle para que pueda consultarla y volver a la misma ficha. Para este perfil, la compra sin registro es una necesidad de diseño. El archivo definitivo no incluye una pantalla de inicio de sesión ni un sistema de cuentas. La guía es una referencia y no garantiza que una prenda le vaya a quedar bien al niño.
 
 #### Persona 3 · Alberto, 68 años
 
@@ -74,7 +74,7 @@ Alberto busca una prenda para su nieta. Utiliza el móvil para mensajes y alguna
 
 Su objetivo es distinguir el precio, elegir una talla y confirmar la compra sin miedo a haber añadido algo de más. Le molesta no saber qué significa un icono o que una pulsación borre un producto sin darle opción a recuperarlo.
 
-Para este caso he priorizado las etiquetas de los botones, el contraste y las áreas táctiles. La acción Deshacer permite recuperar una prenda eliminada del carrito. En Entrega, el error de email explica qué debe corregir. El prototipo tiene un tamaño fijo de 360 × 800, por lo que no permite comprobar todavía cómo respondería una app real al aumentar el tamaño del texto en Android.
+Para este caso he priorizado las etiquetas de los botones, el contraste y las áreas táctiles. La recuperación mediante Deshacer forma parte de lo que hay que comprobar en la interacción del carrito. En Entrega, el error de email explica qué debe corregir. El prototipo tiene un tamaño fijo de 360 × 800, por lo que no permite comprobar todavía cómo respondería una app real al aumentar el tamaño del texto en Android.
 
 ### 2.3 Análisis de la competencia
 
@@ -101,10 +101,10 @@ A partir del enunciado, los perfiles ficticios y las referencias de otras tienda
 | --- | --- | --- | --- |
 | Conocer la edad del niño no resuelve por sí solo la elección de talla. | La duda con las tallas aparece en el enunciado y en el perfil de David. Vertbaudet muestra una ayuda basada en medidas. | Poner la guía junto al selector de talla y abrirla como panel sobre el detalle. | Pedir que consulten la guía y registrar si la encuentran sin ayuda y cuánto tardan. |
 | Una compra puede interrumpirse antes de tomar una decisión. | Es una situación prevista en el perfil de Laura, no una frecuencia medida. | Incluir Favoritos como destino de la navegación inferior para poder volver a las prendas mostradas allí. | Comprobar si localizan Favoritos y vuelven al detalle. La persistencia después de cerrar la app queda fuera del prototipo. |
-| Eliminar una prenda por error no debería obligar a buscarla otra vez. | El perfil de Alberto plantea dudas al tocar acciones que cambian la compra. | Mostrar Deshacer en el aviso de eliminación del carrito. | Observar si la persona reconoce la acción y recupera el producto. Puede comprobarse como tarea adicional a las tres principales. |
-| Pedir una cuenta puede añadir un paso que no necesita quien compra de forma puntual. | Necesidad planteada para David y existencia de compra como invitado en Kiabi. | Mantener el inicio de sesión opcional, con una salida para continuar sin cuenta. | Revisar que la compra pueda recorrerse sin pasar por el inicio de sesión. No se simula un alta de usuario. |
+| Eliminar una prenda por error no debería obligar a buscarla otra vez. | El perfil de Alberto plantea dudas al tocar acciones que cambian la compra. | Prever Deshacer en el aviso de eliminación del carrito. Su funcionamiento en el archivo definitivo queda pendiente de comprobación. | Cuando se compruebe la interacción, observar si la persona reconoce la acción y recupera el producto. Puede ser una tarea adicional a las tres principales. |
+| Pedir una cuenta puede añadir un paso que no necesita quien compra de forma puntual. | Necesidad planteada para David y existencia de compra como invitado en Kiabi. | Plantear el recorrido sin un paso de registro. El archivo definitivo no tiene pantalla de inicio de sesión. | Revisar el recorrido cuando estén resueltas las conexiones pendientes. La ausencia de una pantalla de acceso no equivale a tener un sistema de compra como invitado implementado. |
 | Un error de formulario necesita explicar qué corregir. | Objetivo de evitar bloqueos en Entrega y necesidad de Alberto de entender cómo seguir. | Mostrar el email en estado de error con un mensaje de ayuda en el propio campo. | Pedir que corrijan el error y medir tiempo, intentos y necesidad de ayuda. |
-| Antes de confirmar conviene poder relacionar la cantidad con el importe. | Laura quiere comprar dos unidades y revisar el coste. | Mantener los controles de cantidad y el resumen juntos en el carrito. El recorrido preparado muestra dos chaquetas y un total de 78 €. | Comprobar si identifican la cantidad y el total durante la tarea de compra. |
+| Antes de confirmar conviene poder relacionar la cantidad con el importe. | Laura quiere comprar dos unidades y revisar el coste. | Mantener los controles de cantidad y el resumen juntos en el carrito. Dos chaquetas de 39 € deberían dar un total de 78 €. Es un resultado esperado que habrá que comprobar, no un estado acreditado en esta revisión. | Comprobar si identifican la cantidad y el total durante la tarea de compra. |
 
 Estas decisiones cubren problemas distintos. Si las pruebas muestran que la guía no se encuentra o que Deshacer pasa desapercibido, la mejora tendrá que responder a ese problema concreto. No daré una decisión por validada solo porque esté dibujada en Figma.
 

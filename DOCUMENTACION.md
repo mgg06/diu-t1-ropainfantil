@@ -93,7 +93,20 @@ La comparación me sirve para elegir soluciones concretas, sin intentar traslada
 
 Fuentes consultadas el 15 de octubre de 2026. Los enlaces quedan guardados en FUENTES.md para preparar las referencias del apartado 6.
 
-### 2.4 Insights y hallazgos clave           
+### 2.4 Insights y hallazgos clave
+
+A partir del enunciado, los perfiles ficticios y las referencias de otras tiendas, he sacado estas ideas para orientar el diseño. Todavía no son hallazgos de pruebas con usuarios. Cada una queda ligada a una decisión que se puede revisar en el prototipo.
+
+| Idea que orienta el diseño | De dónde sale | Decisión en Pequeño Davante | Cómo comprobarla |
+| --- | --- | --- | --- |
+| Conocer la edad del niño no resuelve por sí solo la elección de talla. | La duda con las tallas aparece en el enunciado y en el perfil de David. Vertbaudet muestra una ayuda basada en medidas. | Poner la guía junto al selector de talla y abrirla como panel sobre el detalle. | Pedir que consulten la guía y registrar si la encuentran sin ayuda y cuánto tardan. |
+| Una compra puede interrumpirse antes de tomar una decisión. | Es una situación prevista en el perfil de Laura, no una frecuencia medida. | Incluir Favoritos como destino de la navegación inferior para poder volver a las prendas mostradas allí. | Comprobar si localizan Favoritos y vuelven al detalle. La persistencia después de cerrar la app queda fuera del prototipo. |
+| Eliminar una prenda por error no debería obligar a buscarla otra vez. | El perfil de Alberto plantea dudas al tocar acciones que cambian la compra. | Mostrar Deshacer en el aviso de eliminación del carrito. | Observar si la persona reconoce la acción y recupera el producto. Puede comprobarse como tarea adicional a las tres principales. |
+| Pedir una cuenta puede añadir un paso que no necesita quien compra de forma puntual. | Necesidad planteada para David y existencia de compra como invitado en Kiabi. | Mantener el inicio de sesión opcional, con una salida para continuar sin cuenta. | Revisar que la compra pueda recorrerse sin pasar por el inicio de sesión. No se simula un alta de usuario. |
+| Un error de formulario necesita explicar qué corregir. | Objetivo de evitar bloqueos en Entrega y necesidad de Alberto de entender cómo seguir. | Mostrar el email en estado de error con un mensaje de ayuda en el propio campo. | Pedir que corrijan el error y medir tiempo, intentos y necesidad de ayuda. |
+| Antes de confirmar conviene poder relacionar la cantidad con el importe. | Laura quiere comprar dos unidades y revisar el coste. | Mantener los controles de cantidad y el resumen juntos en el carrito. El recorrido preparado muestra dos chaquetas y un total de 78 €. | Comprobar si identifican la cantidad y el total durante la tarea de compra. |
+
+Estas decisiones cubren problemas distintos. Si las pruebas muestran que la guía no se encuentra o que Deshacer pasa desapercibido, la mejora tendrá que responder a ese problema concreto. No daré una decisión por validada solo porque esté dibujada en Figma.
 
 ## 3. Diseño de la interfaz
 ### 3.1 Mapa de navegación                   

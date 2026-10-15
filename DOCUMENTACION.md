@@ -102,9 +102,13 @@ Si en las pruebas alguien no encuentra la guía o no entiende una acción, usar�
 ## 3. Diseño de la interfaz
 ### 3.1 Mapa de navegación
 
-El mapa muestra cómo se pasa de una pantalla a otra. La compra va de Inicio a Catálogo, después al detalle y al carrito. Desde ahí se pasa a los datos de entrega y a la confirmación. Favoritos queda como otro destino de la barra inferior
+He organizado la tienda para que se pueda empezar a mirar ropa desde Inicio, sin pasar antes por un registro, las tres opciones de la barra inferior son Inicio, Catálogo y Favoritos, cada una tiene una función distinta para no llenar una sola pantalla con todo
 
-Lo he hecho con un bloque Mermaid, como pide el reto 2. Al revisar el archivo el 15 de octubre, varias conexiones aparecían sin destino. Las he marcado con flechas discontinuas. Las continuas son las que sí tenían destino
+- Inicio presenta las categorías y la prenda de temporada, sirve como entrada a la tienda y permite decidir por dónde empezar
+- Catálogo reúne las prendas con su nombre y precio, junto a los filtros de edad o talla, color y precio y la opción de ordenar
+- Favoritos reúne las prendas guardadas para volver a ellas sin buscarlas otra vez en el catálogo
+
+El siguiente mapa representa la estructura de navegación planteada para el diseño, las flechas explican las acciones que llevan de una pantalla a otra, no son un registro de pruebas de funcionamiento
 
 ```mermaid
 flowchart TD
@@ -115,31 +119,47 @@ flowchart TD
     ENT["Datos de entrega"]
     CON["Pedido confirmado"]
     FAV["Favoritos"]
-    GUI["Guía de tallas - panel superpuesto"]
+    GUI["Panel de tallas"]
 
-    INI -.->|"Ver catálogo - destino pendiente"| CAT
-    CAT -.->|"Abrir prenda - destino pendiente"| DET
+    INI -->|"Ver catálogo"| CAT
+    CAT -->|"Consultar una prenda"| DET
     DET -->|"Añadir al carrito"| CAR
-    CAR -.->|"Continuar - destino pendiente"| ENT
-    ENT -.->|"Confirmar - destino pendiente"| CON
+    CAR -->|"Continuar con la compra"| ENT
+    ENT -->|"Confirmar pedido"| CON
     CON -->|"Volver a Inicio"| INI
 
-    DET -->|"Abrir guía"| GUI
-    GUI -->|"Cerrar y recuperar el detalle"| DET
+    DET -->|"Consultar medidas"| GUI
+    GUI -->|"Cerrar guía"| DET
 
-    INI -.->|"Barra inferior - destino pendiente"| FAV
-    CAT -->|"Barra inferior"| FAV
-    FAV -->|"Ver catálogo o barra inferior"| CAT
-    CAT -.->|"Barra inferior - destino pendiente"| INI
-    FAV -.->|"Barra inferior - destino pendiente"| INI
-    FAV -.->|"Abrir prenda - destino pendiente"| DET
+    INI -->|"Abrir Favoritos"| FAV
+    FAV -->|"Ver catálogo"| CAT
+    FAV -->|"Consultar una prenda"| DET
+    CAT -->|"Abrir Favoritos"| FAV
+    CAT -->|"Volver a Inicio"| INI
+    FAV -->|"Volver a Inicio"| INI
 ```
 
-La guía de tallas se abre como un bottom sheet sobre el detalle. Al cerrarla se vuelve a la prenda. Inicio y Detalle tienen una versión oscura, pero siguen siendo las mismas pantallas del recorrido
+#### Recorrido de compra
 
-La barra inferior tiene Inicio, Catálogo y Favoritos. En el detalle y durante la compra, la flecha de la cabecera permite volver a la pantalla anterior
+La compra empieza al encontrar una prenda que interesa, desde el catálogo se consulta el detalle para ver la foto, el precio y las tallas, he separado estas dos pantallas porque en el catálogo interesa comparar varias prendas y en el detalle hace falta centrarse en una sola
 
-El mapa corresponde al archivo definitivo, que tiene las páginas Wireframes y Prototipo y no incluye login. Queda pendiente revisar los destinos señalados y el punto de inicio, y probar el recorrido en Present. No he cambiado el archivo de Figma
+La elección de talla pertenece al detalle, no tiene una pantalla aparte, así se puede consultar la guía y volver a la selección sin perder de vista qué producto se está comprando, la talla agotada debe distinguirse de las disponibles antes de añadir la prenda
+
+El carrito queda entre la selección y los datos de entrega para poder revisar la compra antes de rellenar el formulario, ahí se reúnen la prenda, la talla, la cantidad y el importe, este paso permite detectar una cantidad equivocada antes de confirmar
+
+Después aparecen los datos de contacto y dirección, el mensaje de error del email ayuda a entender qué hay que corregir, la confirmación cierra el recorrido con un número de pedido y el resumen de la compra, y ofrece volver a Inicio
+
+#### Consulta de tallas
+
+La guía es un panel que se abre sobre la ficha de la prenda, lo he planteado así porque consultar una medida es una ayuda dentro de la elección, al cerrarlo se recupera el detalle sin tener que recorrer de nuevo el catálogo
+
+El panel no cuenta como otra etapa de compra, su función es resolver la duda antes de añadir la prenda, por eso aparece conectado al detalle y vuelve al mismo sitio
+
+#### Vuelta a las pantallas principales
+
+La barra inferior permite reconocer dónde se está entre Inicio, Catálogo y Favoritos, en la ficha y en los pasos de compra la flecha de la cabecera sirve para volver a la pantalla anterior
+
+Las versiones oscuras de Inicio y Detalle mantienen la misma información y distribución, no añaden destinos al mapa porque representan esas mismas pantallas con otros colores
 
 ### 3.2 Wireframes
 

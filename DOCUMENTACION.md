@@ -33,7 +33,7 @@ Para la tienda, una guía de tallas clara podría evitar algunas dudas y compras
 
 Pequeño Davante está pensada para personas adultas que compran ropa y calzado para niños de 0 a 14 años desde un móvil Android. Quien usa la app y decide la compra no tiene por qué ser quien va a llevar la prenda. Esto importa sobre todo al hacer un regalo, porque se puede conocer la edad del niño sin saber su talla.
 
-He separado tres situaciones de compra. Las edades son orientativas y me sirven para construir los perfiles del proyecto. No proceden de una encuesta ni describen a todos los clientes de una tienda real.
+He dividido el público en tres grupos según la situación de compra. Las edades son orientativas y me sirven para plantear los perfiles, no salen de una encuesta.
 
 | Grupo | Situación de compra | Qué necesita resolver | Qué debo tener en cuenta en el diseño |
 | --- | --- | --- | --- |
@@ -41,43 +41,38 @@ He separado tres situaciones de compra. Las edades son orientativas y me sirven 
 | Familiares y amigos, aproximadamente de 20 a 30 años | Compran un regalo de forma puntual y pueden tener poca información sobre las medidas del niño. | Entender las tallas y completar la compra sin tener que crear una cuenta. | Guía de tallas accesible desde el detalle y recorrido de compra sin un paso de registro. |
 | Abuelos y otros familiares, aproximadamente de 60 a 75 años | Buscan una prenda para un nieto y pueden preferir revisar cada paso antes de confirmar. | Leer los datos con comodidad, reconocer las acciones y corregir una equivocación. | Texto con contraste, botones con etiqueta, áreas táctiles amplias y opción de deshacer al eliminar. |
 
-No doy por hecho que una persona joven maneje bien cualquier app ni que alguien mayor necesite ayuda. Lo que cambia entre estos grupos es la situación que he elegido estudiar. Las dificultades de lectura, los toques imprecisos o las dudas con las tallas pueden aparecer a cualquier edad.
+La edad no dice por sí sola cómo usa alguien el móvil. Una persona joven puede perderse con las tallas y una persona mayor puede comprar online sin problemas. Me he fijado en lo que necesita resolver cada perfil.
 
-La falta de tiempo y el uso con una mano vienen del contexto del enunciado. El resto son supuestos de diseño que habrá que revisar con las pruebas. Las sesiones con compañeros servirán para detectar problemas del recorrido, pero no equivalen a investigar una muestra de padres, madres y abuelos.
+El poco tiempo y el uso con una mano vienen del enunciado. Las pruebas con compañeros servirán para ver dónde se atascan al usar el prototipo. No sustituyen una investigación con los clientes de la tienda.
 
 ### 2.2 Personas
 
-He mantenido tres perfiles para pensar en necesidades distintas. Son personas ficticias creadas para el proyecto. Sus situaciones no son entrevistas ni resultados de las pruebas con compañeros.
+He creado tres perfiles para tener en cuenta distintas formas de comprar. Son personajes inventados para la actividad, no personas a las que haya entrevistado.
 
 #### Persona 1 · Laura, 36 años
 
-Laura tiene dos hijos y suele encargarse de comprarles la ropa. Revisa la tienda por la noche, cuando encuentra un rato, y a veces deja una compra a medias para retomarla después. Usa el móvil a diario, pero no quiere dedicar mucho tiempo a entender una tienda nueva.
-
-Su objetivo es encontrar una chaqueta, comprobar la talla disponible y revisar cuánto cuestan dos unidades. Le molesta entrar en una prenda para descubrir después que no queda la talla que necesita. Si interrumpe la compra, quiere poder localizar otra vez lo que le había gustado.
-
-Para ella he tenido en cuenta el precio visible en el catálogo, los estados de talla y la pantalla de Favoritos. El carrito presenta controles de cantidad y un resumen del importe. Antes de ensayar el recorrido completo hay que resolver las conexiones pendientes que se recogen en el apartado 3.1. No demuestra que las prendas guardadas se conserven después de cerrar la app.
+- Laura tiene dos hijos y suele encargarse de comprarles la ropa. Mira la tienda por la noche, cuando tiene un rato, y a veces deja una compra a medias.
+- Quiere encontrar una chaqueta, comprobar si queda su talla y ver cuánto cuestan dos unidades.
+- Le molesta entrar en una prenda y descubrir después que no hay stock. Si deja la compra para otro día, quiere poder volver a lo que le había gustado.
+- Para ella he tenido en cuenta el precio visible en el catálogo, los estados de talla y Favoritos. El carrito reúne los controles de cantidad y el importe. El guardado de favoritos entre sesiones quedaría para una app real.
 
 #### Persona 2 · David, 25 años
 
-David quiere comprar un regalo para su sobrino. Sabe cuántos años tiene, pero no conoce sus medidas ni suele comprar ropa infantil. Maneja el móvil con soltura y espera poder mirar la tienda antes de decidir si quiere tener una cuenta.
-
-Su objetivo es entender qué talla elegir y terminar el recorrido sin registrarse. Le frustra que una talla aparezca solo como un número sin ninguna referencia. Tampoco quiere perder la prenda que estaba viendo al consultar una ayuda.
-
-La guía de tallas se abre sobre el detalle para que pueda consultarla y volver a la misma ficha. Para este perfil, la compra sin registro es una necesidad de diseño. El archivo definitivo no incluye una pantalla de inicio de sesión ni un sistema de cuentas. La guía es una referencia y no garantiza que una prenda le vaya a quedar bien al niño.
+- David busca un regalo para su sobrino. Sabe los años que tiene, pero no conoce sus medidas ni suele comprar ropa infantil.
+- Quiere entender qué talla elegir y comprar sin tener que crear una cuenta.
+- Le cuesta decidir si la talla aparece solo como un número. Tampoco quiere perder la ficha de la prenda al abrir la ayuda.
+- Por eso la guía se abre sobre el detalle y permite volver a la misma prenda al cerrarla. El recorrido está planteado sin un paso de registro. El archivo definitivo no tiene login ni un sistema de cuentas.
 
 #### Persona 3 · Alberto, 68 años
 
-Alberto busca una prenda para su nieta. Utiliza el móvil para mensajes y algunas compras, aunque prefiere avanzar despacio cuando una pantalla le resulta nueva. En este perfil he supuesto que necesita leer con la letra más grande y comprobar bien lo que ha seleccionado.
-
-Su objetivo es distinguir el precio, elegir una talla y confirmar la compra sin miedo a haber añadido algo de más. Le molesta no saber qué significa un icono o que una pulsación borre un producto sin darle opción a recuperarlo.
-
-Para este caso he priorizado las etiquetas de los botones, el contraste y las áreas táctiles. La recuperación mediante Deshacer forma parte de lo que hay que comprobar en la interacción del carrito. En Entrega, el error de email explica qué debe corregir. El prototipo tiene un tamaño fijo de 360 × 800, por lo que no permite comprobar todavía cómo respondería una app real al aumentar el tamaño del texto en Android.
+- Alberto quiere comprarle una prenda a su nieta. Usa el móvil para mensajes y algunas compras, pero prefiere ir despacio cuando no conoce una pantalla. Para este perfil he supuesto que necesita la letra más grande.
+- Quiere leer bien el precio, elegir la talla y comprobar que no ha añadido algo de más.
+- Le frustra no entender un icono o borrar un producto sin saber cómo recuperarlo.
+- Para él he tenido en cuenta las etiquetas de los botones, el contraste y las áreas táctiles. La recuperación con Deshacer queda pendiente de comprobar. Como los frames tienen un tamaño fijo, tampoco se puede probar aquí qué pasaría al aumentar la letra desde los ajustes de Android.
 
 ### 2.3 Análisis de la competencia
 
-He comparado cuatro tiendas reales a partir de sus páginas públicas en español. Me he fijado en las tallas, la ayuda y la compra sin cuenta, porque son aspectos relacionados con los perfiles anteriores. Esta revisión es de sus webs y su información de ayuda. No he hecho una compra real ni una prueba completa de sus aplicaciones Android.
-
-Las ventajas se apoyan en las páginas enlazadas. Los puntos mejorables recogen mi valoración del contenido consultado o un límite que encuentro al usarlo como referencia. No son resultados de pruebas con clientes de esas marcas.
+He revisado las webs y la ayuda en español de cuatro tiendas. Me he fijado sobre todo en las tallas y en los pasos para comprar, porque son las dudas que aparecen en los perfiles. La tabla separa lo que he podido comprobar de lo que yo cambiaría para Pequeño Davante. No he hecho compras ni probado sus apps Android.
 
 | Tienda y fuente | Qué hace bien | Qué veo mejorable o qué límite encuentro | Registro y acceso comprobado | Qué me llevo para Pequeño Davante |
 | --- | --- | --- | --- | --- |
@@ -86,13 +81,13 @@ Las ventajas se apoyan en las páginas enlazadas. Los puntos mejorables recogen 
 | [Kiabi, ayuda para hacer un pedido](https://www.kiabi.es/servicios/pedido.html) | Explica la compra como invitado, la confirmación por email y el seguimiento sin cuenta. | El invitado no tiene el seguimiento desde una cuenta ni las ventajas de fidelidad. Me parece un límite que conviene explicar al elegir cómo comprar. | Confirma que se puede continuar sin cuenta. Por tanto, no corresponde describir su registro como obligatorio. | Dejar el inicio de sesión como opción. Para una futura app, explicar qué se guarda con una cuenta antes de pedir que se cree. |
 | [Zara, centro de ayuda en España](https://www.zara.com/es/es/help/compra-segura-h28.html) | Separa los temas de tallas, favoritos, pedidos y devoluciones en grupos reconocibles. | La ayuda cubre muchos servicios de la marca. Para resolver una duda concreta sobre una talla, prefiero ofrecer un acceso desde la propia prenda sin obligar a buscar entre todos los temas. | El índice de ayuda es público y contiene un apartado de registro. El índice por sí solo no permite confirmar las condiciones de compra sin cuenta. | Mantener la guía junto al selector de talla y los destinos principales visibles en la navegación inferior. |
 
-La comparación me sirve para elegir soluciones concretas, sin intentar trasladar una tienda entera al prototipo. En Pequeño Davante he dado más espacio a la elección de talla y a la revisión del carrito. La ayuda sobre medidas aparece cuando hace falta, dentro del recorrido de la prenda.
+De estas tiendas me quedo con la ayuda cerca de la talla y con no pedir una cuenta antes de mirar las prendas. En Pequeño Davante he intentado que la ficha y el carrito tengan la información necesaria para decidir sin llenarlos de opciones.
 
 Fuentes consultadas el 15 de octubre de 2026. Los enlaces quedan guardados en FUENTES.md para preparar las referencias del apartado 6.
 
 ### 2.4 Insights y hallazgos clave
 
-A partir del enunciado, los perfiles ficticios y las referencias de otras tiendas, he sacado estas ideas para orientar el diseño. Todavía no son hallazgos de pruebas con usuarios. Cada una queda ligada a una decisión que se puede revisar en el prototipo.
+Del enunciado, los perfiles y la comparativa he sacado estas seis ideas. Cada una tiene una decisión de diseño y una forma de comprobarla. Las pruebas con compañeros todavía están pendientes.
 
 | Idea que orienta el diseño | De dónde sale | Decisión en Pequeño Davante | Cómo comprobarla |
 | --- | --- | --- | --- |
@@ -103,7 +98,7 @@ A partir del enunciado, los perfiles ficticios y las referencias de otras tienda
 | Un error de formulario necesita explicar qué corregir. | Objetivo de evitar bloqueos en Entrega y necesidad de Alberto de entender cómo seguir. | Mostrar el email en estado de error con un mensaje de ayuda en el propio campo. | Pedir que corrijan el error y medir tiempo, intentos y necesidad de ayuda. |
 | Antes de confirmar conviene poder relacionar la cantidad con el importe. | Laura quiere comprar dos unidades y revisar el coste. | Mantener los controles de cantidad y el resumen juntos en el carrito. Dos chaquetas de 39 € deberían dar un total de 78 €. Es un resultado esperado que habrá que comprobar, no un estado acreditado en esta revisión. | Comprobar si identifican la cantidad y el total durante la tarea de compra. |
 
-Estas decisiones cubren problemas distintos. Si las pruebas muestran que la guía no se encuentra o que Deshacer pasa desapercibido, la mejora tendrá que responder a ese problema concreto. No daré una decisión por validada solo porque esté dibujada en Figma.
+Si en las pruebas alguien no encuentra la guía o no entiende una acción, usaré ese problema para decidir qué mejorar.
 
 ## 3. Diseño de la interfaz
 ### 3.1 Mapa de navegación

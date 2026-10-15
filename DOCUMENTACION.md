@@ -34,13 +34,19 @@ Para Pequeño Davante, una ficha clara podría reducir las consultas sobre talla
 
 ### 2.1 Datos demográficos y segmentación
 
-En este apartado voy a analizar cuál es el grupo objetivo al que va dirigido el diseño de la app. Como este proyecto es una aplicación para Android, partimos de la base de que son personas que van a mirar la tienda desde su teléfono móvil. Para no quedarme solo en decir que es para padres en general, he decidido segmentar a los usuarios en tres grupos, ya que cada uno tiene necesidades muy diferentes a la hora de comprar ropa infantil
+Pequeño Davante está pensada para personas adultas que compran ropa y calzado para niños de 0 a 14 años desde un móvil Android. Quien usa la app y decide la compra no tiene por qué ser quien va a llevar la prenda. Esto importa sobre todo al hacer un regalo, porque se puede conocer la edad del niño sin saber su talla.
 
-El primer grupo son los padres y madres de entre 30 y 45 años. Son los que más usan la tienda porque compran por pura necesidad cuando a los niños se les queda pequeña la ropa de una temporada a otra. Normalmente miran la app en ratos libres, por lo que buscan ir directamente al grano y que la navegación sea rápida
+He separado tres situaciones de compra. Las edades son orientativas y me sirven para construir los perfiles del proyecto. No proceden de una encuesta ni describen a todos los clientes de una tienda real.
 
-El segundo grupo son los familiares jóvenes, de unos 20 a 30 años. Aquí entran tíos o amigos que quieren hacer un regalo puntual. Al ser más jóvenes manejan el móvil de sobra, pero su mayor problema es que se pierden totalmente con las equivalencias de las tallas al no tener hijos
+| Grupo | Situación de compra | Qué necesita resolver | Qué debo tener en cuenta en el diseño |
+| --- | --- | --- | --- |
+| Padres y madres, aproximadamente de 30 a 45 años | Reponen ropa que se ha quedado pequeña o buscan prendas para otra temporada. Pueden consultar el catálogo en ratos cortos. | Localizar una prenda, comprobar la talla y revisar el importe antes de terminar. | Categorías visibles, precio junto a la prenda y un carrito donde se pueda cambiar la cantidad. |
+| Familiares y amigos, aproximadamente de 20 a 30 años | Compran un regalo de forma puntual y pueden tener poca información sobre las medidas del niño. | Entender las tallas y completar la compra sin tener que crear una cuenta. | Guía de tallas accesible desde el detalle y acceso opcional a la cuenta. |
+| Abuelos y otros familiares, aproximadamente de 60 a 75 años | Buscan una prenda para un nieto y pueden preferir revisar cada paso antes de confirmar. | Leer los datos con comodidad, reconocer las acciones y corregir una equivocación. | Texto con contraste, botones con etiqueta, áreas táctiles amplias y opción de deshacer al eliminar. |
 
-Por último, he metido al grupo de los abuelos, de 60 a 75 años. Entran para comprar regalos especiales, pero usan Android de una forma mucho más básica. Para ellos el diseño tiene que tener las letras más grandes, buen contraste y un proceso de pago muy claro, ya que si ven botones que no entienden les da miedo tocar y cierran la aplicación
+No doy por hecho que una persona joven maneje bien cualquier app ni que alguien mayor necesite ayuda. Lo que cambia entre estos grupos es la situación que he elegido estudiar. Las dificultades de lectura, los toques imprecisos o las dudas con las tallas pueden aparecer a cualquier edad.
+
+La falta de tiempo y el uso con una mano vienen del contexto del enunciado. El resto son supuestos de diseño que habrá que revisar con las pruebas. Las sesiones con compañeros servirán para detectar problemas del recorrido, pero no equivalen a investigar una muestra de padres, madres y abuelos.
 
 ### 2.2 Personas
 

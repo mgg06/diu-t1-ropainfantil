@@ -50,13 +50,31 @@ La falta de tiempo y el uso con una mano vienen del contexto del enunciado. El r
 
 ### 2.2 Personas
 
-Para saber cómo tengo que diseñar las pantallas de la app, he pensado en tres tipos de personas que van a usar la tienda. Para cada una me he inventado una situación y unos problemas diferentes:
+He mantenido tres perfiles para pensar en necesidades distintas. Son personas ficticias creadas para el proyecto. Sus situaciones no son entrevistas ni resultados de las pruebas con compañeros.
 
-Por un lado está Laura, que tiene 36 años y dos hijos. Es la que compra casi siempre porque a los niños se les queda pequeña la ropa volando. Como suele mirar el catálogo de noche con el móvil y va con el tiempo justa, lo que más le importa es encontrar las cosas rápidamente. Necesita poder filtrar por talla al momento y ver si hay stock directamente en las fotos, porque entrar producto por producto le quita un montón de tiempo
+#### Persona 1 · Laura, 36 años
 
-Luego está el caso de David, con 25 años, que entra a la app solo cuando le toca hacer un regalo de cumpleaños a algún sobrino. Controla el móvil perfectamente, pero de ropa infantil no tiene ni idea y se pierde con las tallas. Lo que peor lleva es que le pida rellenar mil datos solo para hacer una compra rápida, así que la app tiene que dejarle pagar con los mínimos pasos posibles si no quiere que se vaya de la tienda
+Laura tiene dos hijos y suele encargarse de comprarles la ropa. Revisa la tienda por la noche, cuando encuentra un rato, y a veces deja una compra a medias para retomarla después. Usa el móvil a diario, pero no quiere dedicar mucho tiempo a entender una tienda nueva.
 
-Y por último está Alberto, que tiene 68 años y busca un detalle para su nieta. Usa el móvil con la letra más grande porque ya le cuesta fijarse de cerca. Para él lo importante es que los precios y los textos se lean bien a la primera, que los botones sean cómodos de pulsar para no equivocarse y que el proceso de pago le dé total seguridad, sin pantallas raras que le hagan dudar
+Su objetivo es encontrar una chaqueta, comprobar la talla disponible y revisar cuánto cuestan dos unidades. Le molesta entrar en una prenda para descubrir después que no queda la talla que necesita. Si interrumpe la compra, quiere poder localizar otra vez lo que le había gustado.
+
+Para ella he tenido en cuenta el precio visible en el catálogo, los estados de talla y la pantalla de Favoritos. En el carrito puede ajustar la cantidad y revisar el importe. El prototipo permite ensayar ese recorrido con la chaqueta preparada para la compra. No demuestra que las prendas guardadas se conserven después de cerrar la app.
+
+#### Persona 2 · David, 25 años
+
+David quiere comprar un regalo para su sobrino. Sabe cuántos años tiene, pero no conoce sus medidas ni suele comprar ropa infantil. Maneja el móvil con soltura y espera poder mirar la tienda antes de decidir si quiere tener una cuenta.
+
+Su objetivo es entender qué talla elegir y terminar el recorrido sin registrarse. Le frustra que una talla aparezca solo como un número sin ninguna referencia. Tampoco quiere perder la prenda que estaba viendo al consultar una ayuda.
+
+La guía de tallas se abre sobre el detalle para que pueda consultarla y volver a la misma ficha. El inicio de sesión es opcional y tiene una salida para seguir sin cuenta. En Figma se simula esa elección, sin crear usuarios ni guardar datos personales. La guía es una referencia y no garantiza que una prenda le vaya a quedar bien al niño.
+
+#### Persona 3 · Alberto, 68 años
+
+Alberto busca una prenda para su nieta. Utiliza el móvil para mensajes y algunas compras, aunque prefiere avanzar despacio cuando una pantalla le resulta nueva. En este perfil he supuesto que necesita leer con la letra más grande y comprobar bien lo que ha seleccionado.
+
+Su objetivo es distinguir el precio, elegir una talla y confirmar la compra sin miedo a haber añadido algo de más. Le molesta no saber qué significa un icono o que una pulsación borre un producto sin darle opción a recuperarlo.
+
+Para este caso he priorizado las etiquetas de los botones, el contraste y las áreas táctiles. La acción Deshacer permite recuperar una prenda eliminada del carrito. En Entrega, el error de email explica qué debe corregir. El prototipo tiene un tamaño fijo de 360 × 800, por lo que no permite comprobar todavía cómo respondería una app real al aumentar el tamaño del texto en Android.
 
 ### 2.3 Análisis de la competencia
 

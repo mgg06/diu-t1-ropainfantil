@@ -1,35 +1,34 @@
-# Documentación de la interfaz — Pequeño Davante
+# Documentación de la interfaz · Pequeño Davante
 
 ## 1. Justificación del diseño
+
 ### 1.1 Importancia del diseño centrado en el usuario
 
-Al ponerme a pensar en el diseño para la app de pequeño Davante, he querido centrarme en cómo la va a usar la persona en la vida real. Al final, los usuarios principales son padres, madres o abuelos que buscan ropa infantil, y normalmente van con el tiempo muy justo. Muchas veces miran la tienda desde el móvil mientras hacen otra cosa, e incluso sujetándolo con una sola mano
+Al pensar en la app de Pequeño Davante, he partido de una situación bastante normal. Una persona necesita comprar ropa infantil y mira el móvil en un rato libre. Puede estar haciendo otra cosa y tener solo una mano disponible. Por eso me interesa que encuentre las prendas sin tener que recorrer muchos menús.
 
-Tener en cuenta al usuario desde el principio me parece muy importante. Una de las cosas que más dudas da al comprar ropa de niños por internet es no acertar con la talla, ya que cada niño crece de una forma. Para solucionar esto y no quedarme solo en poner botones más grandes, he pensado en ubicar las acciones más importantes en la parte baja de la pantalla para que lleguen bien con el dedo pulgar. También quiero añadir filtros muy rápidos por edad o meses, y que la guía de tallas destaque mucho visualmente. Si hacemos que la app sea así de fácil de manejar, comprarán mucho más tranquilos y seguros
+La talla es una de las dudas que he tenido más en cuenta. Saber la edad del niño no siempre basta para elegir una prenda. En el detalle he dejado la guía de tallas junto a la selección de talla, para poder consultarla sin salir de la ficha. Las opciones sin stock tienen un estado distinto para que se vea que no están disponibles.
+
+He colocado el botón de añadir al carrito en la parte baja del detalle. En el carrito se puede cambiar la cantidad y deshacer una eliminación. Así, si alguien toca donde no quería, tiene una forma de recuperar la prenda. El formulario de entrega muestra un error de email con un mensaje de ayuda. Son decisiones pensadas para que la persona sepa qué puede hacer y cómo corregirse.
 
 ### 1.2 Objetivos y metas del proyecto
 
-### 1.2 Objetivos y metas del proyecto
+He planteado estos objetivos para comprobar el diseño. Todavía son metas, no resultados de las pruebas.
 
-Para comprobar que el diseño funciona de verdad y no basarme solo en que quede bonito, me he marcado estos cuatro objetivos que se pueden medir con números. He querido buscar metas que de verdad solucionen los problemas de la tienda:
+1. Conseguir que cada participante complete el recorrido de compra de la chaqueta en verde oliva, talla 4 y cantidad 2, en menos de dos minutos y sin ayuda. Mediré el tiempo desde Inicio hasta Confirmación. Es una compra simulada dentro de Figma.
 
-1. **Filtros rápidos:** La idea es que cualquiera pueda encontrar la ropa filtrada por los meses o la edad del niño haciendo solo 3 toques de pantalla desde el inicio
+2. Conseguir que cada participante encuentre y abra la guía de tallas desde el detalle en menos de diez segundos y sin indicaciones. Anotaré si la encuentra al primer intento y si pulsa antes en otro sitio.
 
-2. **Visibilidad de las tallas:** Conseguir que el 90% de las veces la gente abra la guía de tallas a la primera, poniéndola a 1 solo clic desde la foto de la prenda y sin esconderla en otros menús
+3. Conseguir que cada participante corrija el error de email y avance desde Entrega sin ayuda. Registraré cuánto tarda y los intentos fallidos, para comprobar si el mensaje explica bien el problema.
 
-3. **Menos atascos en el pago:** Bajar los errores al meter los datos de envío o la tarjeta a menos del 10%. Para esto voy a poner avisos visuales que salten al instante si te equivocas escribiendo, para que nadie se quede pillado al final
+4. Comprobar que todas las parejas de color y su texto que documente en la guía de estilo tengan un contraste mínimo de 4,5 a 1 en los esquemas claro y oscuro. Guardaré los valores y sus ratios en la sección 3.3. Esta comprobación no sustituye las pruebas de lectura con personas.
 
-4. **Lectura cómoda para todos:** Lograr que el 100% de los textos de la app tengan un contraste alto. Esto es básico para que los abuelos o cualquier persona que vea un poco peor pueda leer los precios y las tallas sin forzar la vista
-  
+Las pruebas se harán con al menos dos compañeros de otro grupo. Con una muestra tan pequeña, recogeré lo que le pase a cada persona sin presentar esos resultados como si representaran a todos los compradores.
+
 ### 1.3 Beneficios esperados
 
-Si miramos los beneficios, este diseño va a suponer una mejora, para el usuario que entra a comprar y para la propia tienda de Pequeño Davante
+Para quien compra, espero que la guía de tallas ayude a decidir con más información. Tener el precio y la selección de talla en la misma ficha evita tener que recordar datos de otras pantallas. Poder revisar la cantidad y recuperar una prenda eliminada permite corregir la compra antes de confirmarla.
 
-**Por parte de los usuarios:**
-La ventaja principal es que les quitamos de golpe la inseguridad al comprar. Al tener una guía de tallas muy a la vista y unos filtros que sean directos, no van a perder tiempo probando combinaciones a ciegas. Además, como he planteado que los botones y los textos tengan un contraste alto, nos aseguramos de que cualquier persona (como un abuelo que quiera hacer un regalo) pueda usar la app cómodamente y sin tener que pedir ayuda para leer los precios
-
-**Por parte de Pequeño Davante (el negocio):**
-Para la tienda, que la interfaz sea clara supone un ahorro de dinero. Si la gente acierta con su talla a la primera porque el diseño se lo pone fácil, va a bajar muchísimo el número de devoluciones que tienen que gestionar. Por otro lado, al hacer un proceso de pago muy limpio y con avisos si te equivocas al escribir, el cliente se fía más a la hora de meter la tarjeta. Esto significa que dejarán menos carritos abandonados a medias y es muy probable que repitan la compra
+Para Pequeño Davante, una ficha clara podría reducir las consultas sobre tallas y evitar algunas compras equivocadas. Un formulario que explique los errores podría ayudar a que menos personas abandonen el proceso por no saber cómo seguir. Son beneficios esperados. El prototipo no permite demostrar una reducción de devoluciones ni un aumento de ventas.
 
 ## 2. Investigación y análisis de usuarios
 

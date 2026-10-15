@@ -4,31 +4,28 @@
 
 ### 1.1 Importancia del diseño centrado en el usuario
 
-Al pensar en la app de Pequeño Davante, he partido de una situación bastante normal. Una persona necesita comprar ropa infantil y mira el móvil en un rato libre. Puede estar haciendo otra cosa y tener solo una mano disponible. Por eso me interesa que encuentre las prendas sin tener que recorrer muchos menús.
+Al plantear la app de Pequeño Davante, me he centrado en cómo la usaría alguien que entra a comprar ropa infantil desde el móvil. Muchas veces será una madre, un padre o un familiar que tiene poco tiempo y mira la tienda mientras hace otra cosa. Por eso he intentado que las opciones principales se vean sin tener que ir abriendo menús.
 
-La talla es una de las dudas que he tenido más en cuenta. Saber la edad del niño no siempre basta para elegir una prenda. En el detalle he dejado la guía de tallas junto a la selección de talla, para poder consultarla sin salir de la ficha. Las opciones sin stock tienen un estado distinto para que se vea que no están disponibles.
+Una de las cosas que más dudas puede dar es la talla. Saber los años que tiene un niño no siempre sirve para acertar con la ropa. He dejado la guía en la propia ficha, al lado del selector de talla, para poder consultarla sin salir de la prenda. Las tallas sin stock tienen un estado distinto para no confundirlas con las disponibles.
 
-He colocado el botón de añadir al carrito en la parte baja del detalle. En el carrito se presentan controles de cantidad. La recuperación de una eliminación mediante Deshacer es una función que debe comprobarse en la interacción, para que alguien que toque donde no quería pueda recuperar la prenda. El formulario de entrega muestra un error de email con un mensaje de ayuda. Son decisiones pensadas para que la persona sepa qué puede hacer y cómo corregirse.
+El botón de añadir al carrito está en la parte baja de la pantalla para tenerlo más a mano. En el carrito aparecen la cantidad y el importe, y en el formulario de entrega hay un ejemplo de email incorrecto con un mensaje de ayuda. Me interesa que se entienda qué hay que hacer en cada paso y cómo corregir un error.
 
 ### 1.2 Objetivos y metas del proyecto
 
-He planteado estos objetivos para comprobar el diseño. Todavía son metas, no resultados de las pruebas.
+Para comprobar si el diseño se entiende, he marcado cuatro objetivos. Los tres primeros se medirán en las pruebas con al menos dos compañeros de otro grupo. El último se comprobará con los colores de la guía de estilo.
 
-1. Conseguir que cada participante complete el recorrido de compra de la chaqueta en verde oliva, talla 4 y cantidad 2, en menos de dos minutos y sin ayuda. Mediré el tiempo desde Inicio hasta Confirmación. Es una compra simulada dentro de Figma.
+- Completar la compra de la chaqueta en verde oliva, talla 4 y cantidad 2 en menos de dos minutos y sin ayuda. Contaré desde Inicio hasta Confirmación. Es el recorrido que quiero probar cuando estén resueltas las conexiones pendientes del apartado 3.1.
+- Encontrar y abrir la guía de tallas desde el detalle en menos de diez segundos, sin indicar dónde está. Apuntaré si la encuentran a la primera o si antes pulsan en otro sitio.
+- Corregir el error de email y continuar desde Entrega sin ayuda. Mediré el tiempo y los intentos fallidos para ver si el mensaje explica bien qué hay que cambiar.
+- Revisar que todas las parejas de color y texto de la guía tengan un contraste mínimo de 4,5 a 1, tanto en claro como en oscuro. Los valores quedarán en el apartado 3.3.
 
-2. Conseguir que cada participante encuentre y abra la guía de tallas desde el detalle en menos de diez segundos y sin indicaciones. Anotaré si la encuentra al primer intento y si pulsa antes en otro sitio.
-
-3. Conseguir que cada participante corrija el error de email y avance desde Entrega sin ayuda. Registraré cuánto tarda y los intentos fallidos, para comprobar si el mensaje explica bien el problema.
-
-4. Comprobar que todas las parejas de color y su texto que documente en la guía de estilo tengan un contraste mínimo de 4,5 a 1 en los esquemas claro y oscuro. Guardaré los valores y sus ratios en la sección 3.3. Esta comprobación no sustituye las pruebas de lectura con personas.
-
-Las pruebas se harán con al menos dos compañeros de otro grupo. Con una muestra tan pequeña, recogeré lo que le pase a cada persona sin presentar esos resultados como si representaran a todos los compradores.
+Son objetivos para las pruebas, no resultados que ya haya conseguido. Como participarán pocos compañeros, recogeré lo que le ocurra a cada uno sin sacar porcentajes sobre todos los posibles clientes.
 
 ### 1.3 Beneficios esperados
 
-Para quien compra, espero que la guía de tallas ayude a decidir con más información. Tener el precio y la selección de talla en la misma ficha evita tener que recordar datos de otras pantallas. Revisar la cantidad y disponer de una forma de recuperar una prenda eliminada ayudaría a corregir la compra antes de confirmarla.
+Para quien compra, la idea es poder consultar la talla, ver el precio y revisar la cantidad sin ir saltando entre pantallas. Si el formulario explica qué dato está mal, debería ser más fácil corregirlo y seguir con la compra.
 
-Para Pequeño Davante, una ficha clara podría reducir las consultas sobre tallas y evitar algunas compras equivocadas. Un formulario que explique los errores podría ayudar a que menos personas abandonen el proceso por no saber cómo seguir. Son beneficios esperados. El prototipo no permite demostrar una reducción de devoluciones ni un aumento de ventas.
+Para la tienda, una guía de tallas clara podría evitar algunas dudas y compras equivocadas. Un proceso fácil de seguir podría ayudar a que menos personas dejen el carrito a medias. De momento son beneficios que espero del diseño. Para saber si bajan las devoluciones o suben las ventas haría falta probar la app con clientes reales.
 
 ## 2. Investigación y análisis de usuarios
 

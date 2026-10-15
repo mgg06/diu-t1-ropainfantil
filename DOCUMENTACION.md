@@ -239,6 +239,146 @@ Mostrar el precio y el estado de disponibilidad permite valorar esa selección a
 
 
 ### 3.3 Guía de estilo Material Design 3
+
+He reunido aquí las decisiones que se repiten en las pantallas para que la tienda tenga el mismo aspecto al pasar de una a otra, me he centrado en los colores, la letra, los espacios y los elementos que se usan para comprar
+
+He seguido Material Design 3 como base para los botones, los campos y la navegación, pero he intentado explicar cada elección según lo que necesita Pequeño Davante, lo importante para mí es que se reconozca dónde mirar una prenda, cómo elegir una talla y cuál es el siguiente paso
+
+#### Colores de las pantallas
+
+He tomado el azul #0234AB como referencia principal, lo he reservado para dar presencia a las acciones y a los elementos que quiero que se reconozcan dentro de la tienda, el fondo claro es más suave para que no tenga el mismo peso que los botones
+
+El color secundario sigue dentro de los azules, así puedo diferenciar elementos sin introducir un color distinto para cada cosa, el tono coral queda como apoyo, no lo uso como si fuera el texto principal de toda la interfaz
+
+En el modo oscuro el fondo pasa a azul muy oscuro y el principal se aclara, he mantenido la distribución para que se pueda reconocer la pantalla sin aprender de nuevo dónde está cada elemento
+
+| Uso | Claro | Oscuro |
+| --- | --- | --- |
+| Color principal | #0234AB | #AFC6FF |
+| Texto sobre el principal | #FFFFFF | #06205F |
+| Fondo de selección suave | #EAF1FC | #173A85 |
+| Texto sobre esa selección | #082B65 | #EAF1FC |
+| Color secundario | #2D5FAA | #ADC7F5 |
+| Color de apoyo | #FF5B41 | #FFB49F |
+| Fondo de pantalla | #F5F8FD | #101B30 |
+| Texto principal | #17243D | #F0F4FC |
+
+He separado el color de un fondo del texto que va encima, por ejemplo, el botón principal claro usa azul y texto blanco, mientras que su versión oscura combina un azul claro con un texto más oscuro, así el cambio de modo no consiste solo en oscurecer todo
+
+Los nombres que empiezan por on indican el color del contenido que se coloca sobre otro, onPrimary corresponde al texto o icono situado sobre primary, mantengo estos nombres en las tablas porque permiten relacionar los valores con los de Figma
+
+#### Contraste de las pantallas
+
+He calculado el contraste de las parejas que aparecen vinculadas en las paletas de las pantallas, en estas combinaciones el mínimo que busco es 4,5 a 1, el cálculo se hace con los colores completos, sin transparencias
+
+| Pantallas | Fondo y texto | Contraste |
+| --- | --- | --- |
+| Claras | #0234AB / #FFFFFF | 10,09 a 1 |
+| Claras | #EAF1FC / #082B65 | 11,97 a 1 |
+| Claras | #F5F8FD / #17243D | 14,55 a 1 |
+| Oscuras | #AFC6FF / #06205F | 8,95 a 1 |
+| Oscuras | #173A85 / #EAF1FC | 9,33 a 1 |
+| Oscuras | #101B30 / #F0F4FC | 15,60 a 1 |
+
+Estas cifras corresponden a las combinaciones de la tabla, no significan que cualquier color se pueda usar sobre cualquier fondo, por eso prefiero mantener las parejas y no cambiar el texto de un botón solo porque otro tono quede bien al lado
+
+Para los errores he usado un rojo distinto del azul de las acciones, el campo de email se acompaña de una explicación para que el aviso no dependa únicamente del color, de la misma forma, la talla agotada lleva texto que permite reconocer su estado
+
+#### Tema incluido en el archivo de Figma
+
+El archivo contiene además un tema llamado material-theme con esquemas claro y oscuro, sus colores no coinciden con la paleta azul vinculada a las pantallas, por eso los recojo en una tabla aparte y no los presento como si fueran los mismos valores
+
+He incluido las doce parejas del tema, seis para cada modo, para relacionar cada color con el texto que le corresponde y comprobar sus contrastes
+
+| Esquema | Pareja | Color | Texto | Contraste |
+| --- | --- | --- | --- | --- |
+| Claro | primary / onPrimary | #65558F | #FFFFFF | 6,46 a 1 |
+| Claro | primaryContainer / onPrimaryContainer | #EADDFF | #4F378B | 7,23 a 1 |
+| Claro | secondary / onSecondary | #625B71 | #FFFFFF | 6,45 a 1 |
+| Claro | tertiary / onTertiary | #7D5260 | #FFFFFF | 6,47 a 1 |
+| Claro | surface / onSurface | #FEF7FF | #1D1B20 | 16,23 a 1 |
+| Claro | error / onError | #B3261E | #FFFFFF | 6,54 a 1 |
+| Oscuro | primary / onPrimary | #D0BCFE | #381E72 | 7,71 a 1 |
+| Oscuro | primaryContainer / onPrimaryContainer | #4F378B | #EADDFF | 7,23 a 1 |
+| Oscuro | secondary / onSecondary | #CCC2DC | #332D41 | 7,74 a 1 |
+| Oscuro | tertiary / onTertiary | #EFB8C8 | #492532 | 7,75 a 1 |
+| Oscuro | surface / onSurface | #141218 | #E6E0E9 | 14,35 a 1 |
+| Oscuro | error / onError | #F2B8B5 | #601410 | 7,66 a 1 |
+
+Todas estas parejas del tema superan 4,5 a 1, esta comprobación describe esos valores concretos y no acredita por sí sola que el tema esté aplicado a todas las pantallas, la paleta visible del diseño está recogida en las tablas anteriores
+
+#### Tipografía
+
+He usado Roboto para mantener una misma letra en toda la tienda, he cambiado el tamaño y el grosor según la función del texto, así un título, una descripción y la etiqueta de un botón no tienen que verse iguales
+
+No he intentado destacar todo a la vez, si el nombre, el precio y la descripción tuvieran el mismo tamaño sería más difícil reconocer qué información mirar primero, por eso he mantenido una diferencia entre los títulos y el texto de apoyo
+
+| Nombre en Figma | Tamaño | Espacio entre líneas | Grosor | Para qué lo uso |
+| --- | --- | --- | --- | --- |
+| headlineSmall | 24 | 32 | Normal, 400 | Titulares como el de la temporada en Inicio |
+| titleLarge | 22 | 28 | Normal, 400 | Nombre principal de la prenda en el detalle |
+| titleMedium | 16 | 24 | Medio, 500 | Información destacada como el precio |
+| bodyLarge | 16 | 24 | Normal, 400 | Mensajes y textos de contenido |
+| labelLarge | 14 | 20 | Medio, 500 | Etiquetas de botones y controles |
+
+El espacio entre líneas evita que el texto quede demasiado pegado cuando ocupa más de una línea, he mantenido las etiquetas de las acciones cortas para que se puedan leer sin tener que interpretar una frase larga antes de pulsar
+
+Hay otros tamaños para datos pequeños, como la hora de la barra superior, los cinco anteriores son los que utilizo como referencia para organizar la información principal
+
+#### Rejilla y espacios
+
+He usado una rejilla de cuatro columnas con 16 de margen a cada lado y 8 de separación entre columnas, me sirve para alinear el contenido aunque cada pantalla tenga una distribución distinta
+
+En una pantalla de 360 de ancho, los márgenes dejan 328 para el contenido, dentro de ese espacio coloco elementos que ocupan todo el ancho, como los campos y los botones principales, o bloques más pequeños, como las tarjetas del catálogo
+
+| Medida | Valor | Cómo la utilizo |
+| --- | --- | --- |
+| Tamaño de pantalla | 360 × 800 | Base común para los frames |
+| Columnas | 4 | Referencia para alinear bloques |
+| Margen lateral | 16 | Separación respecto al borde |
+| Separación entre columnas | 8 | Espacio de la rejilla |
+| Base de espaciado | 8 | Referencia para separar los elementos |
+| Área mínima de pulsación que tomo como referencia | 48 × 48 | Espacio para tocar una acción |
+
+La rejilla de cuatro columnas no obliga a mostrar cuatro productos por fila, en el catálogo he usado dos tarjetas, lo que me permite dar más espacio a la imagen, al nombre y al precio, la rejilla sirve para ordenar la pantalla, no para llenar todas sus columnas con elementos distintos
+
+He tomado 8 como base para los espacios, así puedo usar separaciones de 8, 16 o 24 según si dos elementos pertenecen al mismo grupo o si empieza otro bloque, la separación entre una foto y su nombre puede ser más corta que la que dejo entre grupos de información
+
+#### Tamaño de los botones y las zonas que se pueden tocar
+
+He tomado 48 × 48 como referencia mínima para las zonas de pulsación, el dibujo de un icono puede ser más pequeño que ese espacio, lo que importa es que haya sitio alrededor para tocarlo sin acertar justo en el centro
+
+Esta diferencia es útil en las flechas, los corazones y los controles de cantidad, no hace falta hacer enorme el símbolo para que la acción tenga una zona cómoda, hay que cuidar el espacio que responde a la pulsación y la separación respecto a otras acciones
+
+En los botones principales he dado prioridad al ancho disponible y a una etiqueta que explique el siguiente paso, en los controles pequeños he intentado que se distinga qué elemento se está tocando, sobre todo cuando hay opciones próximas como varias tallas
+
+#### Elementos que se repiten
+
+He mantenido una misma forma de presentar las acciones para que el cambio de pantalla no obligue a aprender otra manera de comprar
+
+- La cabecera identifica la pantalla y sitúa la vuelta atrás cuando hace falta
+- La barra inferior mantiene los tres destinos principales, Inicio, Catálogo y Favoritos
+- Las tarjetas reúnen foto, nombre y precio para comparar las prendas
+- Los filtros permiten presentar las opciones de edad o talla, color y precio en el catálogo
+- Los botones principales indican acciones como añadir al carrito, continuar o volver a Inicio
+- Los campos de entrega mantienen el mismo orden de etiqueta y contenido, el email muestra un ejemplo de error con ayuda
+- El panel de tallas reúne la información de medidas sin sustituir la ficha de la prenda
+- El aviso de eliminación con Deshacer responde a la necesidad de recuperar una prenda borrada por error, su presencia en una propuesta no sustituye comprobar su funcionamiento
+
+#### Componentes propios
+
+He planteado la tarjeta de producto y el selector de talla como elementos que deben mantener la misma estructura aunque cambie su estado, así no tengo que reorganizar toda la ficha para mostrar una prenda guardada o una talla agotada
+
+| Componente | Estados que necesito distinguir | Por qué los separo |
+| --- | --- | --- |
+| Tarjeta de producto | Normal, favorito y agotado | Una misma prenda puede interesar, estar guardada o no estar disponible |
+| Selector de talla | Disponible, seleccionada y sin stock | Hay que diferenciar lo que se puede elegir de lo que ya está elegido |
+| Selector de color | Normal, seleccionado y sin disponibilidad | El color elegido tiene que reconocerse dentro del grupo de opciones |
+
+Al reutilizar estos elementos, me interesa que la imagen, el texto y las opciones mantengan su orden, la organización automática de los espacios dentro del componente ayuda a conservar esa relación, no significa que todas las tarjetas tengan que mostrar el mismo nombre o precio
+
+La diferencia entre seleccionado y sin stock tiene que entenderse sin adivinarla, uno indica una elección y el otro una opción que no se puede comprar, por eso he dado importancia a las etiquetas y al aspecto de cada estado
+
 ### 3.4 Prototipo de alta fidelidad
 
 ## 4. Validación y pruebas
@@ -251,9 +391,12 @@ Mostrar el precio y el estado de disponibilidad permite valorar esa selección a
 
 ## 6. Referencias bibliográficas
 
-- Kiabi (sin fecha) - *Hacer un pedido en Kiabi.es* - https://www.kiabi.es/servicios/pedido.html
-- Mayoral (sin fecha) - *Camiseta volante niña* - https://www.mayoral.com/es/es/camiseta-volante-nina-anis-2603008074-5
-- Vertbaudet (sin fecha) - *Guía de calzado* - https://www.vertbaudet.es/page/asesoramiento/guias/calzado.htm
-- Zara (sin fecha) - *Ayuda* - https://www.zara.com/es/es/help/compra-segura-h28.html
+- Kiabi (sin fecha) - [Hacer un pedido en Kiabi.es](https://www.kiabi.es/servicios/pedido.html)
+- Mayoral (sin fecha) - [Camiseta volante niña](https://www.mayoral.com/es/es/camiseta-volante-nina-anis-2603008074-5)
+- Vertbaudet (sin fecha) - [Guía de calzado](https://www.vertbaudet.es/page/asesoramiento/guias/calzado.htm)
+- Zara (sin fecha) - [Ayuda](https://www.zara.com/es/es/help/compra-segura-h28.html)
+
+- Google (sin fecha) - [Tamaño de los objetivos táctiles](https://support.google.com/accessibility/android/answer/7101858?hl=es)
+- Google (sin fecha) - [Cómo hacer que las apps sean más accesibles](https://developer.android.com/guide/topics/ui/accessibility/apps.html?hl=es-419)
 
 Palabra del día - 29

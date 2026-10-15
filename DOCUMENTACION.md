@@ -4,28 +4,32 @@
 
 ### 1.1 Importancia del diseño centrado en el usuario
 
-Al plantear la app de Pequeño Davante, me he centrado en cómo la usaría alguien que entra a comprar ropa infantil desde el móvil, muchas veces será una madre, un padre o un familiar que tiene poco tiempo y mira la tienda mientras hace otra cosa, por eso he intentado que las opciones principales se vean sin tener que ir abriendo menús
+La idea de Pequeño Davante es imaginar que Davante abre una tienda de ropa y calzado para niños, he mantenido su nombre y sus colores para que se reconozca de dónde viene la propuesta, pero añadiendo la palabra Pequeño para relacionarla con la ropa infantil, a partir de ahí he creado una tienda ficticia para niños de 0 a 14 años, con una imagen que mantiene esa relación con Davante y la lleva a un uso distinto, comprar ropa desde el móvil, para mí tenía sentido que el nombre, el logo y los colores formaran parte de la misma idea, porque si cada cosa pareciera de una tienda diferente se perdería la relación que le da sentido al proyecto
 
-Una de las cosas que más dudas puede dar es la talla, saber los años que tiene un niño no siempre sirve para acertar con la ropa, he dejado la guía en la propia ficha, al lado del selector de talla, para poder consultarla sin salir de la prenda, las tallas sin stock tienen un estado distinto para no confundirlas con las disponibles
+Aunque la ropa sea para niños, quienes van a utilizar la app son las personas adultas que la compran, esto cambia bastante la forma de plantear el diseño, por ejemplo, una madre que entra a buscar una chaqueta para su hijo seguramente ya sepa qué talla suele llevar, pero un abuelo que quiere hacerle un regalo puede saber los años que tiene y poco más, los dos buscan ropa en la misma tienda, pero no tienen la misma información para decidir, por eso he dado importancia a que la ayuda de tallas se pueda consultar desde la propia prenda, así la persona puede resolver la duda mientras está eligiendo y después seguir con lo que estaba mirando
 
-El botón de añadir al carrito está en la parte baja de la pantalla para tenerlo más a mano, en el carrito aparecen la cantidad y el importe, y en el formulario de entrega hay un ejemplo de email incorrecto con un mensaje de ayuda, me interesa que se entienda qué hay que hacer en cada paso y cómo corregir un error
+También he tenido en cuenta que una compra desde el móvil muchas veces se hace en un rato libre y con una sola mano, si para ver cuánto cuesta una prenda o saber qué talla queda hay que ir buscando por varias pantallas, una compra sencilla acaba siendo más pesada de lo que debería, en mi diseño el catálogo sirve para comparar prendas y la ficha para centrarse en la que interesa, después el carrito permite revisar la talla, las unidades y el importe antes de introducir la dirección, he separado estos pasos porque primero hace falta decidir qué se quiere comprar y luego dar los datos para recibirlo, mezclarlo todo desde el principio haría más difícil revisar una elección
+
+Una parte del diseño centrado en el usuario es tener en cuenta las equivocaciones normales al utilizar la app, no solo pensar en el caso en el que todo sale bien, por ejemplo, al escribir el email es fácil dejarse una parte de la dirección, el mensaje de ayuda del formulario explica qué hay que corregir junto al propio campo, así no se obliga a buscar el fallo entre todos los datos, con las tallas ocurre algo parecido, la que está agotada incluye el texto que avisa de que no hay stock, porque un cambio de color por sí solo puede confundirse con una talla que ya está seleccionada, son detalles que he relacionado con situaciones concretas de compra para que el diseño tenga sentido al utilizarlo
 
 ### 1.2 Objetivos y metas del proyecto
 
-Para comprobar si el diseño se entiende, he marcado cuatro objetivos, los tres primeros se medirán en las pruebas con al menos dos compañeros de otro grupo, el último se comprobará con los colores de la guía de estilo
+He definido cuatro objetivos para valorar el diseño con tareas concretas, me parece más útil comprobar si alguien encuentra una talla o entiende un error que quedarme solo con que la app se vea bonita, los tres primeros se centran en acciones del prototipo y el cuarto en la lectura de los textos, cada objetivo tiene una forma de comprobarlo para poder relacionar una dificultad con el paso en el que aparece
 
-- Completar la compra de la chaqueta en verde oliva, talla 4 y cantidad 2 en menos de dos minutos y sin ayuda, contaré desde Inicio hasta Confirmación, la tarea consiste en encontrar la chaqueta, elegir la talla y revisar la cantidad antes de confirmar
-- Encontrar y abrir la guía de tallas desde el detalle en menos de diez segundos, sin indicar dónde está, apuntaré si la encuentran a la primera o si antes pulsan en otro sitio
-- Corregir el error de email y continuar desde Entrega sin ayuda, mediré el tiempo y los intentos fallidos para ver si el mensaje explica bien qué hay que cambiar
-- Revisar que todas las parejas de color y texto de la guía tengan un contraste mínimo de 4,5 a 1, tanto en claro como en oscuro, los valores quedarán en el apartado 3.3
+| Objetivo | Meta | Cómo se comprueba |
+| --- | --- | --- |
+| Completar una compra | Llegar desde Inicio hasta Pedido confirmado en menos de dos minutos y sin ayuda | Buscar la chaqueta en verde oliva, elegir la talla 4 y revisar dos unidades, el importe esperado de esas dos prendas es de 78 € |
+| Consultar la guía de tallas | Abrirla desde la ficha en menos de diez segundos y sin indicaciones | Medir cuánto se tarda desde el detalle y anotar si antes se pulsa en otro sitio |
+| Corregir el email del formulario | Corregir el dato y continuar sin ayuda | Comprobar si se completa la tarea, cuánto se tarda y cuántos intentos fallidos hay antes de continuar |
+| Leer los textos sobre los colores de la guía | Alcanzar un contraste mínimo de 4,5 a 1 en cada pareja documentada | Calcular el contraste entre el color de fondo y el del texto, tanto en el esquema claro como en el oscuro |
 
-Son objetivos para las pruebas, no resultados que ya haya conseguido, como participarán pocos compañeros, recogeré lo que le ocurra a cada uno sin sacar porcentajes sobre todos los posibles clientes
+Los tiempos y las condiciones de la tabla son las metas con las que se valora la propuesta, para interpretar las pruebas interesa lo que le ocurre a cada participante, porque con dos personas se pueden encontrar problemas concretos, pero no dar por hecho que todos los clientes comprarían de la misma manera
 
 ### 1.3 Beneficios esperados
 
-Para quien compra, la idea es poder consultar la talla, ver el precio y revisar la cantidad sin ir saltando entre pantallas, si el formulario explica qué dato está mal, debería ser más fácil corregirlo y seguir con la compra
+Para la persona que compra, lo que busco es que pueda tomar una decisión con la información que tiene delante, por ejemplo, alguien que compra un regalo no debería tener que adivinar una talla solo porque conoce la edad del niño, la guía le da una referencia para compararla con sus medidas, del mismo modo, ver la cantidad junto al importe en el carrito ayuda a detectar si se ha añadido una unidad de más antes de continuar, estas decisiones pueden ahorrar dudas durante la compra y evitan que toda la responsabilidad de recordar lo elegido recaiga en la persona, además, al mantener las mismas formas de presentar los botones y las prendas, cambiar de pantalla no supone encontrarse con una manera distinta de utilizar la tienda
 
-Para la tienda, una guía de tallas clara podría evitar algunas dudas y compras equivocadas, un proceso fácil de seguir podría ayudar a que menos personas dejen el carrito a medias, de momento son beneficios que espero del diseño, para saber si bajan las devoluciones o suben las ventas haría falta probar la app con clientes reales
+Para Pequeño Davante, una ventaja de la propuesta es que la identidad de la tienda tiene una explicación propia, el vínculo con Davante está en el nombre, en el logo y en la elección de los colores, mientras que las prendas y las necesidades de compra dan sentido a su adaptación al público infantil, en cuanto al negocio, una guía comprensible podría evitar algunas compras de talla equivocada y una revisión clara del carrito podría ayudar a que menos personas abandonen por dudas sobre lo que han elegido, esos son los beneficios esperados del diseño, para saber si realmente se reducen las devoluciones o se completan más pedidos harían falta datos de una tienda en funcionamiento
 
 ## 2. Investigación y análisis de usuarios
 

@@ -153,6 +153,65 @@ El archivo definitivo consultado tiene las páginas Wireframes y Prototipo. No c
 Para dar por terminado el requisito de navegación habría que asignar los destinos que faltan, definir el punto inicial del flujo y recorrer la compra en Present. En esta revisión no se ha modificado Figma.
 
 ### 3.2 Wireframes
+
+La página Wireframes contiene siete frames de 360 × 800. Las imágenes siguientes se han exportado del archivo definitivo, a tamaño original. Sirven para explicar la distribución de la información antes de valorar los colores y las fotografías del diseño final.
+
+La composición usa bloques sencillos para reservar el espacio de las fotos y botones con texto para reconocer las acciones. Predominan los grises. En la confirmación queda un texto de seguimiento con un matiz azulado, así que no describo el conjunto como una escala de grises estricta.
+
+| Pantalla | Información principal | Decisión de distribución |
+| --- | --- | --- |
+| Inicio | Buscador, categorías Bebé 0-24 m, Niña y Niño, prenda de temporada y acceso al catálogo. | Colocar las formas de explorar antes de la prenda destacada y mantener la barra inferior como referencia. |
+| Catálogo | Edad o talla, color, precio, orden y cuatro tarjetas de producto. | Usar dos columnas para comparar prendas, con nombre y precio debajo de cada imagen. |
+| Detalle del producto | Foto, nombre, precio, tallas, guía y acción de compra. | Agrupar la elección de talla con la ayuda y dejar Añadir al carrito en la parte baja. |
+| Carrito | Prenda, talla, cantidad, eliminación y total. | Reunir la revisión de la compra en una pantalla y colocar el importe antes del botón de continuar. |
+| Datos de entrega | Nombre, email, dirección, código postal y ciudad. | Disponer los campos en una columna y mostrar un mensaje de ayuda cerca del formulario. |
+| Pedido confirmado | Mensaje de confirmación, identificador, resumen e importe. | Dar prioridad al resultado de la acción y ofrecer una salida visible hacia Inicio. |
+| Favoritos | Prendas guardadas, precios y disponibilidad. | Reutilizar la cuadrícula del catálogo y señalar el destino activo en la barra inferior. |
+
+#### Inicio
+
+El buscador ocupa el primer bloque de contenido. Debajo aparecen las tres categorías y la prenda de temporada. El botón Ver catálogo evita depender solo de las categorías para empezar a mirar productos.
+
+![Wireframe de Inicio con buscador, categorías y prenda destacada](capturas/wireframes/01-inicio.png)
+
+#### Catálogo
+
+Los filtros quedan antes de la cuadrícula. La ordenación tiene su propio espacio y cada tarjeta conserva el nombre y el precio fuera de la imagen. Así se puede comparar sin abrir primero cada ficha.
+
+![Wireframe de Catálogo con filtros y cuatro productos en dos columnas](capturas/wireframes/02-catalogo.png)
+
+#### Detalle del producto
+
+La foto reserva el bloque superior. La selección de talla aparece después del nombre y el precio. La opción sin stock se identifica con texto y la guía queda justo debajo de las tallas. El botón de compra se separa del contenido para reconocer el siguiente paso.
+
+![Wireframe de Detalle con selector de talla, guía y botón de compra](capturas/wireframes/03-detalle.png)
+
+#### Carrito
+
+La cantidad y la eliminación están junto a la prenda. El subtotal y el total se muestran antes de continuar. Esta captura representa una unidad y un total de 39 €, no el estado de dos unidades que se había descrito para otra versión.
+
+![Wireframe de Carrito con cantidad, eliminación y resumen de una unidad](capturas/wireframes/04-carrito.png)
+
+#### Datos de entrega
+
+Los campos siguen un orden de arriba abajo, empezando por el contacto y continuando con la dirección. El wireframe incluye un ejemplo de ayuda para el email. El estado visual de error corresponde al prototipo de alta fidelidad.
+
+![Wireframe de Datos de entrega con cinco campos y ayuda para el email](capturas/wireframes/05-entrega.png)
+
+#### Pedido confirmado
+
+El mensaje Pedido realizado se acompaña del identificador 12-PD y del resumen de una chaqueta de talla 4. El botón Volver a Inicio cierra el recorrido previsto. Es una confirmación de demostración, sin un pedido ni un seguimiento reales.
+
+![Wireframe de Pedido confirmado con identificador y vuelta a Inicio](capturas/wireframes/06-confirmacion.png)
+
+#### Favoritos
+
+Mantiene las dos columnas del catálogo para reconocer las prendas de la misma forma. Una tarjeta muestra que el producto está agotado. La navegación inferior permite situar esta pantalla dentro de la tienda.
+
+![Wireframe de Favoritos con prendas guardadas y un producto agotado](capturas/wireframes/07-favoritos.png)
+
+Las capturas documentan el estado actual de los wireframes. No acreditan por sí solas las interacciones del prototipo ni que se guardara la versión histórica Reto 2 – wireframes. Esa versión sigue pendiente de comprobación en el historial de Figma.
+
 ### 3.3 Guía de estilo Material Design 3
 ### 3.4 Prototipo de alta fidelidad
 

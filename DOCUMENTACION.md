@@ -119,6 +119,10 @@ flowchart TD
     CON["Pedido confirmado"]
     FAV["Favoritos"]
     GUI["Panel de tallas"]
+    ACC["Inicio de sesión"]
+
+    ACC -->|"Acceso de demostración"| INI
+    ACC -->|"Volver o seguir sin cuenta"| INI
 
     INI -->|"Ver catálogo"| CAT
     CAT -->|"Consultar una prenda"| DET
@@ -142,9 +146,11 @@ He separado el catálogo del detalle porque no se consulta la ropa de la misma m
 
 Favoritos no tiene la misma función que el carrito, guardar una chaqueta puede significar que gusta, pero todavía no se sabe si se va a comprar o qué talla hace falta, por eso he mantenido ambos espacios separados, la confirmación termina el recorrido con el resumen y la vuelta a Inicio, mientras que las flechas de las pantallas de compra permiten plantear el regreso al paso anterior, las versiones oscuras de Inicio y Detalle no añaden destinos al mapa, son las mismas pantallas con otra combinación de colores
 
+He añadido Inicio de sesión como una octava pantalla, desde ella se puede entrar a la tienda o seguir sin cuenta, la he separado de los datos de entrega porque acceder a una cuenta y escribir la dirección de un pedido son cosas distintas, el registro no se convierte en un paso obligatorio para mirar el catálogo ni sustituye al formulario de la compra, en el mapa aparecen las salidas del login hacia Inicio, los accesos de recuperar y crear cuenta se presentan dentro de esa pantalla, sin añadir recorridos que no están desarrollados en el prototipo
+
 ### 3.2 Wireframes
 
-Los wireframes son la primera versión de la distribución, antes de añadir las fotografías y los colores de la tienda, he trabajado con siete pantallas de 360 × 800 para decidir cuánto espacio necesitaba cada cosa y cómo se iba a pasar de una a otra, en esta parte me interesaba que se entendiera qué se puede hacer en cada pantalla sin depender de que estuviera terminada visualmente, por eso las imágenes aparecen como bloques y los botones mantienen su texto, predominan los grises, aunque el número de pedido conserva un pequeño tono azul en la confirmación
+Los wireframes recogen la distribución de las ocho pantallas de 360 × 800, he utilizado bloques para las imágenes y he conservado el texto de los botones para que se entienda qué se puede hacer antes de añadir las fotografías y los colores de la tienda, la versión del inicio de sesión recoge la misma organización que su diseño final, predominan los grises, aunque el número de pedido conserva un pequeño tono azul en la confirmación
 
 #### Inicio
 
@@ -187,6 +193,12 @@ Después de completar los datos, la persona necesita una respuesta que se pueda 
 En Favoritos he reutilizado la forma de presentar los productos del catálogo porque se siguen consultando las mismas prendas, lo que cambia es que aquí solo aparecen las que interesan, esta diferencia tiene sentido para alguien como Laura, que puede querer volver a mirar una chaqueta sin haber decidido todavía comprarla, el precio y la disponibilidad siguen siendo útiles en esa consulta, pero la elección de unidades y la revisión del importe se mantienen en el carrito, de esta forma guardar una prenda no se confunde con tener una compra preparada, y Favoritos conserva su lugar como tercer destino de la barra inferior
 
 ![Wireframe de Favoritos](capturas/wireframes/07-favoritos.png)
+
+#### Inicio de sesión
+
+En el wireframe del login he separado la identificación de la tienda del acceso a la cuenta, la marca y el espacio para la fotografía del centro quedan juntos, y después aparecen los campos de correo y contraseña, así la cabecera no se mezcla con lo que hay que rellenar, he dejado la recuperación cerca de la contraseña porque es donde tiene sentido buscarla si no se recuerda, la aceptación de los términos tiene su propio espacio antes de iniciar sesión y empieza sin marcar, también aparecen las alternativas de Google y cuenta Davante, cada una con una referencia a su icono, Crear cuenta queda separado del botón de acceso para distinguir a quien ya tiene cuenta de quien entra por primera vez, he conservado Seguir sin iniciar sesión como salida para poder consultar la tienda sin registrarse, en esta versión la foto se representa con un bloque gris y los botones mantienen la misma posición y tamaño que en el diseño final
+
+![Wireframe de Inicio de sesión](capturas/wireframes/08-inicio-sesion.png)
 
 ### 3.3 Guía de estilo Material Design 3
 
@@ -283,12 +295,13 @@ En las tarjetas y en los selectores he diferenciado varios estados manteniendo l
 | Tarjeta de producto | Normal, favorito y agotado | Una misma prenda puede interesar, estar guardada o no estar disponible |
 | Selector de talla | Disponible, seleccionada y sin stock | Hay que diferenciar lo que se puede elegir de lo que ya está elegido |
 | Selector de color | Normal, seleccionado y sin disponibilidad | El color elegido tiene que reconocerse dentro del grupo de opciones |
+| Aceptación de términos del login | Sin marcar y aceptados | La aceptación empieza vacía y se puede cambiar, no se confunde con el botón de iniciar sesión |
 
 La organización automática de los espacios, que en Figma se llama auto layout, ayuda a conservar la posición del contenido al reutilizar los componentes, así una tarjeta puede cambiar de nombre o de estado sin tener que colocar otra vez cada elemento a mano, lo importante es que esa reutilización mantenga también el significado de las opciones, en el selector la persona debe reconocer cuál ha elegido y cuál no puede comprar, no solo ver que algunos botones tienen otro color
 
 ### 3.4 Prototipo de alta fidelidad
 
-En esta versión he llevado los wireframes al aspecto final de Pequeño Davante, con el logo, los azules relacionados con Davante y las fotografías de las prendas, las siete pantallas principales mantienen el formato de 360 × 800 y la organización del recorrido, pero ahora se puede ver cómo funcionan juntos los colores, los textos y los estados de los controles, he buscado que la propuesta se reconozca como una misma tienda aunque cada pantalla tenga una función diferente, mirar ropa no necesita la misma información que revisar un carrito o escribir una dirección
+En esta versión he llevado la distribución al aspecto final de Pequeño Davante, con el logo, los azules relacionados con Davante y las fotografías de las prendas, las ocho pantallas principales mantienen el formato de 360 × 800, el inicio de sesión amplía el recorrido con una forma de acceder a la cuenta sin cambiar la compra como invitado, he buscado que la propuesta se reconozca como una misma tienda aunque cada pantalla tenga una función diferente, mirar ropa no necesita la misma información que revisar un carrito o escribir una dirección
 
 #### Inicio
 
@@ -331,6 +344,18 @@ La confirmación debe permitir comprobar qué ha pasado después de continuar co
 Favoritos está pensado para las prendas que gustan, aunque todavía no se haya decidido comprarlas, he utilizado las mismas tarjetas del catálogo para reconocerlas sin cambiar la manera de consultar la foto, el nombre o el precio, en el ejemplo aparecen tres prendas y una ayuda sobre las tallas, esa ayuda tiene sentido en este momento porque guardar algo que gusta no resuelve si la medida será la adecuada, el carrito sigue siendo el lugar para revisar las unidades y el importe de la compra, mientras que desde Favoritos se puede plantear volver a una prenda o seguir mirando con Explorar colecciones, he mantenido este destino en la barra inferior junto a Inicio y Catálogo, y al pie aparece la palabra del día 29
 
 ![Pantalla final de Favoritos](capturas/prototipo/07-favoritos.png)
+
+#### Inicio de sesión
+
+El inicio de sesión mantiene la idea de imaginar una tienda infantil de Davante, he colocado el logo en blanco sobre el azul de la marca y lo he acompañado de una fotografía de MEDAC Sevilla Este, la imagen relaciona esta parte del diseño con el centro y con el origen de la propuesta, mientras que Pequeño y Ropa infantil explican el uso que le he dado a esa identidad, la fotografía es una referencia del centro educativo, no representa una tienda de ropa real, he dejado la cabecera como una presentación breve para que los campos se vean sin tener que bajar por la pantalla, el nombre Inicia sesión permite reconocer desde el principio dónde se está
+
+Para entrar con correo he mantenido una etiqueta en cada campo, de esta forma se distingue el correo de la contraseña aunque se escriba dentro, he relacionado la recuperación con la contraseña y he reservado un espacio propio a la aceptación de los términos y condiciones, el control es circular, como un radio button, empieza sin seleccionar y permite marcarlo o desmarcarlo, el botón Iniciar sesión lleva a Inicio en la demostración cuando se han aceptado los términos, esta condición representa la aceptación dentro del prototipo, no comprueba que el correo y la contraseña pertenezcan a una cuenta real, las etiquetas quedan completas sobre el borde del campo y el logo conserva espacio alrededor para que la marca se reconozca sin mezclarse con la fotografía
+
+Google y la cuenta Davante aparecen como otras formas de acceso, he añadido el icono de cada servicio para reconocerlas antes de leer el botón y he mantenido el texto para que no haya que interpretar solo el dibujo, los dos accesos representan la entrada a la tienda dentro de Figma, sin conectar con cuentas externas, Crear cuenta permite distinguir el registro del acceso de una persona que ya tiene cuenta, tanto esa opción como la recuperación están representadas en el diseño, pero no tienen un formulario adicional, he mantenido Seguir sin iniciar sesión porque quien entra a buscar un regalo puede querer mirar las prendas antes de registrarse, la flecha de regreso ofrece otra forma de volver a Inicio, y el aviso de datos de prueba aclara el tipo de demostración
+
+![Pantalla final de Inicio de sesión](capturas/prototipo/11-inicio-sesion.png)
+
+El [login en Figma](https://www.figma.com/design/8fdrk5ySKCIXGVKSHpYT78/Untitled?node-id=133-956) y su [wireframe](https://www.figma.com/design/8fdrk5ySKCIXGVKSHpYT78/Untitled?node-id=133-1126) están en el archivo que incluye las ocho pantallas
 
 #### Inicio y Detalle en oscuro
 
@@ -399,6 +424,8 @@ En el formulario la ayuda tiene que responder a lo que se escriba, el ejemplo de
 Las siguientes mejoras del diseño deben relacionarse con lo que ocurra durante las pruebas, si cuesta encontrar la guía interesa revisar ese acceso, y si se confunde una talla seleccionada con otra agotada el cambio debe centrarse en sus estados, me parece más útil justificar una modificación con una dificultad concreta que añadir opciones porque sí, ampliar después las pruebas a personas que compran ropa infantil con frecuencia y a familiares que buscan regalos permitiría contrastar los perfiles con situaciones reales, manteniendo la misma idea de tienda y dando más detalle a los puntos que lo necesiten
 
 ## 6. Referencias bibliográficas
+
+Davante MEDAC. (s. f.). *Davante MEDAC Sevilla Este*. <https://medac.es/fp-sevilla/calle-quimico-antonio-soto>
 
 Google. (s. f.). *Tamaño de los objetivos táctiles*. Ayuda de Accesibilidad de Android. <https://support.google.com/accessibility/android/answer/7101858?hl=es>
 

@@ -1,5 +1,17 @@
 [
   {
+    "id": "davante-medac-sevilla-este",
+    "type": "webpage",
+    "title": "Davante MEDAC Sevilla Este",
+    "author": [
+      {
+        "literal": "Davante MEDAC"
+      }
+    ],
+    "URL": "https://medac.es/fp-sevilla/calle-quimico-antonio-soto",
+    "language": "es"
+  },
+  {
     "id": "PD01",
     "type": "webpage",
     "title": "Hacer un pedido en Kiabi.es",

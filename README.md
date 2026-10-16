@@ -6,7 +6,7 @@ Pequeño Davante parte de imaginar que Davante abre una tienda de ropa y calzado
 
 En este repo reúno la documentación, los wireframes y las capturas del prototipo de Figma, la propuesta representa una tienda ficticia y un recorrido de compra de demostración
 
-[Abrir el archivo de Figma](https://www.figma.com/design/uM6HT2RdelpEDSTGd4Fnk2/T1-Pequeno-Davante?node-id=19-218) | [Abrir la presentación del prototipo](https://www.figma.com/proto/uM6HT2RdelpEDSTGd4Fnk2/T1-Pequeno-Davante?node-id=19-939&page-id=19-218&scaling=scale-down&content-scaling=fixed) | [Leer la documentación](DOCUMENTACION.md)
+[Abrir el archivo de Figma](https://www.figma.com/design/8fdrk5ySKCIXGVKSHpYT78/Untitled?node-id=13-2) | [Abrir la presentación del prototipo](https://www.figma.com/proto/8fdrk5ySKCIXGVKSHpYT78/Untitled?node-id=21-1048&page-id=13-2&scaling=scale-down&content-scaling=fixed) | [Leer la documentación](DOCUMENTACION.md)
 
 <p align="center">
   <img src="capturas/prototipo/01-inicio.png" alt="Inicio de Pequeño Davante con las categorías y la chaqueta de temporada" width="300">
@@ -39,6 +39,8 @@ La guía de tallas se abre sobre el detalle para consultar las medidas y volver 
 
 ## Pantallas del prototipo
 
+El inicio de sesión permite entrar con correo, Google o cuenta Davante, incluye la recuperación de cuenta, el registro y la aceptación de términos, he mantenido la opción de seguir sin cuenta para que mirar la ropa no dependa de registrarse, los accesos representan una demostración dentro de Figma
+
 | Pantalla | Para qué sirve | Captura |
 | --- | --- | --- |
 | Inicio | Presentar la tienda y empezar por categorías, novedades o catálogo | [Ver Inicio](capturas/prototipo/01-inicio.png) |
@@ -48,8 +50,9 @@ La guía de tallas se abre sobre el detalle para consultar las medidas y volver 
 | Datos de entrega | Completar el contacto y la dirección, con un ejemplo de error en el email | [Ver Entrega](capturas/prototipo/05-entrega.png) |
 | Pedido confirmado | Reconocer el resultado de demostración y volver a Inicio | [Ver Confirmación](capturas/prototipo/06-confirmacion.png) |
 | Favoritos | Volver a las prendas que interesan sin confundirlas con una compra decidida | [Ver Favoritos](capturas/prototipo/07-favoritos.png) |
+| Inicio de sesión | Acceder a la cuenta o seguir sin iniciar sesión, con los términos y las alternativas de Google y Davante | [Ver Login](capturas/prototipo/11-inicio-sesion.png) |
 
-Además de las siete pantallas principales, están las versiones de [Inicio en oscuro](capturas/prototipo/08-inicio-oscuro.png) y [Detalle en oscuro](capturas/prototipo/09-detalle-oscuro.png), junto con la [guía de tallas](capturas/prototipo/10-guia-tallas.png), los [siete wireframes](capturas/wireframes/) permiten comparar la organización inicial con el acabado final
+Además de las ocho pantallas principales, están las versiones de [Inicio en oscuro](capturas/prototipo/08-inicio-oscuro.png) y [Detalle en oscuro](capturas/prototipo/09-detalle-oscuro.png), junto con la [guía de tallas](capturas/prototipo/10-guia-tallas.png), los [ocho wireframes](capturas/wireframes/) permiten comparar la distribución con el acabado final, el [wireframe del login](capturas/wireframes/08-inicio-sesion.png) recoge los mismos accesos que su pantalla final
 
 ## Base del diseño
 
@@ -64,11 +67,11 @@ Además de las siete pantallas principales, están las versiones de [Inicio en o
 | Zona de pulsación de referencia | 48 × 48 |
 | Contraste de referencia | Mínimo de 4,5 a 1 en las parejas documentadas |
 
-En la guía de estilo he separado los colores azules de las pantallas de los valores del tema material-theme incluido en Figma, así cada tabla de contraste se puede relacionar con la paleta que le corresponde, la explicación de los componentes recoge las tarjetas de producto y los selectores de talla y color con sus distintos estados
+En la guía de estilo he separado los colores azules de las pantallas de los valores del tema material-theme de la [versión inicial de Figma](https://www.figma.com/design/uM6HT2RdelpEDSTGd4Fnk2/T1-Pequeno-Davante?node-id=19-218), así cada tabla de contraste se puede relacionar con la paleta que le corresponde, la explicación de los componentes recoge las tarjetas de producto y los selectores de talla y color con sus distintos estados
 
 ## Cómo consultar el proyecto
 
-- El archivo de Figma contiene las páginas Wireframes y Prototipo, la presentación enlazada apunta a Inicio
+- El archivo de Figma contiene las páginas Wireframes, Prototipo, Guía de estilo y Componentes, la presentación enlazada apunta a Inicio
 - DOCUMENTACION.md desarrolla las decisiones y relaciona cada pantalla con sus capturas
 - La carpeta capturas reúne las imágenes de baja y alta fidelidad para poder consultarlas desde el repo
 - [diseno/estilos.json](diseno/estilos.json) reúne los valores de color, tipografía y espaciado, con el tema de Figma separado de la paleta azul de las pantallas

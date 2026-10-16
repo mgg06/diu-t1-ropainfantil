@@ -21,7 +21,7 @@ He definido cuatro objetivos para valorar el diseño con tareas concretas, me pa
 | Completar una compra | Llegar desde Inicio hasta Pedido confirmado en menos de dos minutos y sin ayuda | Buscar la chaqueta en verde oliva, elegir la talla 4 y revisar dos unidades, el importe esperado de esas dos prendas es de 78 € |
 | Consultar la guía de tallas | Abrirla desde la ficha en menos de diez segundos y sin indicaciones | Medir cuánto se tarda desde el detalle y anotar si antes se pulsa en otro sitio |
 | Corregir el email del formulario | Corregir el dato y continuar sin ayuda | Comprobar si se completa la tarea, cuánto se tarda y cuántos intentos fallidos hay antes de continuar |
-| Leer los textos sobre los colores de la guía | Alcanzar un contraste mínimo de 4,5 a 1 en cada pareja documentada | Calcular el contraste entre el color de fondo y el del texto, tanto en el esquema claro como en el oscuro |
+| Comprobar la legibilidad del texto | Alcanzar un contraste mínimo de 4,5 a 1 en cada pareja documentada | Calcular el contraste entre el color de fondo y el del texto, tanto en el esquema claro como en el oscuro |
 
 Los tiempos y las condiciones de la tabla son las metas con las que se valora la propuesta, para interpretar las pruebas interesa lo que le ocurre a cada participante, porque con dos personas se pueden encontrar problemas concretos, pero no dar por hecho que todos los clientes comprarían de la misma manera
 
@@ -35,84 +35,79 @@ Para Pequeño Davante, una ventaja de la propuesta es que la identidad de la tie
 
 ### 2.1 Datos demográficos y segmentación
 
-Pequeño Davante está pensada para personas adultas que compran ropa y calzado para niños de 0 a 14 años desde un móvil Android, quien usa la app y decide la compra no tiene por qué ser quien va a llevar la prenda, esto importa sobre todo al hacer un regalo, porque se puede conocer la edad del niño sin saber su talla
+Para definir a quién va dirigida Pequeño Davante he separado dos cosas, la edad de los niños que van a llevar la ropa y la situación de la persona que la compra, la tienda cubre de 0 a 14 años, pero la app está pensada para adultos que compran desde un móvil Android, dentro de ese público no todos entran por el mismo motivo, algunos reponen ropa que se ha quedado pequeña y otros buscan un regalo sin tener muy claro qué elegir, por eso he dividido los grupos según su relación con la compra, las edades son orientativas y los perfiles son ficticios, los he creado para tener una referencia al justificar el diseño
 
-He dividido el público en tres grupos según la situación de compra, las edades son orientativas y me sirven para plantear los perfiles, no salen de una encuesta
-
-| Grupo | Situación de compra | Qué necesita resolver | Qué debo tener en cuenta en el diseño |
+| Grupo | Situación de compra | Qué necesita | Cómo lo he tenido en cuenta |
 | --- | --- | --- | --- |
-| Padres y madres, aproximadamente de 30 a 45 años | Reponen ropa que se ha quedado pequeña o buscan prendas para otra temporada, pueden consultar el catálogo en ratos cortos | Localizar una prenda, comprobar la talla y revisar el importe antes de terminar | Categorías visibles, precio junto a la prenda y controles de cantidad en el carrito |
-| Familiares y amigos, aproximadamente de 20 a 30 años | Compran un regalo de forma puntual y pueden tener poca información sobre las medidas del niño | Entender las tallas y completar la compra sin tener que crear una cuenta | Guía de tallas accesible desde el detalle y recorrido de compra sin un paso de registro |
-| Abuelos y otros familiares, aproximadamente de 60 a 75 años | Buscan una prenda para un nieto y pueden preferir revisar cada paso antes de confirmar | Leer los datos con comodidad, reconocer las acciones y corregir una equivocación | Texto con contraste, botones con etiqueta, áreas táctiles amplias y opción de deshacer al eliminar |
+| Padres y madres de unos 30 a 45 años | Reponen ropa o buscan prendas para otra temporada, normalmente en ratos libres | Encontrar lo que buscan, comprobar si queda la talla y revisar el precio | Categorías reconocibles, precio en las tarjetas y revisión de unidades en el carrito |
+| Familiares y amigos de unos 20 a 30 años | Buscan un regalo y a veces solo saben la edad del niño | Orientarse con las tallas y hacer una compra puntual sin crear una cuenta | Guía desde la ficha y recorrido de compra sin un paso obligatorio de registro |
+| Abuelos y otros familiares de unos 60 a 75 años | Compran un regalo y pueden necesitar revisar cada paso con más calma | Leer los datos, entender los botones y corregir una equivocación | Texto con contraste, acciones con etiquetas y ayuda para los errores |
 
-La edad no dice por sí sola cómo usa alguien el móvil, una persona joven puede perderse con las tallas y una persona mayor puede comprar online sin problemas, me he fijado en lo que necesita resolver cada perfil
-
-He tenido en cuenta las compras en ratos cortos y el uso del móvil con una mano, porque en esas situaciones cuesta más acertar con botones pequeños o recordar datos de otras pantallas
+No he utilizado la edad para dar por hecho que alguien se maneja mejor o peor con el móvil, una persona joven puede comprar online todos los días y no tener ni idea de tallas infantiles, del mismo modo, una persona mayor puede conocer perfectamente cómo funciona una tienda online, lo que cambia aquí es la información con la que llegan y lo que necesitan para decidir, también he tenido en cuenta el uso con una mano, porque unos controles demasiado pequeños pueden resultar incómodos aunque la persona tenga experiencia comprando
 
 ### 2.2 Personas
 
-He creado tres perfiles para tener en cuenta distintas formas de comprar, son perfiles ficticios que me sirven para relacionar cada necesidad con una decisión de diseño
+He creado tres perfiles para representar esas situaciones con algo más de detalle, cada uno tiene un motivo para entrar en la tienda, algo que quiere conseguir y una dificultad que he relacionado con el diseño, me sirven para explicar por qué una misma pantalla necesita atender tanto a quien compra ropa habitualmente como a quien está buscando un regalo
 
 #### Persona 1 - Laura, 36 años
 
-- Laura tiene dos hijos y suele encargarse de comprarles la ropa, mira la tienda por la noche, cuando tiene un rato, y a veces deja una compra a medias
-- Quiere encontrar una chaqueta, comprobar si queda su talla y ver cuánto cuestan dos unidades
-- Le molesta entrar en una prenda y descubrir después que no hay stock, si deja la compra para otro día, quiere poder volver a lo que le había gustado
-- Para ella he tenido en cuenta el precio visible en el catálogo, los estados de talla y Favoritos, el carrito reúne los controles de cantidad y el importe, el guardado de favoritos entre sesiones quedaría para una app real
+Laura tiene dos hijos y suele encargarse de comprarles la ropa, normalmente entra en la tienda por la noche cuando encuentra un rato libre, sabe más o menos qué necesita, pero quiere comparar antes de decidir, su objetivo en este caso es encontrar una chaqueta, comprobar que queda la talla y ver cuánto costarían dos unidades, le molesta perder tiempo mirando una prenda para descubrir al final que no puede comprarla, también puede dejar la compra a medias si tiene que atender otra cosa, así que le interesa poder volver a las prendas que le habían gustado
+
+Pensando en Laura, he mantenido el precio junto a cada producto del catálogo y he diferenciado las opciones sin stock, así la disponibilidad forma parte de la elección y no aparece como una sorpresa al final, Favoritos tiene sentido para guardar ese interés sin confundirlo con una compra decidida, mientras que el carrito reúne la cantidad y el importe para revisar lo que se ha añadido, en una app real, conservar esas prendas entre sesiones sería necesario para que Laura pudiera retomar la consulta otro día
 
 #### Persona 2 - David, 25 años
 
-- David busca un regalo para su sobrino, sabe los años que tiene, pero no conoce sus medidas ni suele comprar ropa infantil
-- Quiere entender qué talla elegir y comprar sin tener que crear una cuenta
-- Le cuesta decidir si la talla aparece solo como un número, tampoco quiere perder la ficha de la prenda al abrir la ayuda
-- Por eso la guía se abre sobre el detalle y permite volver a la misma prenda al cerrarla, el recorrido está planteado sin un paso de registro, el archivo definitivo no tiene login ni un sistema de cuentas
+David quiere comprarle un regalo a su sobrino, utiliza el móvil con soltura, pero no suele comprar ropa infantil y solo conoce los años que tiene el niño, su objetivo es elegir una prenda y entender qué talla le conviene antes de pagar, le frustra encontrarse con números de talla que no sabe interpretar y no quiere crear una cuenta para hacer una compra puntual, en su caso el problema no está en encontrar el botón de compra, está en tener suficiente información para decidir qué añadir
+
+Para este perfil he dado más importancia a la guía de medidas que a llenar la ficha de explicaciones sobre la tienda, la ayuda se consulta desde la propia prenda, así David puede comparar las referencias y volver a la elección sin tener que buscar de nuevo el producto, el recorrido planteado tampoco añade una pantalla de registro antes de comprar, esa elección responde a que consultar una chaqueta o hacer un regalo no implica querer abrir una cuenta en la tienda
 
 #### Persona 3 - Alberto, 68 años
 
-- Alberto quiere comprarle una prenda a su nieta, usa el móvil para mensajes y algunas compras, pero prefiere ir despacio cuando no conoce una pantalla, para este perfil he supuesto que necesita la letra más grande
-- Quiere leer bien el precio, elegir la talla y comprobar que no ha añadido algo de más
-- Le frustra no entender un icono o borrar un producto sin saber cómo recuperarlo
-- Para él he tenido en cuenta las etiquetas de los botones, el contraste y las áreas táctiles, la opción Deshacer responde a su miedo a borrar algo por error, mientras que el mensaje del email le indica qué dato tiene que corregir
+Alberto busca una prenda para su nieta, usa el móvil para mensajes y algunas compras, pero cuando entra en una app que no conoce prefiere comprobar bien lo que está haciendo, para este perfil he supuesto que necesita leer con una letra más grande y reconocer las acciones sin depender de un icono, quiere terminar la compra sabiendo qué talla ha elegido y cuántas unidades lleva, le incomoda borrar algo sin saber cómo recuperarlo o encontrarse con un aviso que solo diga que hay un error
+
+En su caso he relacionado las etiquetas de los botones, el contraste y el espacio para pulsar con esa necesidad de revisar cada paso, por ejemplo, el error del email explica qué dato hay que cambiar en lugar de limitarse a marcar el campo en rojo, y Deshacer permite plantear la recuperación de una prenda eliminada por equivocación, son ayudas que pueden resultar útiles a cualquier persona, aunque en este perfil tienen más peso por la inseguridad que le produce utilizar una pantalla nueva
 
 ### 2.3 Análisis de la competencia
 
-He revisado las webs y la ayuda en español de cuatro tiendas, me he fijado sobre todo en las tallas y en los pasos para comprar, porque son las dudas que aparecen en los perfiles, la tabla separa lo que he podido comprobar de lo que yo cambiaría para Pequeño Davante, no he hecho compras ni probado sus apps Android
+He comparado cuatro tiendas para ver cómo resuelven dudas parecidas a las que aparecen en los perfiles, me he fijado sobre todo en la elección de talla, la ayuda y la posibilidad de comprar sin una cuenta, he consultado sus webs y sus páginas de ayuda en español, así que la comparativa recoge lo que he podido comprobar en ese contenido, no una prueba de sus apps Android ni una compra completa, a partir de ahí he separado lo que me parece útil de lo que yo organizaría de otra manera para Pequeño Davante
 
-| Tienda | Qué hace bien | Qué veo mejorable o qué límite encuentro | Registro y acceso comprobado | Qué me llevo para Pequeño Davante |
+| Tienda | Qué hace bien | Qué veo mejorable | Registro y acceso | Qué he tomado como referencia |
 | --- | --- | --- | --- | --- |
-| Mayoral | Reúne fotos, precio, opciones de color, selección de talla y acceso a la guía en la ficha | La descripción combina información de la prenda con una explicación sobre el algodón, para una consulta rápida, prefiero separar la selección de compra de ese contenido adicional | La ficha se puede consultar públicamente, esta revisión no confirma si el pago exige una cuenta | Mantener foto, precio, talla y guía en el mismo detalle, con la acción de compra fácil de localizar |
-| Vertbaudet | Explica cómo medir el pie e incluye una calculadora que parte de su longitud en milímetros, da una referencia más concreta que la edad | La guía reúne muchos consejos por etapas, para consultar una medida mientras elijo una prenda, prefiero una ayuda más breve y centrada en esa duda | La guía es pública, la página ofrece acceso a una cuenta, pero eso no demuestra que el registro sea obligatorio para comprar | Usar medidas y una explicación visual en la guía, abrirla como panel sobre el detalle para poder volver a la prenda al cerrarla |
-| Kiabi | Explica la compra como invitado, la confirmación por email y el seguimiento sin cuenta | El invitado no tiene el seguimiento desde una cuenta ni las ventajas de fidelidad, me parece un límite que conviene explicar al elegir cómo comprar | Confirma que se puede continuar sin cuenta, por tanto, no corresponde describir su registro como obligatorio | Dejar el inicio de sesión como opción, para una futura app, explicar qué se guarda con una cuenta antes de pedir que se cree |
-| Zara | Separa los temas de tallas, favoritos, pedidos y devoluciones en grupos reconocibles | La ayuda cubre muchos servicios de la marca, para resolver una duda concreta sobre una talla, prefiero ofrecer un acceso desde la propia prenda sin obligar a buscar entre todos los temas | El índice de ayuda es público y contiene un apartado de registro, el índice por sí solo no permite confirmar las condiciones de compra sin cuenta | Mantener la guía junto al selector de talla y los destinos principales visibles en la navegación inferior |
+| Mayoral | La ficha reúne fotos, precio, colores, tallas y acceso a la guía | La información para elegir la prenda aparece junto a una explicación sobre el algodón, para una consulta rápida prefiero separar ambos contenidos | La ficha se puede consultar sin acceder a una cuenta, con esa consulta no puedo confirmar las condiciones del pago | Reunir las opciones de compra y la guía en el detalle, dejando la descripción en su propio espacio |
+| Vertbaudet | La guía de calzado explica cómo medir el pie y ofrece una calculadora a partir de su longitud en milímetros | La ayuda incluye muchos consejos por etapas, para resolver una medida concreta desde una ficha prefiero una consulta más breve | La guía es pública, el acceso a una cuenta no demuestra por sí solo que sea obligatorio registrarse para comprar | Relacionar las tallas con medidas y con una explicación visual, manteniendo la ayuda cerca del producto |
+| Kiabi | Explica la compra como invitado y cómo recibir la confirmación y consultar el seguimiento sin cuenta | El invitado no tiene el seguimiento desde una cuenta ni las ventajas de fidelidad, me parece útil explicar esa diferencia al elegir cómo comprar | La ayuda confirma que se puede comprar sin crear una cuenta | Evitar un registro obligatorio para una compra puntual y explicar qué aporta una cuenta si se incluye en una app real |
+| Zara | La ayuda separa temas como tallas, favoritos, pedidos y devoluciones | Para una duda sobre una talla, buscar dentro de toda la ayuda puede añadir pasos, prefiero ofrecer el acceso desde la prenda | El índice es público, pero no basta para confirmar cómo funciona la compra sin cuenta | Mantener la ayuda de tallas en el detalle y los accesos principales en una navegación que se reconozca |
 
-De estas tiendas me quedo con la ayuda cerca de la talla y con no pedir una cuenta antes de mirar las prendas, en Pequeño Davante he intentado que la ficha y el carrito tengan la información necesaria para decidir sin llenarlos de opciones
+También he consultado las fichas oficiales en español de tres apps Android, Mayoral, Kiabi y Zara, para distinguir las funciones que sus desarrolladores presentan para móvil de lo observado en las webs, esta parte es una comparación documental, no he instalado las apps ni he medido su funcionamiento, las limitaciones de la tabla explican qué encaja menos con mi propuesta o qué no se puede comprobar con la información publicada
 
+| App Android | Qué ofrece según su ficha oficial | Qué veo menos adecuado para mi propuesta o qué no puedo comprobar | Qué me llevo para Pequeño Davante |
+| --- | --- | --- | --- |
+| Mayoral - Moda infantil | Compra de ropa infantil, menús y buscador, seguimiento de pedidos y programa de fidelización | Los avisos promocionales y la fidelidad añaden servicios que no necesita quien solo busca un regalo, no he comprobado cómo se comportan dentro de la app | Dar prioridad a encontrar una prenda y consultar su información antes de añadir otros servicios |
+| Kiabi | Compra para toda la familia, lista de deseos, seguimiento de pedidos y opciones de entrega y recogida | La oferta abarca ropa y servicios para públicos muy distintos, en una tienda solo infantil prefiero mantener la búsqueda centrada en edades y tallas | Separar la lista de prendas que interesan de la revisión del carrito |
+| Zara | Presentación de colecciones y compra online | La descripción pública es breve y no permite valorar cómo resuelve una duda de talla infantil, no lo presento como una función ausente de la app | Relacionar la presentación de temporada con un acceso claro al catálogo y explicar la ayuda de tallas en la ficha |
+
+Lo que más me interesa de estas referencias es que la ayuda llegue cuando aparece la duda, si alguien está decidiendo entre dos tallas, es más útil tener la guía en esa misma ficha que obligarle a buscarla en un apartado general, con el registro ocurre algo parecido, para un perfil como David tiene más sentido poder mirar las prendas y avanzar con el regalo sin añadir una cuenta desde el principio, he utilizado estas ideas para justificar la organización de mi propuesta, manteniendo el nombre, los colores y la temática de Pequeño Davante
 
 ### 2.4 Insights y hallazgos clave
 
-De los perfiles y la comparativa he sacado estas seis ideas, cada una relacionada con una decisión de diseño y una forma de comprobar si se entiende
+De los perfiles y de la comparativa he sacado seis ideas que he llevado a decisiones del diseño, las he relacionado con situaciones de compra porque decir que una app debe ser fácil de usar se queda demasiado general, en este caso interesa explicar qué duda aparece y qué parte de la interfaz ayuda a resolverla, estas ideas orientan la propuesta, no son resultados de pruebas con compañeros
 
-| Idea que orienta el diseño | De dónde sale | Decisión en Pequeño Davante | Cómo comprobarla |
-| --- | --- | --- | --- |
-| Conocer la edad del niño no resuelve por sí solo la elección de talla | David conoce la edad de su sobrino, pero no sus medidas | Poner la guía junto al selector de talla y abrirla como panel sobre el detalle | Pedir que consulten la guía y registrar si la encuentran sin ayuda y cuánto tardan |
-| Una compra puede interrumpirse antes de tomar una decisión | Es una situación prevista en el perfil de Laura, no una frecuencia medida | Incluir Favoritos como destino de la navegación inferior para poder volver a las prendas mostradas allí | Comprobar si localizan Favoritos y vuelven al detalle, la persistencia después de cerrar la app queda fuera del prototipo |
-| Eliminar una prenda por error no debería obligar a buscarla otra vez | El perfil de Alberto plantea dudas al tocar acciones que cambian la compra | Incluir la recuperación del producto eliminado entre las acciones que necesita el carrito | Pedir que recuperen una prenda eliminada y observar si identifican la acción sin ayuda |
-| Pedir una cuenta puede añadir un paso que no necesita quien compra de forma puntual | Necesidad planteada para David y existencia de compra como invitado en Kiabi | Plantear el recorrido sin un paso de registro, el archivo definitivo no tiene pantalla de inicio de sesión | Comprobar si la persona entiende los pasos de compra sin buscar antes un botón de registro |
-| Un error de formulario necesita explicar qué corregir | Objetivo de evitar bloqueos en Entrega y necesidad de Alberto de entender cómo seguir | Mostrar el email en estado de error con un mensaje de ayuda en el propio campo | Pedir que corrijan el error y medir tiempo, intentos y necesidad de ayuda |
-| Antes de confirmar conviene poder relacionar la cantidad con el importe | Laura quiere comprar dos unidades y revisar el coste | Mantener los controles de cantidad y el resumen juntos en el carrito, dos chaquetas de 39 € deben sumar 78 €, que es el importe esperado para esa tarea | Comprobar si identifican la cantidad y el total durante la tarea de compra |
+| Necesidad que he identificado | Decisión de diseño | Qué resuelve |
+| --- | --- | --- |
+| Saber la edad del niño no siempre basta para elegir una talla | Guía de medidas desde el selector del detalle | Da una referencia a quien compra un regalo sin conocer bien las tallas, como David |
+| Una compra puede interrumpirse antes de decidir | Favoritos como uno de los tres destinos principales | Permite representar las prendas que interesan sin mezclarlas con lo que ya se ha añadido al carrito |
+| Una prenda se puede eliminar por equivocación | Recuperación con Deshacer en la propuesta del carrito | Evita tener que repetir la búsqueda para recuperar esa selección |
+| Comprar una vez no implica querer una cuenta | Recorrido sin un paso de registro | Permite plantear una compra puntual sin añadir una gestión que no necesita ese perfil |
+| Un campo en rojo no siempre explica qué hay que corregir | Mensaje de ayuda junto al email | Indica el problema en el propio dato y ayuda a entender cómo continuar |
+| Cambiar las unidades cambia el coste de la compra | Cantidad y resumen del importe en el carrito | Permite revisar la relación entre el precio de una prenda y el de varias, dos chaquetas de 39 € suman 78 € |
 
-Si en las pruebas alguien no encuentra la guía o no entiende una acción, usaré ese problema para decidir qué mejorar
+Estas decisiones están relacionadas entre sí, por ejemplo, consultar la guía sirve de poco si después no se reconoce la talla elegida al revisar el carrito, del mismo modo, guardar una prenda en Favoritos tiene una intención distinta de añadirla para comprarla, he mantenido esas diferencias a lo largo del recorrido para que cada paso tenga una función clara y la persona pueda revisar su elección sin tener que recordarlo todo de memoria
 
 ## 3. Diseño de la interfaz
+
 ### 3.1 Mapa de navegación
 
-He organizado la tienda para que se pueda empezar a mirar ropa desde Inicio, sin pasar antes por un registro, las tres opciones de la barra inferior son Inicio, Catálogo y Favoritos, cada una tiene una función distinta para no llenar una sola pantalla con todo
-
-- Inicio presenta las categorías y la prenda de temporada, sirve como entrada a la tienda y permite decidir por dónde empezar
-- Catálogo reúne las prendas con su nombre y precio, junto a los filtros de edad o talla, color y precio y la opción de ordenar
-- Favoritos reúne las prendas guardadas para volver a ellas sin buscarlas otra vez en el catálogo
-
-El siguiente mapa representa la estructura de navegación planteada para el diseño, las flechas explican las acciones que llevan de una pantalla a otra, no son un registro de pruebas de funcionamiento
+He organizado la app a partir de los pasos que necesita una persona para comprar una prenda, primero puede mirar la tienda desde Inicio, consultar el Catálogo o volver a algo que le había gustado en Favoritos, estos son los tres destinos de la barra inferior porque son las partes a las que tiene sentido volver mientras se decide, después, al elegir un producto, empieza un recorrido más concreto por el detalle, el carrito, los datos de entrega y la confirmación, el mapa representa esa organización y las acciones previstas entre las pantallas
 
 ```mermaid
 flowchart TD
@@ -143,118 +138,63 @@ flowchart TD
     FAV -->|"Volver a Inicio"| INI
 ```
 
-#### Recorrido de compra
+He separado el catálogo del detalle porque no se consulta la ropa de la misma manera en los dos sitios, en el catálogo interesa comparar varias prendas y en la ficha hace falta centrarse en una para elegir el color y la talla, la guía queda dentro de esa elección, se abre sobre el detalle y al cerrarla se vuelve a la prenda, así consultar las medidas no se convierte en otra parte de la tienda por la que haya que navegar desde cero, después aparece el carrito como un momento de revisión antes de dar los datos de contacto y dirección
 
-La compra empieza al encontrar una prenda que interesa, desde el catálogo se consulta el detalle para ver la foto, el precio y las tallas, he separado estas dos pantallas porque en el catálogo interesa comparar varias prendas y en el detalle hace falta centrarse en una sola
-
-La elección de talla pertenece al detalle, no tiene una pantalla aparte, así se puede consultar la guía y volver a la selección sin perder de vista qué producto se está comprando, la talla agotada debe distinguirse de las disponibles antes de añadir la prenda
-
-El carrito queda entre la selección y los datos de entrega para poder revisar la compra antes de rellenar el formulario, ahí se reúnen la prenda, la talla, la cantidad y el importe, este paso permite detectar una cantidad equivocada antes de confirmar
-
-Después aparecen los datos de contacto y dirección, el mensaje de error del email ayuda a entender qué hay que corregir, la confirmación cierra el recorrido con un número de pedido y el resumen de la compra, y ofrece volver a Inicio
-
-#### Consulta de tallas
-
-La guía es un panel que se abre sobre la ficha de la prenda, lo he planteado así porque consultar una medida es una ayuda dentro de la elección, al cerrarlo se recupera el detalle sin tener que recorrer de nuevo el catálogo
-
-El panel no cuenta como otra etapa de compra, su función es resolver la duda antes de añadir la prenda, por eso aparece conectado al detalle y vuelve al mismo sitio
-
-#### Vuelta a las pantallas principales
-
-La barra inferior permite reconocer dónde se está entre Inicio, Catálogo y Favoritos, en la ficha y en los pasos de compra la flecha de la cabecera sirve para volver a la pantalla anterior
-
-Las versiones oscuras de Inicio y Detalle mantienen la misma información y distribución, no añaden destinos al mapa porque representan esas mismas pantallas con otros colores
+Favoritos no tiene la misma función que el carrito, guardar una chaqueta puede significar que gusta, pero todavía no se sabe si se va a comprar o qué talla hace falta, por eso he mantenido ambos espacios separados, la confirmación termina el recorrido con el resumen y la vuelta a Inicio, mientras que las flechas de las pantallas de compra permiten plantear el regreso al paso anterior, las versiones oscuras de Inicio y Detalle no añaden destinos al mapa, son las mismas pantallas con otra combinación de colores
 
 ### 3.2 Wireframes
 
-Los siete wireframes tienen un tamaño de 360 × 800 y muestran cómo se reparte el contenido de cada pantalla, he usado esta versión para centrarme en el orden de la información, el espacio de las imágenes y la posición de los botones
-
-Las fotos están representadas con bloques y los botones llevan su texto para entender qué hace cada uno, predominan los grises, aunque en la confirmación queda un texto con un ligero tono azul
+Los wireframes son la primera versión de la distribución, antes de añadir las fotografías y los colores de la tienda, he trabajado con siete pantallas de 360 × 800 para decidir cuánto espacio necesitaba cada cosa y cómo se iba a pasar de una a otra, en esta parte me interesaba que se entendiera qué se puede hacer en cada pantalla sin depender de que estuviera terminada visualmente, por eso las imágenes aparecen como bloques y los botones mantienen su texto, predominan los grises, aunque el número de pedido conserva un pequeño tono azul en la confirmación
 
 #### Inicio
 
-He colocado el buscador arriba y las categorías justo debajo, después aparece la prenda de temporada con el botón Ver catálogo, así se puede empezar por una categoría o ir directamente a ver la ropa
+En Inicio he planteado dos formas de empezar, entrar por una categoría o ir a mirar el catálogo, esto responde a que algunas personas ya saben para qué edad están comprando y otras prefieren ver qué ropa hay antes de decidir, la prenda de temporada sirve para presentar el tipo de tienda y darle un contenido concreto a esa primera visita, pero sin ocupar tanto espacio que se pierdan los demás accesos, desde este primer diseño he mantenido la barra inferior como una referencia común, porque el contenido de temporada puede cambiar y los destinos principales de la app siguen siendo los mismos
 
-Las categorías se ven antes de entrar al catálogo para orientar a quien ya sabe qué tipo de ropa busca, el buscador ofrece otra entrada para quien llega con una idea más concreta, son dos formas de empezar que responden a situaciones distintas
-
-La prenda destacada tiene un espacio más grande porque presenta la temporada, pero no ocupa toda la pantalla, he dejado la navegación inferior separada para que se reconozca aunque cambie el contenido de la tienda
-
-![Wireframe de Inicio con buscador, categorías y prenda destacada](capturas/wireframes/01-inicio.png)
+![Wireframe de Inicio](capturas/wireframes/01-inicio.png)
 
 #### Catálogo
 
-Los filtros están encima de los productos, he usado dos columnas y he dejado el nombre y el precio debajo de cada foto para comparar las prendas sin entrar en todas las fichas
+Para el catálogo he elegido dos prendas por fila, así se pueden comparar varias opciones sin dejar las imágenes demasiado pequeñas, debajo de cada una aparece la información necesaria para esa primera elección, el nombre y el precio, he mantenido el mismo orden en las tarjetas para que resulte más fácil comparar sin ir buscando el coste en un lugar distinto cada vez, los filtros y la ordenación tienen su propio espacio porque afectan al conjunto de productos, mientras que cada tarjeta pertenece a una prenda, también he incluido la referencia de agotado para que la disponibilidad se conozca antes de entrar en una ficha
 
-He separado los filtros de las tarjetas para que no compitan con el nombre y el precio de cada prenda, la opción de ordenar aparece en su propia línea porque cambia cómo se presentan los resultados, mientras que los filtros sirven para acotar lo que se busca
-
-Cada tarjeta mantiene el mismo orden de información para comparar de arriba abajo sin tener que localizar el precio en un sitio diferente cada vez, el texto de agotado avisa de la disponibilidad sin depender solo del aspecto de la imagen
-
-![Wireframe de Catálogo con filtros y cuatro productos en dos columnas](capturas/wireframes/02-catalogo.png)
+![Wireframe de Catálogo](capturas/wireframes/02-catalogo.png)
 
 #### Detalle del producto
 
-La foto va arriba, seguida del nombre y el precio, debajo están las tallas y la guía para consultarla antes de añadir la prenda, la talla agotada lleva el texto sin stock y el botón de compra queda en la parte baja
+La ficha es donde la persona deja de comparar varias prendas y se centra en la que le interesa, he dado espacio a la imagen y a los datos del producto, pero también a la elección de talla, porque esa decisión es necesaria para añadirlo al carrito, la guía está cerca del selector para que se pueda consultar justo cuando surge la duda, en lugar de hacer que la persona salga a buscar ayuda por su cuenta, además, he diferenciado la talla sin stock de las disponibles, así el diseño explica desde el principio qué opciones se pueden elegir y cuál es el paso que viene después de la selección
 
-En esta pantalla he dado prioridad a lo que hace falta para decidir la compra, la foto permite reconocer el producto, el precio indica el coste y las tallas muestran las opciones de elección, la ayuda queda justo en el punto donde puede aparecer la duda
-
-He dejado un espacio separado para la información de la prenda, así se puede explicar el producto sin mezclar esa descripción con los controles, el botón de compra mantiene su sitio en la parte baja para encontrarlo después de revisar la talla
-
-![Wireframe de Detalle con selector de talla, guía y botón de compra](capturas/wireframes/03-detalle.png)
+![Wireframe de Detalle del producto](capturas/wireframes/03-detalle.png)
 
 #### Carrito
 
-Junto a la prenda están la cantidad y la opción de eliminarla, debajo aparecen el subtotal y el total antes de continuar, esta captura muestra una chaqueta de talla 4, una unidad y un total de 39 €
+En el carrito he reunido lo que hace falta revisar antes de continuar, qué prenda se ha añadido, la talla, cuántas unidades hay y cuánto cuestan, el ejemplo muestra una chaqueta de talla 4, una unidad y 39 €, he dejado el cambio de cantidad y la eliminación relacionados con esa prenda porque modifican la selección, mientras que el resumen del importe pertenece a toda la compra, esta separación ayuda a distinguir entre cambiar algo de la cesta y pasar al siguiente paso, además permite comparar la cantidad elegida con el total antes de dedicar tiempo a rellenar la dirección
 
-La imagen y el nombre ayudan a reconocer que se ha añadido la prenda correcta, la talla aparece en el mismo bloque para revisar la selección sin volver al detalle, los controles de cantidad quedan cerca porque afectan a ese producto concreto
-
-La eliminación tiene una etiqueta visible para distinguirla del cambio de cantidad, el resumen de importes está separado de la ficha del producto y colocado antes de continuar, así se puede revisar qué se compra y cuánto cuesta en el mismo paso
-
-![Wireframe de Carrito con cantidad, eliminación y resumen de una unidad](capturas/wireframes/04-carrito.png)
+![Wireframe de Carrito](capturas/wireframes/04-carrito.png)
 
 #### Datos de entrega
 
-He puesto los campos en una columna, primero los datos de contacto y después la dirección, el email tiene un ejemplo de ayuda, en el prototipo final se verá el campo con el estado de error
+Para el formulario he seguido el orden de contacto y dirección, de esta forma los campos forman una secuencia que se puede completar sin ir saltando entre datos de distinto tipo, he mantenido el importe como referencia de la compra y he incluido el ejemplo de error del email con su ayuda, así desde el wireframe ya se tiene en cuenta qué ocurre cuando un dato no está bien escrito, la pantalla está centrada en los datos de entrega de una compra simulada, no incluye una pasarela de pago ni pide datos de tarjeta, el siguiente paso del recorrido es la confirmación
 
-He separado nombre y email de los datos de dirección para seguir un orden fácil de entender, cada campo ocupa su propia fila para que no haya que repartir la atención entre dos entradas pequeñas, el mensaje del email indica el formato que se espera
-
-El importe aparece antes del botón de confirmación para mantener la referencia del coste mientras se rellenan los datos, esta pantalla está centrada en contacto y entrega, no incluye una entrada de tarjeta ni una pasarela de pago real
-
-![Wireframe de Datos de entrega con cinco campos y ayuda para el email](capturas/wireframes/05-entrega.png)
+![Wireframe de Datos de entrega](capturas/wireframes/05-entrega.png)
 
 #### Pedido confirmado
 
-La pantalla muestra Pedido realizado, el número 12-PD y el resumen de la chaqueta, he dejado el botón Volver a Inicio abajo para seguir mirando la tienda, el pedido es de demostración
+Después de completar los datos, la persona necesita una respuesta que se pueda relacionar con lo que acaba de elegir, por eso la confirmación incluye el resumen de la chaqueta, la talla 4, una unidad y 39 €, además del número de pedido de demostración 12-PD, un mensaje general de que todo ha ido bien no permitiría comprobar si la selección es la correcta, he mantenido esos datos para que el cierre tenga relación con el carrito y he añadido Volver a Inicio como salida, así se puede regresar a la tienda después de terminar el recorrido
 
-Después del formulario hace falta una respuesta clara que permita reconocer que el recorrido ha terminado, por eso el mensaje de confirmación aparece junto al identificador y no queda solo una imagen sin explicación
-
-El resumen incluye la prenda, la talla, las unidades y el total para poder contrastarlo con el carrito, la vuelta a Inicio es la acción principal de salida, no he añadido opciones de seguimiento que no forman parte de este diseño
-
-![Wireframe de Pedido confirmado con identificador y vuelta a Inicio](capturas/wireframes/06-confirmacion.png)
+![Wireframe de Pedido confirmado](capturas/wireframes/06-confirmacion.png)
 
 #### Favoritos
 
-He mantenido las dos columnas del catálogo para que las tarjetas se vean igual, una prenda aparece como agotada y la barra inferior marca Favoritos como pantalla activa
+En Favoritos he reutilizado la forma de presentar los productos del catálogo porque se siguen consultando las mismas prendas, lo que cambia es que aquí solo aparecen las que interesan, esta diferencia tiene sentido para alguien como Laura, que puede querer volver a mirar una chaqueta sin haber decidido todavía comprarla, el precio y la disponibilidad siguen siendo útiles en esa consulta, pero la elección de unidades y la revisión del importe se mantienen en el carrito, de esta forma guardar una prenda no se confunde con tener una compra preparada, y Favoritos conserva su lugar como tercer destino de la barra inferior
 
-Repetir la estructura de las tarjetas evita tener que aprender otra forma de consultar las prendas, aquí la diferencia es el motivo por el que aparecen, se reúnen como una selección que interesa revisar, en lugar de representar todo el catálogo
-
-Mostrar el precio y el estado de disponibilidad permite valorar esa selección antes de abrir el detalle, la pantalla sirve como referencia para volver a una prenda, mientras que el carrito se reserva para revisar lo que se quiere comprar
-
-![Wireframe de Favoritos con prendas guardadas y un producto agotado](capturas/wireframes/07-favoritos.png)
-
+![Wireframe de Favoritos](capturas/wireframes/07-favoritos.png)
 
 ### 3.3 Guía de estilo Material Design 3
 
-He reunido aquí las decisiones que se repiten en las pantallas para que la tienda tenga el mismo aspecto al pasar de una a otra, me he centrado en los colores, la letra, los espacios y los elementos que se usan para comprar
+Para la guía de estilo he partido de la misma idea que da nombre a la tienda, mantener la relación con Davante y adaptarla a la ropa infantil, por eso he utilizado su referencia de azul y el logo, dejando que las fotografías aporten la variedad de las prendas, no he dado a cada pantalla una apariencia distinta porque eso haría que la app pareciera un conjunto de diseños separados, Material Design 3 me ha servido como base para organizar los botones, los campos y la navegación, y en esta guía recojo los colores, las medidas y los estilos de texto que he utilizado para mantener esa relación entre las pantallas
 
-He seguido Material Design 3 como base para los botones, los campos y la navegación, pero he intentado explicar cada elección según lo que necesita Pequeño Davante, lo importante para mí es que se reconozca dónde mirar una prenda, cómo elegir una talla y cuál es el siguiente paso
+#### Color y contraste
 
-#### Colores de las pantallas
-
-He tomado el azul #0234AB como referencia principal, lo he reservado para dar presencia a las acciones y a los elementos que quiero que se reconozcan dentro de la tienda, el fondo claro es más suave para que no tenga el mismo peso que los botones
-
-El color secundario sigue dentro de los azules, así puedo diferenciar elementos sin introducir un color distinto para cada cosa, el tono coral queda como apoyo, no lo uso como si fuera el texto principal de toda la interfaz
-
-En el modo oscuro el fondo pasa a azul muy oscuro y el principal se aclara, he mantenido la distribución para que se pueda reconocer la pantalla sin aprender de nuevo dónde está cada elemento
+El azul principal es #0234AB, lo he utilizado en las acciones y en la navegación para mantener la referencia de Davante, los fondos más suaves permiten separar el contenido sin quitar importancia a la ropa, además del azul secundario he incluido un coral como color de apoyo, así la interfaz tiene una paleta definida y las prendas pueden tener sus propios colores sin que todo compita por destacar, para las versiones oscuras he mantenido esa misma idea con un fondo azul muy oscuro y colores más claros en las acciones, cambia la combinación, pero se sigue reconociendo la tienda
 
 | Uso | Claro | Oscuro |
 | --- | --- | --- |
@@ -267,13 +207,9 @@ En el modo oscuro el fondo pasa a azul muy oscuro y el principal se aclara, he m
 | Fondo de pantalla | #F5F8FD | #101B30 |
 | Texto principal | #17243D | #F0F4FC |
 
-He separado el color de un fondo del texto que va encima, por ejemplo, el botón principal claro usa azul y texto blanco, mientras que su versión oscura combina un azul claro con un texto más oscuro, así el cambio de modo no consiste solo en oscurecer todo
+Al elegir los colores he tenido en cuenta que un fondo y el texto que va encima tienen que funcionar juntos, por ejemplo, en claro el botón principal combina el azul con texto blanco, pero en oscuro utiliza un azul más claro con texto oscuro, en Figma esta relación se reconoce en nombres como primary y onPrimary, el primero es el color del elemento y el segundo el del contenido que se coloca sobre él, he conservado esos nombres cuando aparecen en las tablas para que se puedan relacionar los valores del documento con los del archivo
 
-Los nombres que empiezan por on indican el color del contenido que se coloca sobre otro, onPrimary corresponde al texto o icono situado sobre primary, mantengo estos nombres en las tablas porque permiten relacionar los valores con los de Figma
-
-#### Contraste de las pantallas
-
-He calculado el contraste de las parejas que aparecen vinculadas en las paletas de las pantallas, en estas combinaciones el mínimo que busco es 4,5 a 1, el cálculo se hace con los colores completos, sin transparencias
+He calculado el contraste de estas combinaciones a partir de los colores utilizados en las pantallas, tomando los valores completos, sin transparencias, la referencia mínima es 4,5 a 1, así puedo comprobar una pareja concreta de fondo y texto en vez de dar por hecho que se lee bien solo porque en mi pantalla parece suficiente
 
 | Pantallas | Fondo y texto | Contraste |
 | --- | --- | --- |
@@ -284,15 +220,9 @@ He calculado el contraste de las parejas que aparecen vinculadas en las paletas 
 | Oscuras | #173A85 / #EAF1FC | 9,33 a 1 |
 | Oscuras | #101B30 / #F0F4FC | 15,60 a 1 |
 
-Estas cifras corresponden a las combinaciones de la tabla, no significan que cualquier color se pueda usar sobre cualquier fondo, por eso prefiero mantener las parejas y no cambiar el texto de un botón solo porque otro tono quede bien al lado
+Las seis combinaciones superan esa referencia, pero eso no significa que se pueda poner cualquier texto sobre cualquier color de la paleta, hay que mantener las parejas para que el resultado siga siendo legible, además, he acompañado los estados con información escrita, por ejemplo, el email tiene un mensaje que explica el error y la talla agotada lleva su aviso de stock, así la persona no tiene que interpretar únicamente el rojo o la diferencia entre dos tonos para saber qué ocurre
 
-Para los errores he usado un rojo distinto del azul de las acciones, el campo de email se acompaña de una explicación para que el aviso no dependa únicamente del color, de la misma forma, la talla agotada lleva texto que permite reconocer su estado
-
-#### Tema incluido en el archivo de Figma
-
-El archivo contiene además un tema llamado material-theme con esquemas claro y oscuro, sus colores no coinciden con la paleta azul vinculada a las pantallas, por eso los recojo en una tabla aparte y no los presento como si fueran los mismos valores
-
-He incluido las doce parejas del tema, seis para cada modo, para relacionar cada color con el texto que le corresponde y comprobar sus contrastes
+Dentro del archivo de Figma también aparece un tema llamado material-theme, con sus versiones clara y oscura, sus colores son diferentes de los azules del prototipo, así que los he recogido aparte para no mezclar dos paletas que no tienen los mismos valores, esta tabla muestra las doce parejas de ese tema y el contraste de cada una
 
 | Esquema | Pareja | Color | Texto | Contraste |
 | --- | --- | --- | --- | --- |
@@ -309,13 +239,15 @@ He incluido las doce parejas del tema, seis para cada modo, para relacionar cada
 | Oscuro | surface / onSurface | #141218 | #E6E0E9 | 14,35 a 1 |
 | Oscuro | error / onError | #F2B8B5 | #601410 | 7,66 a 1 |
 
-Todas estas parejas del tema superan 4,5 a 1, esta comprobación describe esos valores concretos y no acredita por sí sola que el tema esté aplicado a todas las pantallas, la paleta visible del diseño está recogida en las tablas anteriores
+Las doce parejas del tema también superan 4,5 a 1, esos resultados corresponden a los colores de esta segunda tabla, la primera es la que describe las combinaciones azules de las pantallas, he mantenido la diferencia porque comprobar el contraste de un tema no demuestra que esos mismos colores estén aplicados en todo el diseño
 
-#### Tipografía
+Los valores están recogidos en [diseno/estilos.json](diseno/estilos.json), junto con los cinco estilos de texto y las medidas de distribución, he separado el esquema material-theme de la paleta de las pantallas porque cumplen funciones distintas dentro del archivo, el primero recoge los roles claros y oscuros del tema y la segunda conserva los azules que se ven en Pequeño Davante, el azul #0234AB identifica la propuesta, pero no lo presento como el origen comprobado de ese tema, así se puede consultar cada valor sin confundir la identidad de la tienda con la configuración incluida en Figma
 
-He usado Roboto para mantener una misma letra en toda la tienda, he cambiado el tamaño y el grosor según la función del texto, así un título, una descripción y la etiqueta de un botón no tienen que verse iguales
+Esta separación también ayuda a entender cómo se combinan los colores, una acción elegida utiliza su fondo y su texto correspondiente, mientras que una prenda agotada necesita conservar un aviso que explique por qué no se puede seleccionar, utilizar un azul de la paleta en cualquier lugar no garantiza que la opción se lea ni que su estado se entienda, por eso he relacionado el color con el significado del control y he comprobado parejas concretas de fondo y texto, en lugar de valorar solo si los colores quedan bien juntos
 
-No he intentado destacar todo a la vez, si el nombre, el precio y la descripción tuvieran el mismo tamaño sería más difícil reconocer qué información mirar primero, por eso he mantenido una diferencia entre los títulos y el texto de apoyo
+#### Tipografía y distribución
+
+He utilizado Roboto y he cambiado el tamaño y el grosor según lo que explica cada texto, el nombre de una prenda necesita reconocerse antes que una descripción, y un botón necesita una etiqueta que se lea rápido, si todo tuviera el mismo tamaño y peso costaría más encontrar lo que interesa, por eso he seguido cinco estilos principales y he mantenido su función entre pantallas, de forma que un título o una acción no cambien de aspecto sin motivo al continuar la compra
 
 | Nombre en Figma | Tamaño | Espacio entre líneas | Grosor | Para qué lo uso |
 | --- | --- | --- | --- | --- |
@@ -325,15 +257,9 @@ No he intentado destacar todo a la vez, si el nombre, el precio y la descripció
 | bodyLarge | 16 | 24 | Normal, 400 | Mensajes y textos de contenido |
 | labelLarge | 14 | 20 | Medio, 500 | Etiquetas de botones y controles |
 
-El espacio entre líneas evita que el texto quede demasiado pegado cuando ocupa más de una línea, he mantenido las etiquetas de las acciones cortas para que se puedan leer sin tener que interpretar una frase larga antes de pulsar
+El espacio entre líneas también influye cuando un nombre o un mensaje ocupa más de una línea, si quedan demasiado juntas la lectura se hace incómoda, sobre todo desde el móvil, he mantenido las etiquetas de los botones cortas para que expliquen la acción sin ocupar un párrafo, hay otros tamaños para datos pequeños como la hora de la barra superior, pero los cinco de la tabla son los que organizan el contenido principal de la tienda
 
-Hay otros tamaños para datos pequeños, como la hora de la barra superior, los cinco anteriores son los que utilizo como referencia para organizar la información principal
-
-#### Rejilla y espacios
-
-He usado una rejilla de cuatro columnas con 16 de margen a cada lado y 8 de separación entre columnas, me sirve para alinear el contenido aunque cada pantalla tenga una distribución distinta
-
-En una pantalla de 360 de ancho, los márgenes dejan 328 para el contenido, dentro de ese espacio coloco elementos que ocupan todo el ancho, como los campos y los botones principales, o bloques más pequeños, como las tarjetas del catálogo
+Para colocar el contenido he usado una rejilla de cuatro columnas con 16 de margen a cada lado y 8 entre columnas, en una pantalla de 360 de ancho esto deja 328 para trabajar, me sirve para alinear un campo, una tarjeta o un botón con el resto del contenido aunque tengan tamaños diferentes, tener cuatro columnas no significa que haya que mostrar cuatro prendas por fila, en el catálogo he utilizado dos tarjetas porque así las fotos y los nombres tienen más espacio y se pueden comparar mejor
 
 | Medida | Valor | Cómo la utilizo |
 | --- | --- | --- |
@@ -344,34 +270,13 @@ En una pantalla de 360 de ancho, los márgenes dejan 328 para el contenido, dent
 | Base de espaciado | 8 | Referencia para separar los elementos |
 | Área mínima de pulsación que tomo como referencia | 48 × 48 | Espacio para tocar una acción |
 
-La rejilla de cuatro columnas no obliga a mostrar cuatro productos por fila, en el catálogo he usado dos tarjetas, lo que me permite dar más espacio a la imagen, al nombre y al precio, la rejilla sirve para ordenar la pantalla, no para llenar todas sus columnas con elementos distintos
+He tomado 8 como base para las separaciones, así puedo utilizar espacios de 8, 16 o 24 dependiendo de si dos elementos forman parte del mismo grupo o si empieza otra parte del contenido, por ejemplo, la foto y el nombre de una prenda tienen una relación más cercana que esa tarjeta y el grupo de filtros, para las zonas de pulsación he tomado como referencia 48 × 48, esto se refiere al espacio que responde al tocar, no al tamaño del dibujo, un corazón puede verse pequeño y tener espacio alrededor para que no haya que acertar justo en el centro, algo que importa especialmente al usar la app con una mano
 
-He tomado 8 como base para los espacios, así puedo usar separaciones de 8, 16 o 24 según si dos elementos pertenecen al mismo grupo o si empieza otro bloque, la separación entre una foto y su nombre puede ser más corta que la que dejo entre grupos de información
+#### Componentes y estados
 
-#### Tamaño de los botones y las zonas que se pueden tocar
+He mantenido una misma forma de presentar los elementos que se repiten, la cabecera sitúa la pantalla y la vuelta atrás, la barra inferior permite reconocer Inicio, Catálogo y Favoritos, y las tarjetas conservan el orden de foto, nombre y precio, en los campos del formulario la etiqueta y el mensaje de ayuda pertenecen al mismo dato, mientras que los botones principales indican acciones como continuar o añadir al carrito, esto evita que en cada pantalla haya que aprender otra forma de utilizar la tienda, la guía de medidas y el aviso con Deshacer completan las ayudas relacionadas con la elección y la revisión de una prenda
 
-He tomado 48 × 48 como referencia mínima para las zonas de pulsación, el dibujo de un icono puede ser más pequeño que ese espacio, lo que importa es que haya sitio alrededor para tocarlo sin acertar justo en el centro
-
-Esta diferencia es útil en las flechas, los corazones y los controles de cantidad, no hace falta hacer enorme el símbolo para que la acción tenga una zona cómoda, hay que cuidar el espacio que responde a la pulsación y la separación respecto a otras acciones
-
-En los botones principales he dado prioridad al ancho disponible y a una etiqueta que explique el siguiente paso, en los controles pequeños he intentado que se distinga qué elemento se está tocando, sobre todo cuando hay opciones próximas como varias tallas
-
-#### Elementos que se repiten
-
-He mantenido una misma forma de presentar las acciones para que el cambio de pantalla no obligue a aprender otra manera de comprar
-
-- La cabecera identifica la pantalla y sitúa la vuelta atrás cuando hace falta
-- La barra inferior mantiene los tres destinos principales, Inicio, Catálogo y Favoritos
-- Las tarjetas reúnen foto, nombre y precio para comparar las prendas
-- Los filtros permiten presentar las opciones de edad o talla, color y precio en el catálogo
-- Los botones principales indican acciones como añadir al carrito, continuar o volver a Inicio
-- Los campos de entrega mantienen el mismo orden de etiqueta y contenido, el email muestra un ejemplo de error con ayuda
-- El panel de tallas reúne la información de medidas sin sustituir la ficha de la prenda
-- El aviso de eliminación con Deshacer responde a la necesidad de recuperar una prenda borrada por error, su presencia en una propuesta no sustituye comprobar su funcionamiento
-
-#### Componentes propios
-
-He planteado la tarjeta de producto y el selector de talla como elementos que deben mantener la misma estructura aunque cambie su estado, así no tengo que reorganizar toda la ficha para mostrar una prenda guardada o una talla agotada
+En las tarjetas y en los selectores he diferenciado varios estados manteniendo la misma estructura, una talla seleccionada no significa lo mismo que una talla sin stock, aunque las dos tengan un aspecto distinto al resto, del mismo modo, marcar una prenda como favorita no cambia su nombre ni su precio, he utilizado estas variantes para que se reconozca qué ha cambiado sin reorganizar todo el componente, la tabla recoge los estados que se necesitan distinguir
 
 | Componente | Estados que necesito distinguir | Por qué los separo |
 | --- | --- | --- |
@@ -379,19 +284,119 @@ He planteado la tarjeta de producto y el selector de talla como elementos que de
 | Selector de talla | Disponible, seleccionada y sin stock | Hay que diferenciar lo que se puede elegir de lo que ya está elegido |
 | Selector de color | Normal, seleccionado y sin disponibilidad | El color elegido tiene que reconocerse dentro del grupo de opciones |
 
-Al reutilizar estos elementos, me interesa que la imagen, el texto y las opciones mantengan su orden, la organización automática de los espacios dentro del componente ayuda a conservar esa relación, no significa que todas las tarjetas tengan que mostrar el mismo nombre o precio
-
-La diferencia entre seleccionado y sin stock tiene que entenderse sin adivinarla, uno indica una elección y el otro una opción que no se puede comprar, por eso he dado importancia a las etiquetas y al aspecto de cada estado
+La organización automática de los espacios, que en Figma se llama auto layout, ayuda a conservar la posición del contenido al reutilizar los componentes, así una tarjeta puede cambiar de nombre o de estado sin tener que colocar otra vez cada elemento a mano, lo importante es que esa reutilización mantenga también el significado de las opciones, en el selector la persona debe reconocer cuál ha elegido y cuál no puede comprar, no solo ver que algunos botones tienen otro color
 
 ### 3.4 Prototipo de alta fidelidad
 
+En esta versión he llevado los wireframes al aspecto final de Pequeño Davante, con el logo, los azules relacionados con Davante y las fotografías de las prendas, las siete pantallas principales mantienen el formato de 360 × 800 y la organización del recorrido, pero ahora se puede ver cómo funcionan juntos los colores, los textos y los estados de los controles, he buscado que la propuesta se reconozca como una misma tienda aunque cada pantalla tenga una función diferente, mirar ropa no necesita la misma información que revisar un carrito o escribir una dirección
+
+#### Inicio
+
+Para la primera visita me interesaba que se entendiera qué vende la tienda y por dónde empezar, las categorías permiten entrar con una idea de la edad para la que se compra, mientras que el buscador ofrece una consulta más directa, he elegido la chaqueta de temporada para dar un ejemplo concreto de lo que se puede encontrar, con su precio y algunos detalles de la prenda, así la imagen tiene relación con una compra posible y no se queda como una decoración, las novedades amplían esa primera selección y Ver todo pertenece a ese grupo, mientras que Explorar el catálogo da acceso a mirar más ropa, he separado esas acciones para que se entienda qué contenido se está consultando sin llenar el inicio de promociones distintas
+
+![Pantalla final de Inicio](capturas/prototipo/01-inicio.png)
+
+#### Catálogo
+
+Al entrar en el catálogo la necesidad cambia, aquí la persona quiere comparar varias prendas y decidir cuál le interesa abrir, he mantenido dos tarjetas por fila con el mismo orden de información para que la foto, el nombre y el precio se puedan consultar sin tener que aprender una tarjeta diferente cada vez, los filtros de edad o talla, color y precio permiten plantear una búsqueda más concreta, y la ordenación ofrece otra forma de comparar esos resultados, por ejemplo, buscar una talla y después mirar los precios no es la misma acción, el aviso de agotado en las zapatillas informa de la disponibilidad durante esa primera consulta, mientras que los corazones representan el interés por guardar una prenda, todavía sin elegir una talla ni añadir unidades a la compra
+
+![Pantalla final de Catálogo](capturas/prototipo/02-catalogo.png)
+
+#### Detalle del producto
+
+En la ficha he dado más espacio a la chaqueta porque ya no se está comparando todo el catálogo, se está decidiendo sobre esa prenda, la fotografía y la descripción permiten reconocer detalles como el cuello de pana y los bolsillos, y los indicadores de imagen representan la consulta de más fotografías, para las opciones he combinado el color con su nombre y su estado, Verde oliva aparece como Elegido y Arena como Sin stock, así la diferencia no depende solo de distinguir el tono o ver un borde, con las tallas he seguido la misma idea y la de 8 años lleva el aviso de agotada, la guía permite comparar medidas antes de elegir y el botón en estado Selecciona una talla explica qué falta para continuar, me parecía más claro mostrar esa condición que dejar un botón desactivado sin indicar el motivo
+
+![Pantalla final de Detalle del producto](capturas/prototipo/03-detalle.png)
+
+#### Carrito
+
+He planteado el carrito como una pausa para comprobar la selección antes de rellenar los datos, aquí interesa confirmar que se ha añadido la chaqueta correcta, que la talla es la elegida y que no hay una unidad de más, el ejemplo mostrado tiene una chaqueta verde oliva de talla 4, una unidad y 39 €, he diferenciado el precio de esa unidad del resumen de la cesta porque al aumentar la cantidad también cambia lo que cuesta la compra, además, el aviso de gastos de envío indica que todavía no están calculados, así el importe tiene una explicación, los pasos Carrito, Datos de entrega y Confirmación sitúan a la persona dentro del recorrido, y la recuperación con Deshacer responde a un caso bastante normal, eliminar una prenda sin querer y necesitar recuperarla sin volver a buscarla en el catálogo
+
+![Pantalla final de Carrito](capturas/prototipo/04-carrito.png)
+
+#### Datos de entrega
+
+Al pasar al formulario he mantenido la referencia de los pasos y del importe para que se siga reconociendo la compra que se acaba de revisar, los datos se organizan por contacto y dirección, con una etiqueta que permite saber qué pertenece a cada campo incluso cuando ya tiene contenido, para el estado de error he utilizado el ejemplo de email marta@, acompañado de borde rojo, icono y un mensaje sobre el formato esperado, he elegido ese caso porque escribir algo en un campo no significa que el dato esté completo, la ayuda explica el fallo en el mismo sitio donde se corrige, en lugar de obligar a revisar todo el formulario buscando qué está mal, el prototipo representa esta entrega como parte de una compra simulada, sin enviar los datos ni realizar un pago real
+
+![Pantalla final de Datos de entrega](capturas/prototipo/05-entrega.png)
+
+#### Pedido confirmado
+
+La confirmación debe permitir comprobar qué ha pasado después de continuar con los datos, por eso he acompañado Pedido realizado con el resumen de la selección y el número de demostración 12-PD, en esta pantalla aparecen la misma chaqueta, la talla 4, una unidad y 39 €, así la respuesta se puede relacionar con el carrito y no se limita a un mensaje que serviría para cualquier compra, he dejado más espacio alrededor de la confirmación porque aquí ya no se están comparando productos ni completando campos, lo que interesa es reconocer el resultado, Volver a Inicio ofrece una salida para regresar a la tienda una vez terminado el recorrido
+
+![Pantalla final de Pedido confirmado](capturas/prototipo/06-confirmacion.png)
+
+#### Favoritos
+
+Favoritos está pensado para las prendas que gustan, aunque todavía no se haya decidido comprarlas, he utilizado las mismas tarjetas del catálogo para reconocerlas sin cambiar la manera de consultar la foto, el nombre o el precio, en el ejemplo aparecen tres prendas y una ayuda sobre las tallas, esa ayuda tiene sentido en este momento porque guardar algo que gusta no resuelve si la medida será la adecuada, el carrito sigue siendo el lugar para revisar las unidades y el importe de la compra, mientras que desde Favoritos se puede plantear volver a una prenda o seguir mirando con Explorar colecciones, he mantenido este destino en la barra inferior junto a Inicio y Catálogo, y al pie aparece la palabra del día 29
+
+![Pantalla final de Favoritos](capturas/prototipo/07-favoritos.png)
+
+#### Inicio y Detalle en oscuro
+
+Para las versiones oscuras he conservado la misma organización de Inicio y Detalle, la persona sigue encontrando la ropa y las opciones en su sitio, lo que cambia es la relación entre los colores de fondo y los del contenido, he utilizado un azul muy oscuro para mantener la referencia de Davante y tonos más claros para destacar las acciones, las fotografías siguen siendo las de las mismas prendas y el logo mantiene un fondo que permite reconocerlo, además, los estados de talla y color conservan sus etiquetas, porque elegido y sin stock significan lo mismo en los dos modos, no tendría sentido que cambiar la paleta obligara a interpretar otra vez cada opción
+
+![Inicio en modo oscuro](capturas/prototipo/08-inicio-oscuro.png)
+
+![Detalle en modo oscuro](capturas/prototipo/09-detalle-oscuro.png)
+
+#### Guía de tallas
+
+La guía es la ayuda que he relacionado más directamente con la compra de un regalo, saber que un niño tiene cuatro años puede orientar, pero no indica por sí solo qué prenda le va a quedar bien, por eso he incluido una figura, la indicación de medir sin apretar la cinta y una tabla para comparar las medidas, así la consulta tiene una referencia concreta y no se limita a otra lista de edades, las opciones Ropa y Calzado separan dos tipos de consulta y el ejemplo mostrado corresponde a ropa, la guía se abre sobre el detalle y Cerrar guía permite volver a la prenda que se estaba mirando, de esta forma la ayuda sigue formando parte de la elección, teniendo en cuenta que es orientativa y no garantiza el ajuste de una talla
+
+La tabla de referencia del panel procede de H&M y relaciona la edad con la altura y la referencia europea, la he utilizado como orientación dentro de la demostración, no como una tabla propia de medidas de Pequeño Davante, la procedencia aparece en la guía y queda recogida al final junto con las fotografías de producto, los precios y la disponibilidad mostrados en la app pertenecen al ejemplo de compra
+
+![Panel de guía de tallas](capturas/prototipo/10-guia-tallas.png)
+
+Entre el detalle y el carrito está configurada una transición Smart Animate de un cuarto de segundo, esta opción de Figma anima el cambio entre las pantallas y da continuidad al paso de elegir una prenda a revisar la cesta, la guía está configurada para abrirse sobre el detalle y los componentes incluyen estados para representar las selecciones, estas son las interacciones definidas en el diseño, el recorrido completo se valora con las tareas de la prueba, diferenciando lo que se ve en una captura de lo que responde al pulsar
+
 ## 4. Validación y pruebas
-### 4.1 Metodología                          
-### 4.2 Resultados                           
-### 4.3 Iteraciones y mejoras               
+
+### 4.1 Metodología
+
+Para valorar el diseño he elegido tres tareas relacionadas con las decisiones principales de la compra, encontrar una prenda y revisar sus unidades, consultar una talla y corregir el email, la prueba está planteada con al menos dos compañeros de otro grupo, así se puede observar cómo utilizan la app personas que no han participado en su diseño, me interesa comprobar si entienden el recorrido sin explicarles antes dónde está cada botón, porque saber de antemano dónde pulsar haría que la prueba no sirviera para valorar si las acciones se encuentran por sí solas
+
+| Tarea | Desde dónde empieza | Qué se considera completar la tarea |
+| --- | --- | --- |
+| Comprar la chaqueta verde oliva de talla 4 y dos unidades | Inicio | Llegar a Pedido confirmado con esa selección, cuyo importe esperado es de 78 € |
+| Consultar las medidas de una talla | Detalle del producto | Abrir la guía, localizar la referencia de altura y volver a la prenda |
+| Corregir el email del formulario | Datos de entrega con el email incorrecto | Corregir el dato y continuar hasta la confirmación |
+
+Los dos participantes tienen las mismas tareas y el mismo estado de partida, para que una selección de la persona anterior no cambie lo que encuentra la siguiente, la prueba recoge si cada tarea se termina, cuánto tiempo lleva y qué dificultades aparecen, he separado estas medidas porque llegar al final no explica por sí solo si el recorrido ha sido cómodo, alguien puede completar la compra después de varios intentos o necesitar ayuda para localizar la guía, y esa diferencia interesa para saber qué parte del diseño se entiende peor
+
+| Medida | Qué se recoge |
+| --- | --- |
+| Éxito | Si la persona alcanza el resultado sin indicaciones sobre dónde pulsar |
+| Tiempo | Segundos desde que empieza la tarea hasta que termina o la abandona |
+| Errores | Elecciones equivocadas, entradas en otra pantalla o intentos fallidos |
+| Ayuda | Qué indicación necesita para continuar y en qué momento |
+| Observaciones | Dudas que expresa y diferencias entre lo que espera y lo que ocurre |
+
+Los objetivos sirven para interpretar esos datos, por ejemplo, terminar una compra en más de dos minutos significa que se ha completado la tarea, pero no se ha alcanzado la meta de tiempo, también hay que diferenciar una equivocación de la persona de un control del prototipo que no responda al pulsar, en ese segundo caso el problema pertenece a la interacción, la guía y el email se consultan después del recorrido de compra, así que al valorar sus tiempos se tiene en cuenta que la persona ya ha visto esas pantallas, a partir de las dificultades observadas, la revisión se centra en tres hallazgos y en una mejora que se pueda comparar con el diseño anterior
+
+### 4.2 Resultados
+
+### 4.3 Iteraciones y mejoras
+
 ## 5. Entrega y documentación final
+
 ### 5.1 Justificación del diseño propuesto
+
+La decisión que más ha marcado el diseño ha sido partir de una tienda ficticia de Davante y pensar cómo se adaptaría a la ropa infantil, de ahí salen el nombre Pequeño Davante, la relación con el logo y el uso del azul, he mantenido esa idea en las pantallas, pero dando más importancia a las prendas y a lo que necesita saber quien las compra, una app de este tipo puede tener una imagen reconocible y aun así resultar incómoda si no queda clara la talla o el importe, por eso he unido la identidad de la tienda con decisiones que tienen un motivo dentro de la compra
+
+La talla es un ejemplo de esa relación, para quien compra habitualmente puede ser un dato conocido, pero para alguien que busca un regalo puede ser la principal duda, he colocado la guía en el detalle para resolver esa consulta junto a la prenda y he diferenciado la talla elegida de la agotada, también he mantenido los nombres y los avisos de color para que la selección se entienda sin depender únicamente de distinguir tonos, la intención es que la persona pueda relacionar lo que le gusta con una opción que realmente pueda elegir
+
+He separado la comparación, la elección y la revisión porque en cada momento hace falta información diferente, en el catálogo se miran varias prendas, en el detalle se decide la talla y el color, y en el carrito se comprueba qué se ha añadido y en qué cantidad, así los datos de entrega aparecen después de revisar la compra, el mensaje del email ayuda a corregir el dato dentro del propio formulario y la confirmación vuelve a mostrar la selección para que se pueda reconocer el resultado, esta organización tiene sentido tanto para quien entra con una idea clara como para quien necesita consultar más antes de decidir
+
+La misma forma de presentar las tarjetas, los botones y la navegación permite mantener esa organización al cambiar de pantalla, Favoritos reutiliza las prendas del catálogo porque siguen siendo los mismos productos, aunque se estén guardando para mirarlos otro día, y las versiones oscuras conservan la distribución para que cambiar los colores no cambie la manera de utilizar la app, con todo esto he buscado que Pequeño Davante tenga una identidad propia y que las decisiones visuales se puedan explicar por cómo se compra, no solo por cómo queda una captura
+
 ### 5.2 Recomendaciones y pasos a seguir
+
+Para llevar esta propuesta a una app real habría que conectar la selección con la información de los productos, por ejemplo, una talla sin stock debe corresponder a la disponibilidad de esa prenda y de ese color, y al cambiar las unidades el importe tiene que actualizarse junto con los gastos de envío antes de confirmar, he dado prioridad a estas operaciones porque afectan directamente a lo que la persona cree que va a comprar, también sería necesario guardar los favoritos entre sesiones para que alguien como Laura pudiera cerrar la app y recuperar sus prendas otro día
+
+En el formulario la ayuda tiene que responder a lo que se escriba, el ejemplo de email muestra un caso concreto, pero una app real necesita distinguir un campo vacío de una dirección incompleta y explicar cada error donde se corrige, además, al adaptar el diseño a otros móviles y al texto ampliado de Android hay que conservar el espacio de los controles y permitir que los mensajes se lean completos, para quien utilice un lector de pantalla también hace falta que la prenda, sus opciones y la ayuda se consulten en un orden que tenga sentido, de poco serviría que un botón se viera claro si no se pudiera reconocer su función de otra manera
+
+Las siguientes mejoras del diseño deben relacionarse con lo que ocurra durante las pruebas, si cuesta encontrar la guía interesa revisar ese acceso, y si se confunde una talla seleccionada con otra agotada el cambio debe centrarse en sus estados, me parece más útil justificar una modificación con una dificultad concreta que añadir opciones porque sí, ampliar después las pruebas a personas que compran ropa infantil con frecuencia y a familiares que buscan regalos permitiría contrastar los perfiles con situaciones reales, manteniendo la misma idea de tienda y dando más detalle a los puntos que lo necesiten
 
 ## 6. Referencias bibliográficas
 
@@ -402,5 +407,14 @@ La diferencia entre seleccionado y sin stock tiene que entenderse sin adivinarla
 
 - Google (sin fecha) - [Tamaño de los objetivos táctiles](https://support.google.com/accessibility/android/answer/7101858?hl=es)
 - Google (sin fecha) - [Cómo hacer que las apps sean más accesibles](https://developer.android.com/guide/topics/ui/accessibility/apps.html?hl=es-419)
+
+- Mayoral Moda Infantil SAU (sin fecha) - [Mayoral - Moda infantil en Google Play](https://play.google.com/store/apps/details?hl=es&id=com.mayoral.appv2)
+- Kiabi (sin fecha) - [Kiabi en Google Play](https://play.google.com/store/apps/details?hl=es&id=com.pictime.kiabi.activity)
+- Inditex (sin fecha) - [Zara en Google Play](https://play.google.com/store/apps/details?hl=es&id=com.inditex.zara)
+- H&M (sin fecha) - [Guía de tallas](https://www2.hm.com/es_es/service-clients/sizeguide/sizing-faq.html)
+- H&M (sin fecha) - [Chaqueta en sarga encerada, fotografía de referencia](https://www2.hm.com/es_es/productpage.1242006003.html)
+- H&M (sin fecha) - [Pelele en punto de algodón, fotografía de referencia](https://www2.hm.com/es_es/productpage.1099006019.html)
+- H&M (sin fecha) - [Vestido de lino, fotografía de referencia](https://www2.hm.com/es_es/productpage.1270521003.html)
+- H&M (sin fecha) - [Zapatillas en mezcla de lino, fotografía de referencia](https://www2.hm.com/es_es/productpage.1275418001.html)
 
 Palabra del día - 29

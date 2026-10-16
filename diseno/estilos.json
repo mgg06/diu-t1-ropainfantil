@@ -1,0 +1,283 @@
+{
+  "propietario": "mgg06",
+  "tienda": "Pequeño Davante",
+  "colorSemilla": "#0234AB",
+  "esquema": {
+    "claro": {
+      "primary": "#65558F",
+      "onPrimary": "#FFFFFF",
+      "primaryContainer": "#EADDFF",
+      "onPrimaryContainer": "#4F378B",
+      "secondary": "#625B71",
+      "onSecondary": "#FFFFFF",
+      "tertiary": "#7D5260",
+      "onTertiary": "#FFFFFF",
+      "error": "#B3261E",
+      "onError": "#FFFFFF",
+      "surface": "#FEF7FF",
+      "onSurface": "#1D1B20"
+    },
+    "oscuro": {
+      "primary": "#D0BCFE",
+      "onPrimary": "#381E72",
+      "primaryContainer": "#4F378B",
+      "onPrimaryContainer": "#EADDFF",
+      "secondary": "#CCC2DC",
+      "onSecondary": "#332D41",
+      "tertiary": "#EFB8C8",
+      "onTertiary": "#492532",
+      "error": "#F2B8B5",
+      "onError": "#601410",
+      "surface": "#141218",
+      "onSurface": "#E6E0E9"
+    }
+  },
+  "origenEsquema": {
+    "archivoFigma": "uM6HT2RdelpEDSTGd4Fnk2",
+    "estilos": "material-theme/sys",
+    "colorSemillaDelEsquema": null,
+    "generacionDesdeColorSemillaVerificada": false,
+    "aplicacionCompletaEnPantallasVerificada": false
+  },
+  "paletaPantallas": {
+    "claro": {
+      "primary": "#0234AB",
+      "onPrimary": "#FFFFFF",
+      "primaryContainer": "#EAF1FC",
+      "onPrimaryContainer": "#082B65",
+      "secondary": "#2D5FAA",
+      "tertiary": "#FF5B41",
+      "surface": "#F5F8FD",
+      "onSurface": "#17243D",
+      "error": "#B3261E",
+      "surfaceContainer": "#FFFFFF",
+      "onSurfaceVariant": "#475569",
+      "outline": "#D7DFEA"
+    },
+    "oscuro": {
+      "primary": "#AFC6FF",
+      "onPrimary": "#06205F",
+      "primaryContainer": "#173A85",
+      "onPrimaryContainer": "#EAF1FC",
+      "secondary": "#ADC7F5",
+      "tertiary": "#FFB49F",
+      "surface": "#101B30",
+      "onSurface": "#F0F4FC",
+      "onSurfaceVariant": "#B9C7DF",
+      "outline": "#61718A"
+    }
+  },
+  "tipografia": {
+    "familia": "Roboto",
+    "roles": {
+      "headlineSmall": {
+        "tamano": 24,
+        "interlineado": 32,
+        "peso": 400
+      },
+      "titleLarge": {
+        "tamano": 22,
+        "interlineado": 28,
+        "peso": 400
+      },
+      "titleMedium": {
+        "tamano": 16,
+        "interlineado": 24,
+        "peso": 500
+      },
+      "bodyLarge": {
+        "tamano": 16,
+        "interlineado": 24,
+        "peso": 400
+      },
+      "labelLarge": {
+        "tamano": 14,
+        "interlineado": 20,
+        "peso": 500
+      }
+    }
+  },
+  "espaciado": {
+    "base": 8,
+    "margenPantalla": 16,
+    "columnas": 4,
+    "gutter": 8,
+    "areaTactilMinima": 48
+  },
+  "formatoPantalla": {
+    "ancho": 360,
+    "alto": 800
+  },
+  "componentes": [
+    "Top app bar",
+    "Navigation bar",
+    "Card",
+    "Filter chip",
+    "Button",
+    "Text field",
+    "Snackbar",
+    "Bottom sheet"
+  ],
+  "componentesPropios": [],
+  "componentesReutilizados": [
+    {
+      "nombre": "Tarjeta de producto",
+      "variantes": [
+        "normal",
+        "favorito",
+        "agotado"
+      ],
+      "origenMaestro": "remoto"
+    },
+    {
+      "nombre": "Selector de talla",
+      "variantes": [
+        "disponible",
+        "seleccionada",
+        "sin stock"
+      ],
+      "origenMaestro": "remoto"
+    },
+    {
+      "nombre": "Selector de color",
+      "variantes": [
+        "normal",
+        "seleccionado",
+        "sin disponibilidad"
+      ],
+      "origenMaestro": "remoto"
+    }
+  ],
+  "contrastes": {
+    "minimo": 4.5,
+    "transparenciasIncluidas": false,
+    "parejas": [
+      {
+        "paleta": "material-theme",
+        "modo": "claro",
+        "fondo": "primary",
+        "texto": "onPrimary",
+        "ratio": 6.46
+      },
+      {
+        "paleta": "material-theme",
+        "modo": "claro",
+        "fondo": "primaryContainer",
+        "texto": "onPrimaryContainer",
+        "ratio": 7.23
+      },
+      {
+        "paleta": "material-theme",
+        "modo": "claro",
+        "fondo": "secondary",
+        "texto": "onSecondary",
+        "ratio": 6.45
+      },
+      {
+        "paleta": "material-theme",
+        "modo": "claro",
+        "fondo": "tertiary",
+        "texto": "onTertiary",
+        "ratio": 6.47
+      },
+      {
+        "paleta": "material-theme",
+        "modo": "claro",
+        "fondo": "surface",
+        "texto": "onSurface",
+        "ratio": 16.23
+      },
+      {
+        "paleta": "material-theme",
+        "modo": "claro",
+        "fondo": "error",
+        "texto": "onError",
+        "ratio": 6.54
+      },
+      {
+        "paleta": "material-theme",
+        "modo": "oscuro",
+        "fondo": "primary",
+        "texto": "onPrimary",
+        "ratio": 7.71
+      },
+      {
+        "paleta": "material-theme",
+        "modo": "oscuro",
+        "fondo": "primaryContainer",
+        "texto": "onPrimaryContainer",
+        "ratio": 7.23
+      },
+      {
+        "paleta": "material-theme",
+        "modo": "oscuro",
+        "fondo": "secondary",
+        "texto": "onSecondary",
+        "ratio": 7.74
+      },
+      {
+        "paleta": "material-theme",
+        "modo": "oscuro",
+        "fondo": "tertiary",
+        "texto": "onTertiary",
+        "ratio": 7.75
+      },
+      {
+        "paleta": "material-theme",
+        "modo": "oscuro",
+        "fondo": "surface",
+        "texto": "onSurface",
+        "ratio": 14.35
+      },
+      {
+        "paleta": "material-theme",
+        "modo": "oscuro",
+        "fondo": "error",
+        "texto": "onError",
+        "ratio": 7.66
+      },
+      {
+        "paleta": "pantallas",
+        "modo": "claro",
+        "fondo": "primary",
+        "texto": "onPrimary",
+        "ratio": 10.09
+      },
+      {
+        "paleta": "pantallas",
+        "modo": "claro",
+        "fondo": "primaryContainer",
+        "texto": "onPrimaryContainer",
+        "ratio": 11.97
+      },
+      {
+        "paleta": "pantallas",
+        "modo": "claro",
+        "fondo": "surface",
+        "texto": "onSurface",
+        "ratio": 14.55
+      },
+      {
+        "paleta": "pantallas",
+        "modo": "oscuro",
+        "fondo": "primary",
+        "texto": "onPrimary",
+        "ratio": 8.95
+      },
+      {
+        "paleta": "pantallas",
+        "modo": "oscuro",
+        "fondo": "primaryContainer",
+        "texto": "onPrimaryContainer",
+        "ratio": 9.33
+      },
+      {
+        "paleta": "pantallas",
+        "modo": "oscuro",
+        "fondo": "surface",
+        "texto": "onSurface",
+        "ratio": 15.6
+      }
+    ]
+  }
+}

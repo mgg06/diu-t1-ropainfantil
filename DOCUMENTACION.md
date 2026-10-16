@@ -400,21 +400,32 @@ Las siguientes mejoras del diseño deben relacionarse con lo que ocurra durante 
 
 ## 6. Referencias bibliográficas
 
-- Kiabi (sin fecha) - [Hacer un pedido en Kiabi.es](https://www.kiabi.es/servicios/pedido.html)
-- Mayoral (sin fecha) - [Camiseta volante niña](https://www.mayoral.com/es/es/camiseta-volante-nina-anis-2603008074-5)
-- Vertbaudet (sin fecha) - [Guía de calzado](https://www.vertbaudet.es/page/asesoramiento/guias/calzado.htm)
-- Zara (sin fecha) - [Ayuda](https://www.zara.com/es/es/help/compra-segura-h28.html)
+Google. (s. f.). *Tamaño de los objetivos táctiles*. Ayuda de Accesibilidad de Android. <https://support.google.com/accessibility/android/answer/7101858?hl=es>
 
-- Google (sin fecha) - [Tamaño de los objetivos táctiles](https://support.google.com/accessibility/android/answer/7101858?hl=es)
-- Google (sin fecha) - [Cómo hacer que las apps sean más accesibles](https://developer.android.com/guide/topics/ui/accessibility/apps.html?hl=es-419)
+Google. (2026, octubre 12). *Cómo hacer que las apps sean más accesibles*. Android Developers. <https://developer.android.com/guide/topics/ui/accessibility/apps?hl=es-419>
 
-- Mayoral Moda Infantil SAU (sin fecha) - [Mayoral - Moda infantil en Google Play](https://play.google.com/store/apps/details?hl=es&id=com.mayoral.appv2)
-- Kiabi (sin fecha) - [Kiabi en Google Play](https://play.google.com/store/apps/details?hl=es&id=com.pictime.kiabi.activity)
-- Inditex (sin fecha) - [Zara en Google Play](https://play.google.com/store/apps/details?hl=es&id=com.inditex.zara)
-- H&M (sin fecha) - [Guía de tallas](https://www2.hm.com/es_es/service-clients/sizeguide/sizing-faq.html)
-- H&M (sin fecha) - [Chaqueta en sarga encerada, fotografía de referencia](https://www2.hm.com/es_es/productpage.1242006003.html)
-- H&M (sin fecha) - [Pelele en punto de algodón, fotografía de referencia](https://www2.hm.com/es_es/productpage.1099006019.html)
-- H&M (sin fecha) - [Vestido de lino, fotografía de referencia](https://www2.hm.com/es_es/productpage.1270521003.html)
-- H&M (sin fecha) - [Zapatillas en mezcla de lino, fotografía de referencia](https://www2.hm.com/es_es/productpage.1275418001.html)
+H&M. (s. f.-a). *Chaqueta en sarga encerada*. <https://www2.hm.com/es_es/productpage.1242006003.html>
+
+H&M. (s. f.-b). *Guía de tallas*. <https://www2.hm.com/es_es/service-clients/sizeguide/sizing-faq.html>
+
+H&M. (s. f.-c). *Pelele en punto de algodón*. <https://www2.hm.com/es_es/productpage.1099006019.html>
+
+H&M. (s. f.-d). *Vestido de lino*. <https://www2.hm.com/es_es/productpage.1270521003.html>
+
+H&M. (s. f.-e). *Zapatillas deportivas en mezcla de lino*. <https://www2.hm.com/es_es/productpage.1275418001.html>
+
+Inditex. (2026, octubre 6). *Zara*. Google Play. <https://play.google.com/store/apps/details?hl=es&id=com.inditex.zara>
+
+Kiabi. (s. f.). *Hacer un pedido en Kiabi.es*. <https://www.kiabi.es/servicios/pedido.html>
+
+Kiabi. (2026, octubre 6). *KIABI, compras y moda online*. Google Play. <https://play.google.com/store/apps/details?hl=es&id=com.pictime.kiabi.activity>
+
+Mayoral. (s. f.). *Camiseta volante niña Anís*. <https://www.mayoral.com/es/es/camiseta-volante-nina-anis-2603008074-5>
+
+Mayoral Moda Infantil SAU. (2026, julio 30). *Mayoral - Moda infantil*. Google Play. <https://play.google.com/store/apps/details?hl=es&id=com.mayoral.appv2>
+
+Vertbaudet. (s. f.). *Guía de calzado*. <https://www.vertbaudet.es/page/asesoramiento/guias/calzado.htm>
+
+Zara. (s. f.). *Ayuda*. <https://www.zara.com/es/es/help/compra-segura-h28.html>
 
 Palabra del día - 29

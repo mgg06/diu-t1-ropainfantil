@@ -118,34 +118,46 @@
     "Snackbar",
     "Bottom sheet"
   ],
-  "componentesPropios": [],
-  "componentesReutilizados": [
+  "componentesPropios": [
     {
       "nombre": "Tarjeta de producto",
       "variantes": [
-        "normal",
-        "favorito",
-        "agotado"
+        "Estado=normal",
+        "Estado=favorito",
+        "Estado=agotado"
       ],
-      "origenMaestro": "remoto"
+      "archivoFigma": "uM6HT2RdelpEDSTGd4Fnk2",
+      "nodeId": "58:713",
+      "autoLayout": "HORIZONTAL",
+      "maestroLocal": true,
+      "variantesNodeId": [
+        "58:714",
+        "58:716",
+        "58:718"
+      ]
     },
     {
       "nombre": "Selector de talla",
       "variantes": [
-        "disponible",
-        "seleccionada",
-        "sin stock"
+        "Estado=disponible, Tema=claro",
+        "Estado=seleccionada, Tema=claro",
+        "Estado=sin stock, Tema=claro",
+        "Estado=disponible, Tema=oscuro",
+        "Estado=seleccionada, Tema=oscuro",
+        "Estado=sin stock, Tema=oscuro"
       ],
-      "origenMaestro": "remoto"
-    },
-    {
-      "nombre": "Selector de color",
-      "variantes": [
-        "normal",
-        "seleccionado",
-        "sin disponibilidad"
-      ],
-      "origenMaestro": "remoto"
+      "archivoFigma": "uM6HT2RdelpEDSTGd4Fnk2",
+      "nodeId": "58:792",
+      "autoLayout": "HORIZONTAL",
+      "maestroLocal": true,
+      "variantesNodeId": [
+        "58:793",
+        "58:796",
+        "58:799",
+        "58:802",
+        "58:805",
+        "58:808"
+      ]
     }
   ],
   "contrastes": {
@@ -279,5 +291,16 @@
         "ratio": 15.6
       }
     ]
-  }
+  },
+  "componentesReutilizados": [
+    {
+      "nombre": "Selector de color",
+      "variantes": [
+        "normal",
+        "seleccionado",
+        "sin disponibilidad"
+      ],
+      "origenMaestro": "remoto"
+    }
+  ]
 }

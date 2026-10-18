@@ -78,7 +78,7 @@ He comparado cuatro tiendas para ver cómo resuelven dudas parecidas a las que a
 | Kiabi | Explica la compra como invitado y cómo recibir la confirmación y consultar el seguimiento sin cuenta | El invitado no tiene el seguimiento desde una cuenta ni las ventajas de fidelidad, me parece útil explicar esa diferencia al elegir cómo comprar | La ayuda confirma que se puede comprar sin crear una cuenta | Evitar un registro obligatorio para una compra puntual y explicar qué aporta una cuenta si se incluye en una app real |
 | Zara | La ayuda separa temas como tallas, favoritos, pedidos y devoluciones | Para una duda sobre una talla, buscar dentro de toda la ayuda puede añadir pasos, prefiero ofrecer el acceso desde la prenda | El índice es público, pero no basta para confirmar cómo funciona la compra sin cuenta | Mantener la ayuda de tallas en el detalle y los accesos principales en una navegación que se reconozca |
 
-También he consultado las fichas oficiales en español de tres apps Android, Mayoral, Kiabi y Zara, para distinguir las funciones que sus desarrolladores presentan para móvil de lo observado en las webs, esta parte es una comparación documental, no he instalado las apps ni he medido su funcionamiento, las limitaciones de la tabla explican qué encaja menos con mi propuesta o qué no se puede comprobar con la información publicada
+También he consultado las fichas oficiales en español de tres apps Android, Mayoral, Kiabi y Zara, para distinguir las funciones que sus desarrolladores presentan para móvil de lo observado en las webs. Las limitaciones de la tabla explican qué encaja menos con mi propuesta o qué no se puede comprobar
 
 | App Android | Qué ofrece según su ficha oficial | Qué veo menos adecuado para mi propuesta o qué no puedo comprobar | Qué me llevo para Pequeño Davante |
 | --- | --- | --- | --- |
@@ -86,7 +86,7 @@ También he consultado las fichas oficiales en español de tres apps Android, Ma
 | Kiabi | Compra para toda la familia, lista de deseos, seguimiento de pedidos y opciones de entrega y recogida | La oferta abarca ropa y servicios para públicos muy distintos, en una tienda solo infantil prefiero mantener la búsqueda centrada en edades y tallas | Separar la lista de prendas que interesan de la revisión del carrito |
 | Zara | Presentación de colecciones y compra online | La descripción pública es breve y no permite valorar cómo resuelve una duda de talla infantil, no lo presento como una función ausente de la app | Relacionar la presentación de temporada con un acceso claro al catálogo y explicar la ayuda de tallas en la ficha |
 
-Lo que más me interesa de estas referencias es que la ayuda llegue cuando aparece la duda, si alguien está decidiendo entre dos tallas, es más útil tener la guía en esa misma ficha que obligarle a buscarla en un apartado general, con el registro ocurre algo parecido, para un perfil como David tiene más sentido poder mirar las prendas y avanzar con el regalo sin añadir una cuenta desde el principio, he utilizado estas ideas para justificar la organización de mi propuesta, manteniendo el nombre, los colores y la temática de Pequeño Davante
+Lo que más me interesa de estas referencias es que la ayuda llegue cuando aparece la duda, si alguien está decidiendo entre dos tallas, es más útil tener la guía en esa misma ficha que obligarle a buscarla en un apartado general, con el registro ocurre algo parecido, para un perfil como David tiene más sentido poder mirar las prendas y avanzar con el regalo sin añadir una cuenta desde el principio
 
 ### 2.4 Insights y hallazgos clave
 
@@ -150,11 +150,11 @@ He añadido "Inicio de sesión" como una octava pantalla, desde ella se puede en
 
 ### 3.2 Wireframes
 
-Los wireframes recogen la distribución de las ocho pantallas de 360 × 800, he utilizado bloques para las imágenes y he conservado el texto de los botones para que se entienda qué se puede hacer antes de añadir las fotografías y los colores de la tienda, la versión del "Inicio de sesión" recoge la misma organización que su diseño final, predominan los grises, aunque el número de pedido conserva un pequeño tono azul en la "Confirmación"
+Los wireframes recogen la distribución de las ocho pantallas, he utilizado bloques para las imágenes y he conservado el texto de los botones para que se entienda qué se puede hacer antes de añadir las fotografías y los colores de la tienda, la versión del "Inicio de sesión" tiene la misma organización que su diseño final, predominan los grises, aunque el número de pedido conserva un pequeño tono azul en la "Confirmación"
 
 #### Inicio
 
-En "Inicio" he planteado dos formas de empezar, entrar por una categoría o ir a mirar el "Catálogo", esto responde a que algunas personas ya saben para qué edad están comprando y otras prefieren ver qué ropa hay antes de decidir, la prenda de temporada sirve para presentar el tipo de tienda y darle un contenido concreto a esa primera visita, pero sin ocupar tanto espacio que se pierdan los demás accesos, desde este primer diseño he mantenido la barra inferior como una referencia común, porque el contenido de temporada puede cambiar y los destinos principales de la app siguen siendo los mismos
+En "Inicio" he planteado dos formas de empezar, entrar por una categoría o ir a mirar el "Catálogo", esto responde a que algunas personas ya saben para qué edad están comprando y otras prefieren ver qué ropa hay antes de decidir, la ropa de temporada sirve para presentar el tipo de tienda y darle un contenido concreto a esa primera visita, pero sin ocupar tanto espacio que se pierdan los demás accesos, desde este primer diseño he mantenido la barra inferior como una referencia común, porque el contenido de temporada puede cambiar y los destinos principales de la app siguen siendo los mismos
 
 ![Wireframe de "Inicio"](capturas/wireframes/01-inicio.png)
 
@@ -234,7 +234,7 @@ He calculado el contraste de estas combinaciones a partir de los colores utiliza
 
 Las seis combinaciones superan esa referencia, pero eso no significa que se pueda poner cualquier texto sobre cualquier color de la paleta, hay que mantener las parejas para que el resultado siga siendo legible, además, he acompañado los estados con información escrita, por ejemplo, el email tiene un mensaje que explica el error y la talla agotada lleva su aviso de stock, así la persona no tiene que interpretar únicamente el rojo o la diferencia entre dos tonos para saber qué ocurre
 
-Dentro del archivo de Figma también aparece un tema llamado material-theme, con sus versiones clara y oscura, sus colores son diferentes de los azules del prototipo, así que los he recogido aparte para no mezclar dos paletas que no tienen los mismos valores, esta tabla muestra las doce parejas de ese tema y el contraste de cada una
+También hay un tema llamado material-theme, con sus versiones clara y oscura, sus colores son diferentes de los azules del prototipo, así que los he recogido aparte para no mezclar dos paletas que no tienen los mismos valores, esta tabla muestra las doce parejas de ese tema y el contraste de cada una
 
 | Esquema | Pareja | Color | Texto | Contraste |
 | --- | --- | --- | --- | --- |

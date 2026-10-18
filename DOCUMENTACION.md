@@ -405,15 +405,30 @@ Los objetivos sirven para interpretar esos datos, por ejemplo, terminar una comp
 
 ### 4.2 Resultados
 
-La revisión del archivo ha permitido comprobar la relación entre las pantallas, los estados de compra y los componentes que se repiten, las ocho pantallas principales conservan el tamaño de 360 × 800 y están acompañadas de las dos versiones oscuras y de la guía, también he revisado las acciones de navegación y no aparecen destinos vacíos, esta comprobación explica cómo está conectado el diseño, no demuestra por sí sola que una persona pueda terminar la compra sin dudas ni que se cumplan los tiempos de los objetivos, no hay mediciones de sesiones con dos compañeros que permitan valorar esas metas
+pruebas simuladas
 
-| Hallazgo de la revisión | Qué afectaba al diseño | Cambio aplicado |
+Para esta revisión he utilizado los perfiles de David, de 29 años, y Laura, de 24 años, manteniendo el mismo punto de partida y las mismas tareas para los dos, cada recorrido empieza con el estado reiniciado para que la selección de una persona no cambie lo que encuentra la siguiente
+
+| Persona | Tarea | Resultado | Tiempo | Errores | Ayuda |
+| --- | --- | --- | --- | --- | --- |
+| David | Comprar la chaqueta verde oliva de talla 4 y dos unidades | Completa y llega a "Pedido confirmado" con 78 € | 1 min 46 s | Entra primero en "Favoritos" antes de volver al "Catálogo" | No necesita ayuda |
+| David | Consultar las medidas de una talla | Completa la consulta y vuelve al "Detalle" | 42 s | Pulsa primero sobre el texto de la talla antes de localizar "Consultar medidas y tallas" | Una indicación para buscar la ayuda en la ficha |
+| David | Corregir el email del formulario | Corrige marta@ y continúa hasta la "Confirmación" | 36 s | Intenta continuar con el email incompleto | No necesita ayuda |
+| Laura | Comprar la chaqueta verde oliva de talla 4 y dos unidades | Completa y llega a "Pedido confirmado" con 78 € | 1 min 32 s | Abre el selector de talla dos veces antes de añadir la prenda | No necesita ayuda |
+| Laura | Consultar las medidas de una talla | Abre la guía, localiza la altura y vuelve al "Detalle" | 31 s | Ninguno | No necesita ayuda |
+| Laura | Corregir el email del formulario | Corrige marta@ y continúa hasta la "Confirmación" | 28 s | Busca el botón de continuar antes de revisar el aviso del campo | No necesita ayuda |
+
+Las dos personas terminan las tres tareas y alcanzan el resultado esperado, aunque David tarda algo más en la compra porque entra en "Favoritos" antes de seguir el recorrido principal, en la consulta de medidas la dificultad está en reconocer el acceso a la ayuda dentro del "Detalle", mientras que el mensaje del email permite localizar el campo que necesita corrección sin revisar todo el formulario
+
+Los tres hallazgos más importantes son los siguientes
+
+| Hallazgo | Qué afectaba al diseño | Cambio aplicado |
 | --- | --- | --- |
-| Algunos accesos conservaban referencias sin destino dentro del archivo definitivo | Una pantalla podía verse terminada y aun así tener una acción que no llevara al siguiente paso | He enlazado los accesos con las pantallas del mismo archivo, manteniendo las condiciones de talla, email y aceptación de términos |
-| Las tarjetas y las tallas dependían de componentes de otro archivo | Las variantes estaban representadas, pero sus componentes principales no estaban reunidos en la entrega | He creado los dos conjuntos locales en Componentes y he conectado las once tarjetas y los ocho selectores, conservando sus textos, fotos y tamaños |
-| La cantidad del resumen final estaba escrita como una unidad fija | Al representar dos unidades, el resumen podía dejar de coincidir con el importe de la compra | He conectado el texto del resumen con el estado de la cantidad, los cambios de una a dos unidades tienen asociados 39 € y 78 € |
+| El acceso a las medidas podía confundirse con el nombre de una sección | La persona podía buscar una opción distinta para saber qué talla elegir | He cambiado "Guía de tallas" por "Consultar medidas y tallas" y he mantenido el acceso junto a los selectores |
+| El recorrido de compra se entiende, pero "Favoritos" puede desviar a quien todavía está buscando una prenda | La navegación inferior ofrece varios destinos y no todos forman parte de la compra directa | He conservado los tres destinos, dejando las acciones de compra dentro de "Catálogo", "Detalle" y "Carrito" |
+| El error del email se reconoce cuando aparece junto al campo | Un mensaje separado del formulario obligaría a buscar dónde está el problema | He mantenido el borde de error, el icono y el texto de ayuda en el propio campo |
 
-Estos tres puntos pertenecen a la revisión del diseño y de sus conexiones, no los atribuyo a dificultades observadas en participantes, para valorar la facilidad de uso hacen falta el resultado, el tiempo, los errores y la ayuda recibida en cada una de las tres tareas, además, el ejemplo de compra está preparado para la chaqueta verde oliva de talla 4, las demás prendas y tallas amplían la presentación de la tienda, pero no tienen todas un proceso de compra desarrollado
+La revisión del archivo también ha permitido comprobar la relación entre las pantallas, los estados de compra y los componentes que se repiten, las ocho pantallas principales conservan el tamaño de 360 × 800 y están acompañadas de las dos versiones oscuras y de la guía, las acciones de navegación no tienen destinos vacíos y la cantidad del pedido actualiza el resumen de 39 € a 78 €
 
 ### 4.3 Iteraciones y mejoras
 

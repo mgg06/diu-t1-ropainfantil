@@ -6,7 +6,7 @@ Pequeño Davante es la tienda de ropa infantil que he imaginado para Davante, de
 
 La tienda es ficticia y el prototipo está hecho en Figma para representar su uso desde un móvil Android, en el repo están la explicación del diseño, los wireframes, las pantallas finales y los valores de estilo, no hay una app instalada ni se hacen pedidos reales
 
-[Ver el diseño en Figma](https://www.figma.com/design/uM6HT2RdelpEDSTGd4Fnk2/T1-Pequeno-Davante?node-id=19-218) | [Probar el recorrido](https://www.figma.com/proto/uM6HT2RdelpEDSTGd4Fnk2/T1-Pequeno-Davante?node-id=46-723&page-id=19-218&scaling=scale-down&content-scaling=fixed) | [Leer DOCUMENTACION.md](DOCUMENTACION.md)
+[Ver el diseño en Figma](https://www.figma.com/design/uM6HT2RdelpEDSTGd4Fnk2/T1-%C2%B7-Peque%C3%B1o-Davante-%C2%B7-Marta-Gonz%C3%A1lez-Gonz%C3%A1lez?node-id=19-218&t=I4eUANyW0SXHQ82B-1) | [Probar el recorrido](https://www.figma.com/proto/uM6HT2RdelpEDSTGd4Fnk2/T1-Pequeno-Davante?node-id=46-723&page-id=19-218&scaling=scale-down&content-scaling=fixed) | [Leer DOCUMENTACION.md](DOCUMENTACION.md)
 
 <p align="center">
   <img src="capturas/prototipo/01-inicio.png" alt="Inicio de Pequeño Davante con las categorías y la chaqueta de temporada" width="300">

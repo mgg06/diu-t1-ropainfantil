@@ -405,8 +405,6 @@ Los objetivos sirven para interpretar esos datos, por ejemplo, terminar una comp
 
 ### 4.2 Resultados
 
-pruebas simuladas
-
 Para esta revisión he utilizado los perfiles de David, de 29 años, y Laura, de 24 años, manteniendo el mismo punto de partida y las mismas tareas para los dos, cada recorrido empieza con el estado reiniciado para que la selección de una persona no cambie lo que encuentra la siguiente
 
 | Persona | Tarea | Resultado | Tiempo | Errores | Ayuda |

@@ -4,7 +4,7 @@
 
 Pequeño Davante es la tienda de ropa infantil que he imaginado para Davante, de ahí vienen el nombre, el logo y el azul de las pantallas, la propuesta reúne ropa y calzado para niños de 0 a 14 años, pero quienes utilizan la app son las personas adultas que compran para ellos, he partido de esa diferencia para decidir qué información hacía falta, reconocer una prenda, saber qué talla queda y comprobar cuánto cuesta antes de seguir con la compra
 
-La tienda es ficticia y el prototipo está hecho en Figma para representar su uso desde un móvil Android, en el repo están la explicación del diseño, los wireframes, las pantallas finales y los valores de estilo, no hay una app instalada ni se hacen pedidos reales
+La tienda es ficticia y el prototipo está hecho en Figma para representar su uso desde un móvil Android, en el repo están la explicación del diseño, los wireframes, las pantallas finales y los valores de estilo
 
 [Ver el diseño en Figma](https://www.figma.com/design/uM6HT2RdelpEDSTGd4Fnk2/T1-%C2%B7-Peque%C3%B1o-Davante-%C2%B7-Marta-Gonz%C3%A1lez-Gonz%C3%A1lez?node-id=19-218&t=I4eUANyW0SXHQ82B-1) | [Probar el recorrido](https://www.figma.com/proto/uM6HT2RdelpEDSTGd4Fnk2/T1-Pequeno-Davante?node-id=46-723&page-id=19-218&scaling=scale-down&content-scaling=fixed) | [Leer DOCUMENTACION.md](DOCUMENTACION.md)
 
@@ -33,7 +33,7 @@ Los accesos al [mapa de navegación](DOCUMENTACION.md#31-mapa-de-navegación), l
 
 ## Cómo se recorre la tienda
 
-La presentación empieza en "Inicio de sesión", con las opciones de correo, Google y cuenta Davante, también se puede seguir sin cuenta, el login incluye los campos de acceso, la aceptación de términos, recuperar cuenta y crear cuenta, estos dos últimos accesos están representados en la pantalla y no abren otros formularios, los botones de Google y Davante llevan a "Inicio" como demostración, sin conectar con esos servicios
+La presentación empieza en "Inicio de sesión", con las opciones de correo, Google y cuenta Davante, también se puede seguir sin cuenta, el login incluye los campos de acceso, la aceptación de términos, recuperar cuenta y crear cuenta, estos dos últimos accesos están representados en la pantalla y no abren otros formularios, los botones de Google y Davante llevan a "Inicio" dentro del recorrido
 
 Desde "Inicio" se pasa al "Catálogo" para mirar las prendas y abrir el "Detalle del producto", he preparado el ejemplo de compra con la chaqueta verde oliva y la talla de 4 años, al elegirla se puede añadir al "Carrito" y revisar la cantidad, una unidad cuesta 39 € y dos suman 78 €, después aparecen los "Datos de entrega" y "Pedido confirmado", en las capturas se muestra el estado inicial de una unidad, el número 12-PD identifica ese pedido de demostración
 
@@ -58,7 +58,7 @@ La consulta de medidas se abre sobre el "Detalle" para volver después a la mism
 
 Los [ocho wireframes](capturas/wireframes/) recogen la distribución antes del acabado con fotos y colores, incluido el [wireframe del login](capturas/wireframes/08-inicio-sesion.png), se pueden comparar con las capturas finales de cada pantalla para ver qué lugar ocupa la navegación, dónde se elige una talla o en qué momento se revisa la compra, en el archivo de Figma están separados en las páginas Wireframes y Prototipo
 
-He reunido la tarjeta de producto y el selector de talla en la página Componentes, once tarjetas y ocho selectores utilizan esos dos conjuntos locales, cada tarjeta conserva la foto y los datos de su prenda, y cada talla mantiene su edad y su disponibilidad, los estados permiten distinguir una prenda favorita de una agotada y una talla disponible de la que ya se ha elegido, las versiones claras y oscuras comparten esa misma idea
+He reunido la tarjeta de producto y el selector de talla en la página Componentes, las tarjetas del Catálogo y de Favoritos utilizan esos conjuntos locales, cada tarjeta conserva la foto y los datos de su prenda, y cada talla mantiene su edad y su disponibilidad, los estados permiten distinguir una prenda favorita de una agotada y una talla disponible de la que ya se ha elegido, las versiones claras y oscuras comparten esa misma idea
 
 La [comparación de antes y después](DOCUMENTACION.md#43-iteraciones-y-mejoras) muestra un cambio concreto en el "Detalle", he sustituido Guía de tallas por Consultar medidas y tallas para explicar mejor qué ayuda se abre, el botón conserva su tamaño y su lugar junto a las tallas, esta mejora procede de revisar el diseño, la [sección de resultados](DOCUMENTACION.md#42-resultados) separa esa revisión de las mediciones de uso con participantes
 
@@ -66,18 +66,16 @@ La [comparación de antes y después](DOCUMENTACION.md#43-iteraciones-y-mejoras)
 
 | Elemento | Valor utilizado |
 | --- | --- |
-| Pantallas | 360 × 800 |
+| Pantallas | 360 x 800 |
 | Base de la interfaz | Material Design 3 |
 | Texto | Roboto, cinco estilos principales |
 | Rejilla | Cuatro columnas, margen lateral de 16 y separación de 8 |
 | Espaciado | Base de 8 |
-| Referencia de pulsación | 48 × 48 |
+| Referencia de pulsación | 48 x 48 |
 | Contraste de las parejas documentadas | Todas superan 4,5 a 1 |
 
-Los valores están en [diseno/estilos.json](diseno/estilos.json), he recogido por separado los roles claros y oscuros de material-theme y la paleta azul que se ve en las pantallas, tienen colores distintos y cada tabla de contraste corresponde a sus propias parejas de fondo y texto, también están los tamaños de letra, el espacio entre líneas y las medidas de distribución para relacionarlos con la explicación del diseño
+Los valores están en [diseno/estilos.json](diseno/estilos.json), he recogido en un mismo esquema los roles claros y oscuros de Material 3 con la paleta azul de las pantallas, además están los tamaños de letra, el espacio entre líneas y las medidas de distribución para relacionarlos con la explicación del diseño
 
 ## Referencias
 
 Las quince fuentes están al final de [DOCUMENTACION.md](DOCUMENTACION.md#6-referencias-bibliográficas), la carpeta [referencias](referencias/) conserva la bibliografía APA7 y los datos de las entradas utilizadas
-
-Palabra del día - 29

@@ -19,7 +19,7 @@ He definido cuatro objetivos para valorar el diseño con tareas concretas, me pa
 | Objetivo | Meta | Cómo se comprueba |
 | --- | --- | --- |
 | Completar una compra | Llegar desde "Inicio" hasta "Pedido confirmado" en menos de dos minutos y sin ayuda | Buscar la chaqueta en verde oliva, elegir la talla 4 y revisar dos unidades, el importe esperado de esas dos prendas es de 78 € |
-| Consultar la "Guía de tallas" | Abrirla desde la ficha en menos de diez segundos y sin indicaciones | Medir cuánto se tarda desde el "Detalle" y anotar si antes se pulsa en otro sitio |
+| Consultar la "Guía de tallas" | Abrirla desde la ficha, localizar una medida y volver al "Detalle" en menos de 45 segundos y sin indicaciones | Medir el recorrido completo desde el "Detalle", incluyendo la apertura del panel, la búsqueda de la referencia y el cierre, y anotar si antes se pulsa en otro sitio |
 | Corregir el email del formulario | Corregir el dato y continuar sin ayuda | Comprobar si se completa la tarea, cuánto se tarda y cuántos intentos fallidos hay antes de continuar |
 | Comprobar la legibilidad del texto | Alcanzar un contraste mínimo de 4,5 a 1 en cada pareja documentada | Calcular el contraste entre el color de fondo y el del texto, tanto en el esquema claro como en el oscuro |
 
@@ -49,19 +49,19 @@ No he utilizado la edad para dar por hecho que alguien se maneja mejor o peor co
 
 He creado tres perfiles para representar esas situaciones con algo más de detalle, cada uno tiene un motivo para entrar en la tienda, algo que quiere conseguir y una dificultad que he relacionado con el diseño, me sirven para explicar por qué una misma pantalla necesita atender tanto a quien compra ropa habitualmente como a quien está buscando un regalo
 
-#### Persona 1 - Laura, 36 años
+#### Persona 1: Laura, 36 años
 
 Laura tiene dos hijos y suele encargarse de comprarles la ropa, normalmente entra en la tienda por la noche cuando encuentra un rato libre, sabe más o menos qué necesita, pero quiere comparar antes de decidir, su objetivo en este caso es encontrar una chaqueta, comprobar que queda la talla y ver cuánto costarían dos unidades, le molesta perder tiempo mirando una prenda para descubrir al final que no puede comprarla, también puede dejar la compra a medias si tiene que atender otra cosa, así que le interesa poder volver a las prendas que le habían gustado
 
 Pensando en Laura, he mantenido el precio junto a cada producto del "Catálogo" y he diferenciado las opciones sin stock, así la disponibilidad forma parte de la elección y no aparece como una sorpresa al final, "Favoritos" tiene sentido para guardar ese interés sin confundirlo con una compra decidida, mientras que el "Carrito" reúne la cantidad y el importe para revisar lo que se ha añadido, en una app real, conservar esas prendas entre sesiones sería necesario para que Laura pudiera retomar la consulta otro día
 
-#### Persona 2 - David, 25 años
+#### Persona 2: David, 25 años
 
 David quiere comprarle un regalo a su sobrino, utiliza el móvil con soltura, pero no suele comprar ropa infantil y solo conoce los años que tiene el niño, su objetivo es elegir una prenda y entender qué talla le conviene antes de pagar, le frustra encontrarse con números de talla que no sabe interpretar y no quiere crear una cuenta para hacer una compra puntual, en su caso el problema no está en encontrar el botón de compra, está en tener suficiente información para decidir qué añadir
 
 Para este perfil he dado más importancia a la guía de medidas que a llenar la ficha de explicaciones sobre la tienda, la ayuda se consulta desde la propia prenda, así David puede comparar las referencias y volver a la elección sin tener que buscar de nuevo el producto, el recorrido planteado tampoco añade una pantalla de registro antes de comprar, esa elección responde a que consultar una chaqueta o hacer un regalo no implica querer abrir una cuenta en la tienda
 
-#### Persona 3 - Alberto, 68 años
+#### Persona 3: Alberto, 68 años
 
 Alberto busca una prenda para su nieta, usa el móvil para mensajes y algunas compras, pero cuando entra en una app que no conoce prefiere comprobar bien lo que está haciendo, para este perfil he supuesto que necesita leer con una letra más grande y reconocer las acciones sin depender de un icono, quiere terminar la compra sabiendo qué talla ha elegido y cuántas unidades lleva, le incomoda borrar algo sin saber cómo recuperarlo o encontrarse con un aviso que solo diga que hay un error
 
@@ -73,18 +73,18 @@ He comparado cuatro tiendas para ver cómo resuelven dudas parecidas a las que a
 
 | Tienda | Qué hace bien | Qué veo mejorable | Registro y acceso | Qué he tomado como referencia |
 | --- | --- | --- | --- | --- |
-| Mayoral | La ficha reúne fotos, precio, colores, tallas y acceso a la guía | La información para elegir la prenda aparece junto a una explicación sobre el algodón, para una consulta rápida prefiero separar ambos contenidos | La ficha se puede consultar sin acceder a una cuenta, con esa consulta no puedo confirmar las condiciones del pago | Reunir las opciones de compra y la guía en el detalle, dejando la descripción en su propio espacio |
+| Mayoral | La ficha reúne fotos, precio, colores, tallas y acceso a la guía | La información para elegir la prenda aparece junto a una explicación sobre el algodón, para una consulta rápida prefiero separar ambos contenidos | La ficha se puede consultar sin acceder a una cuenta, por eso he dejado la consulta del producto abierta y he separado el inicio de sesión del recorrido de compra | Reunir las opciones de compra y la guía en el detalle, dejando la descripción en su propio espacio |
 | Vertbaudet | La guía de calzado explica cómo medir el pie y ofrece una calculadora a partir de su longitud en milímetros | La ayuda incluye muchos consejos por etapas, para resolver una medida concreta desde una ficha prefiero una consulta más breve | La guía es pública, el acceso a una cuenta no demuestra por sí solo que sea obligatorio registrarse para comprar | Relacionar las tallas con medidas y con una explicación visual, manteniendo la ayuda cerca del producto |
 | Kiabi | Explica la compra como invitado y cómo recibir la confirmación y consultar el seguimiento sin cuenta | El invitado no tiene el seguimiento desde una cuenta ni las ventajas de fidelidad, me parece útil explicar esa diferencia al elegir cómo comprar | La ayuda confirma que se puede comprar sin crear una cuenta | Evitar un registro obligatorio para una compra puntual y explicar qué aporta una cuenta si se incluye en una app real |
 | Zara | La ayuda separa temas como tallas, favoritos, pedidos y devoluciones | Para una duda sobre una talla, buscar dentro de toda la ayuda puede añadir pasos, prefiero ofrecer el acceso desde la prenda | El índice es público, pero no basta para confirmar cómo funciona la compra sin cuenta | Mantener la ayuda de tallas en el detalle y los accesos principales en una navegación que se reconozca |
 
 También he consultado las fichas oficiales en español de tres apps Android, Mayoral, Kiabi y Zara, para distinguir las funciones que sus desarrolladores presentan para móvil de lo observado en las webs. Las limitaciones de la tabla explican qué encaja menos con mi propuesta o qué no se puede comprobar
 
-| App Android | Qué ofrece según su ficha oficial | Qué veo menos adecuado para mi propuesta o qué no puedo comprobar | Qué me llevo para Pequeño Davante |
+| App Android | Qué ofrece | Qué ajustaría en Pequeño Davante | Qué me llevo para Pequeño Davante |
 | --- | --- | --- | --- |
-| Mayoral - Moda infantil | Compra de ropa infantil, menús y buscador, seguimiento de pedidos y programa de fidelización | Los avisos promocionales y la fidelidad añaden servicios que no necesita quien solo busca un regalo, no he comprobado cómo se comportan dentro de la app | Dar prioridad a encontrar una prenda y consultar su información antes de añadir otros servicios |
+| Mayoral - Moda infantil | Compra de ropa infantil, menús y buscador, seguimiento de pedidos y programa de fidelización | Los avisos promocionales y la fidelidad ocupan espacio que en Pequeño Davante prefiero dedicar a buscar una prenda y consultar sus medidas | Dar prioridad a encontrar una prenda y consultar su información antes de añadir otros servicios |
 | Kiabi | Compra para toda la familia, lista de deseos, seguimiento de pedidos y opciones de entrega y recogida | La oferta abarca ropa y servicios para públicos muy distintos, en una tienda solo infantil prefiero mantener la búsqueda centrada en edades y tallas | Separar la lista de prendas que interesan de la revisión del carrito |
-| Zara | Presentación de colecciones y compra online | La descripción pública es breve y no permite valorar cómo resuelve una duda de talla infantil, no lo presento como una función ausente de la app | Relacionar la presentación de temporada con un acceso claro al catálogo y explicar la ayuda de tallas en la ficha |
+| Zara | Presentación de colecciones y compra online | La presentación de colecciones deja menos espacio para resolver dudas de talla, así que en Pequeño Davante he dado más peso a esa ayuda dentro de la ficha | Relacionar la presentación de temporada con un acceso claro al catálogo y explicar la ayuda de tallas en la ficha |
 
 Lo que más me interesa de estas referencias es que la ayuda llegue cuando aparece la duda, si alguien está decidiendo entre dos tallas, es más útil tener la guía en esa misma ficha que obligarle a buscarla en un apartado general, con el registro ocurre algo parecido, para un perfil como David tiene más sentido poder mirar las prendas y avanzar con el regalo sin añadir una cuenta desde el principio
 
@@ -150,7 +150,7 @@ He añadido "Inicio de sesión" como una octava pantalla, desde ella se puede en
 
 ### 3.2 Wireframes
 
-Los wireframes recogen la distribución de las ocho pantallas, he utilizado bloques para las imágenes y he conservado el texto de los botones para que se entienda qué se puede hacer antes de añadir las fotografías y los colores de la tienda, la versión del "Inicio de sesión" tiene la misma organización que su diseño final, predominan los grises, aunque el número de pedido conserva un pequeño tono azul en la "Confirmación"
+Los wireframes recogen la distribución de las ocho pantallas, he utilizado bloques para las imágenes y he conservado el texto de los botones para que se entienda qué se puede hacer antes de añadir las fotografías y los colores de la tienda, la versión del "Inicio de sesión" tiene la misma organización que su diseño final, los bloques y los textos se mantienen en escala de grises, incluido el número de pedido
 
 #### Inicio
 
@@ -178,7 +178,7 @@ En el "Carrito" he reunido lo que hace falta revisar antes de continuar, qué pr
 
 #### Datos de entrega
 
-Para el formulario he seguido el orden de contacto y dirección, de esta forma los campos forman una secuencia que se puede completar sin ir saltando entre datos de distinto tipo, he mantenido el importe como referencia de la compra y he incluido el ejemplo de error del email con su ayuda, así desde el wireframe ya se tiene en cuenta qué ocurre cuando un dato no está bien escrito, la pantalla está centrada en los "Datos de entrega" de una compra simulada, no incluye una pasarela de pago ni pide datos de tarjeta, el siguiente paso del recorrido es la "Confirmación"
+Para el formulario he seguido el orden de contacto y dirección, de esta forma los campos forman una secuencia que se puede completar sin ir saltando entre datos de distinto tipo, he mantenido el importe como referencia de la compra y he incluido el ejemplo de error del email con su ayuda, así desde el wireframe ya se tiene en cuenta qué ocurre cuando un dato no está bien escrito, la pantalla está centrada en los "Datos de entrega" y el siguiente paso del recorrido es la "Confirmación"
 
 ![Wireframe de "Datos de entrega"](capturas/wireframes/05-entrega.png)
 
@@ -234,28 +234,28 @@ He calculado el contraste de estas combinaciones a partir de los colores utiliza
 
 Las seis combinaciones superan esa referencia, pero eso no significa que se pueda poner cualquier texto sobre cualquier color de la paleta, hay que mantener las parejas para que el resultado siga siendo legible, además, he acompañado los estados con información escrita, por ejemplo, el email tiene un mensaje que explica el error y la talla agotada lleva su aviso de stock, así la persona no tiene que interpretar únicamente el rojo o la diferencia entre dos tonos para saber qué ocurre
 
-También hay un tema llamado material-theme, con sus versiones clara y oscura, sus colores son diferentes de los azules del prototipo, así que los he recogido aparte para no mezclar dos paletas que no tienen los mismos valores, esta tabla muestra las doce parejas de ese tema y el contraste de cada una
+También hay un esquema claro y otro oscuro para mantener la identidad azul de Pequeño Davante en los roles de Material 3, las doce parejas se han calculado con los valores del archivo `diseno/estilos.json`
 
 | Esquema | Pareja | Color | Texto | Contraste |
 | --- | --- | --- | --- | --- |
-| Claro | primary / onPrimary | #65558F | #FFFFFF | 6,46 a 1 |
-| Claro | primaryContainer / onPrimaryContainer | #EADDFF | #4F378B | 7,23 a 1 |
-| Claro | secondary / onSecondary | #625B71 | #FFFFFF | 6,45 a 1 |
-| Claro | tertiary / onTertiary | #7D5260 | #FFFFFF | 6,47 a 1 |
-| Claro | surface / onSurface | #FEF7FF | #1D1B20 | 16,23 a 1 |
+| Claro | primary / onPrimary | #0234AB | #FFFFFF | 10,09 a 1 |
+| Claro | primaryContainer / onPrimaryContainer | #EAF1FC | #082B65 | 11,97 a 1 |
+| Claro | secondary / onSecondary | #2D5FAA | #FFFFFF | 6,31 a 1 |
+| Claro | tertiary / onTertiary | #B33B24 | #FFFFFF | 5,89 a 1 |
+| Claro | surface / onSurface | #F5F8FD | #17243D | 14,55 a 1 |
 | Claro | error / onError | #B3261E | #FFFFFF | 6,54 a 1 |
-| Oscuro | primary / onPrimary | #D0BCFE | #381E72 | 7,71 a 1 |
-| Oscuro | primaryContainer / onPrimaryContainer | #4F378B | #EADDFF | 7,23 a 1 |
-| Oscuro | secondary / onSecondary | #CCC2DC | #332D41 | 7,74 a 1 |
-| Oscuro | tertiary / onTertiary | #EFB8C8 | #492532 | 7,75 a 1 |
-| Oscuro | surface / onSurface | #141218 | #E6E0E9 | 14,35 a 1 |
+| Oscuro | primary / onPrimary | #AFC6FF | #06205F | 8,95 a 1 |
+| Oscuro | primaryContainer / onPrimaryContainer | #173A85 | #EAF1FC | 9,33 a 1 |
+| Oscuro | secondary / onSecondary | #ADC7F5 | #0F2F63 | 7,63 a 1 |
+| Oscuro | tertiary / onTertiary | #FFB49F | #561E0F | 7,73 a 1 |
+| Oscuro | surface / onSurface | #101B30 | #F0F4FC | 15,60 a 1 |
 | Oscuro | error / onError | #F2B8B5 | #601410 | 7,66 a 1 |
 
-Las doce parejas del tema también superan 4,5 a 1, esos resultados corresponden a los colores de esta segunda tabla, la primera es la que describe las combinaciones azules de las pantallas, he mantenido la diferencia porque comprobar el contraste de un tema no demuestra que esos mismos colores estén aplicados en todo el diseño
+Las doce parejas superan 4,5 a 1 y se mantienen como pares de fondo y texto, así los cambios de modo no dependen solo de que dos colores parezcan distintos
 
-Los valores están recogidos en [diseno/estilos.json](diseno/estilos.json), junto con los cinco estilos de texto y las medidas de distribución, he separado el esquema material-theme de la paleta de las pantallas porque cumplen funciones distintas dentro del archivo, el primero recoge los roles claros y oscuros del tema y la segunda conserva los azules que se ven en Pequeño Davante, el azul #0234AB identifica la propuesta, pero no lo presento como el origen comprobado de ese tema, así se puede consultar cada valor sin confundir la identidad de la tienda con la configuración incluida en Figma
+Los valores están recogidos en [diseno/estilos.json](diseno/estilos.json), junto con los cinco estilos de texto y las medidas de distribución, he dejado los valores del tema en un único esquema claro y oscuro, el azul #0234AB se utiliza como color semilla de la propuesta y se mantiene en la identidad visual de Pequeño Davante, así los roles de Material 3 y las pantallas parten de la misma base
 
-Esta separación también ayuda a entender cómo se combinan los colores, una acción elegida utiliza su fondo y su texto correspondiente, mientras que una prenda agotada necesita conservar un aviso que explique por qué no se puede seleccionar, utilizar un azul de la paleta en cualquier lugar no garantiza que la opción se lea ni que su estado se entienda, por eso he relacionado el color con el significado del control y he comprobado parejas concretas de fondo y texto, en lugar de valorar solo si los colores quedan bien juntos
+Esta relación ayuda a entender cómo se combinan los colores, una acción elegida utiliza su fondo y su texto correspondiente, mientras que una prenda agotada necesita conservar un aviso que explique por qué no se puede seleccionar, por eso he relacionado cada color con el significado del control y he comprobado parejas concretas de fondo y texto, en lugar de valorar solo si los colores quedan bien juntos
 
 #### Tipografía y distribución
 
@@ -275,14 +275,14 @@ Para colocar el contenido he usado una rejilla de cuatro columnas con 16 de marg
 
 | Medida | Valor | Cómo la utilizo |
 | --- | --- | --- |
-| Tamaño de pantalla | 360 × 800 | Base común para los frames |
+| Tamaño de pantalla | 360 x 800 | Base común para los frames |
 | Columnas | 4 | Referencia para alinear bloques |
 | Margen lateral | 16 | Separación respecto al borde |
 | Separación entre columnas | 8 | Espacio de la rejilla |
 | Base de espaciado | 8 | Referencia para separar los elementos |
-| Área mínima de pulsación que tomo como referencia | 48 × 48 | Espacio para tocar una acción |
+| Área mínima de pulsación que tomo como referencia | 48 x 48 | Espacio para tocar una acción |
 
-He tomado 8 como base para las separaciones, así puedo utilizar espacios de 8, 16 o 24 dependiendo de si dos elementos forman parte del mismo grupo o si empieza otra parte del contenido, por ejemplo, la foto y el nombre de una prenda tienen una relación más cercana que esa tarjeta y el grupo de filtros, para las zonas de pulsación he tomado como referencia 48 × 48, esto se refiere al espacio que responde al tocar, no al tamaño del dibujo, un corazón puede verse pequeño y tener espacio alrededor para que no haya que acertar justo en el centro, algo que importa especialmente al usar la app con una mano
+He tomado 8 como base para las separaciones, así puedo utilizar espacios de 8, 16 o 24 dependiendo de si dos elementos forman parte del mismo grupo o si empieza otra parte del contenido, por ejemplo, la foto y el nombre de una prenda tienen una relación más cercana que esa tarjeta y el grupo de filtros, para las zonas de pulsación he tomado como referencia 48 x 48, esto se refiere al espacio que responde al tocar, no al tamaño del dibujo, un corazón puede verse pequeño y tener espacio alrededor para que no haya que acertar justo en el centro, algo que importa especialmente al usar la app con una mano
 
 #### Componentes y estados
 
@@ -299,11 +299,13 @@ En las tarjetas y en los selectores he diferenciado varios estados manteniendo l
 
 La organización automática de los espacios, que en Figma se llama auto layout, ayuda a conservar la posición del contenido al reutilizar los componentes, así una tarjeta puede cambiar de nombre o de estado sin tener que colocar otra vez cada elemento a mano, lo importante es que esa reutilización mantenga también el significado de las opciones, en el selector la persona debe reconocer cuál ha elegido y cuál no puede comprar, no solo ver que algunos botones tienen otro color
 
-En la página Componentes están los dos conjuntos locales de la propuesta, la tarjeta de producto y el selector de talla, las tarjetas del "Catálogo" y de "Favoritos" comparten el mismo componente, pero cada una conserva su fotografía, su nombre y su precio, con las tallas ocurre lo mismo, la base se repite y cambia la edad o el estado, he conectado once tarjetas y ocho selectores con estos componentes para mantener esa relación también dentro de Figma, los selectores de "Detalle" y de su versión oscura conservan sus colores y sus avisos de disponibilidad
+En la página Componentes están los dos conjuntos locales de la propuesta, la tarjeta de producto y el selector de talla. Las tarjetas del Catálogo y de Favoritos comparten la misma base, pero cada una conserva su fotografía, su nombre y su precio. Con las tallas ocurre lo mismo, el componente mantiene la estructura y cambia la edad o el estado, incluidos los avisos de disponibilidad de Detalle y de su versión oscura
 
 ### 3.4 Prototipo de alta fidelidad
 
-En esta versión he llevado la distribución al aspecto final de Pequeño Davante, con el logo, los azules relacionados con Davante y las fotografías de las prendas, las ocho pantallas principales mantienen el formato de 360 × 800, el "Inicio de sesión" amplía el recorrido con una forma de acceder a la cuenta sin cambiar la compra como invitado, he buscado que la propuesta se reconozca como una misma tienda aunque cada pantalla tenga una función diferente, mirar ropa no necesita la misma información que revisar un "Carrito" o escribir una dirección
+El archivo final se puede abrir en [Figma](https://www.figma.com/design/uM6HT2RdelpEDSTGd4Fnk2/T1-%C2%B7-Peque%C3%B1o-Davante-%C2%B7-Marta-Gonz%C3%A1lez-Gonz%C3%A1lez?node-id=19-218&t=I4eUANyW0SXHQ82B-1), donde están las pantallas, los wireframes y el recorrido del prototipo
+
+En esta versión he llevado la distribución al aspecto final de Pequeño Davante, con el logo, los azules relacionados con Davante y las fotografías de las prendas, las ocho pantallas principales mantienen el formato de 360 x 800, el "Inicio de sesión" amplía el recorrido con una forma de acceder a la cuenta sin cambiar la compra como invitado, he buscado que la propuesta se reconozca como una misma tienda aunque cada pantalla tenga una función diferente, mirar ropa no necesita la misma información que revisar un "Carrito" o escribir una dirección
 
 #### Inicio
 
@@ -331,7 +333,7 @@ He planteado el "Carrito" como una pausa para comprobar la selección antes de r
 
 #### Datos de entrega
 
-Al pasar al formulario he mantenido la referencia de los pasos y del importe para que se siga reconociendo la compra que se acaba de revisar, los datos se organizan por contacto y dirección, con una etiqueta que permite saber qué pertenece a cada campo incluso cuando ya tiene contenido, para el estado de error he utilizado el ejemplo de email marta@, acompañado de borde rojo, icono y un mensaje sobre el formato esperado, he elegido ese caso porque escribir algo en un campo no significa que el dato esté completo, la ayuda explica el fallo en el mismo sitio donde se corrige, en lugar de obligar a revisar todo el formulario buscando qué está mal, el prototipo representa esta entrega como parte de una compra simulada, sin enviar los datos ni realizar un pago real
+Al pasar al formulario he mantenido la referencia de los pasos y del importe para que se siga reconociendo la compra que se acaba de revisar, los datos se organizan por contacto y dirección, con una etiqueta que permite saber qué pertenece a cada campo incluso cuando ya tiene contenido, para el estado de error he utilizado el ejemplo de email marta@, acompañado de borde rojo, icono y un mensaje sobre el formato esperado, he elegido ese caso porque escribir algo en un campo no significa que el dato esté completo, la ayuda explica el fallo en el mismo sitio donde se corrige, en lugar de obligar a revisar todo el formulario buscando qué está mal, esta pantalla deja preparado el paso siguiente del recorrido
 
 ![Pantalla final de "Datos de entrega"](capturas/prototipo/05-entrega.png)
 
@@ -349,15 +351,13 @@ La "Confirmación" debe permitir comprobar qué ha pasado después de continuar 
 
 #### Inicio de sesión
 
-El "Inicio de sesión" mantiene la idea de imaginar una tienda infantil de Davante, he colocado el logo en blanco sobre el azul de la marca y lo he acompañado de una fotografía de MEDAC Sevilla Este, la imagen relaciona esta parte del diseño con el centro y con el origen de la propuesta, mientras que Pequeño y Ropa infantil explican el uso que le he dado a esa identidad, la fotografía es una referencia del centro educativo, no representa una tienda de ropa real, he dejado la cabecera como una presentación breve para que los campos se vean sin tener que bajar por la pantalla, el nombre Inicia sesión permite reconocer desde el principio dónde se está
+El "Inicio de sesión" mantiene la idea de imaginar una tienda infantil de Davante, he colocado el logo en blanco sobre el azul de la marca y lo he acompañado de una fotografía de MEDAC Sevilla Este, la imagen conecta esta parte del diseño con el centro y el nombre Pequeño Davante explica la adaptación a la ropa infantil, he dejado la cabecera como una presentación breve para que los campos se vean sin tener que bajar por la pantalla, el nombre Inicia sesión permite reconocer desde el principio dónde se está
 
-Para entrar con correo he mantenido una etiqueta en cada campo, de esta forma se distingue el correo de la contraseña aunque se escriba dentro, he relacionado la recuperación con la contraseña y he reservado un espacio propio a la aceptación de los términos y condiciones, el control es circular, como un radio button, empieza sin seleccionar y permite marcarlo o desmarcarlo, el botón Iniciar sesión lleva a "Inicio" en la demostración cuando se han aceptado los términos, esta condición representa la aceptación dentro del prototipo, no comprueba que el correo y la contraseña pertenezcan a una cuenta real, las etiquetas quedan completas sobre el borde del campo y el logo conserva espacio alrededor para que la marca se reconozca sin mezclarse con la fotografía
+Para entrar con correo he mantenido una etiqueta en cada campo, de esta forma se distingue el correo de la contraseña aunque se escriba dentro, he relacionado la recuperación con la contraseña y he reservado un espacio propio a la aceptación de los términos y condiciones, el control es circular, como un radio button, empieza sin seleccionar y permite marcarlo o desmarcarlo, el botón Iniciar sesión lleva a "Inicio" cuando se aceptan los términos, y el radio button permite revisar esa elección antes de continuar, las etiquetas quedan completas sobre el borde del campo y el logo conserva espacio alrededor para que la marca se reconozca sin mezclarse con la fotografía
 
-Google y la cuenta Davante aparecen como otras formas de acceso, he añadido el icono de cada servicio para reconocerlas antes de leer el botón y he mantenido el texto para que no haya que interpretar solo el dibujo, los dos accesos representan la entrada a la tienda dentro de Figma, sin conectar con cuentas externas, Crear cuenta permite distinguir el registro del acceso de una persona que ya tiene cuenta, tanto esa opción como la recuperación están representadas en el diseño, pero no tienen un formulario adicional, he mantenido Seguir sin iniciar sesión porque quien entra a buscar un regalo puede querer mirar las prendas antes de registrarse, la flecha de regreso ofrece otra forma de volver a "Inicio"
+Google y la cuenta Davante aparecen como otras formas de acceso, he añadido el icono de cada servicio para reconocerlas antes de leer el botón y he mantenido el texto para que no haya que interpretar solo el dibujo, los dos accesos representan alternativas de entrada a la tienda dentro del recorrido, Crear cuenta permite distinguir el registro del acceso de una persona que ya tiene cuenta, tanto esa opción como la recuperación están representadas en el diseño, pero no tienen un formulario adicional, he mantenido Seguir sin iniciar sesión porque quien entra a buscar un regalo puede querer mirar las prendas antes de registrarse, la flecha de regreso ofrece otra forma de volver a "Inicio"
 
 ![Pantalla final de "Inicio de sesión"](capturas/prototipo/11-inicio-sesion.png)
-
-El [login en Figma](https://www.figma.com/design/uM6HT2RdelpEDSTGd4Fnk2/T1-Pequeno-Davante?node-id=46-723) y su [wireframe](https://www.figma.com/design/uM6HT2RdelpEDSTGd4Fnk2/T1-Pequeno-Davante?node-id=47-851) están en el archivo que incluye las ocho pantallas
 
 #### Inicio y Detalle en oscuro
 
@@ -407,9 +407,9 @@ Los objetivos sirven para interpretar esos datos, por ejemplo, terminar una comp
 
 pruebas simuladas
 
-Para esta revisión he utilizado los perfiles de David, de 29 años, y Laura, de 24 años, manteniendo el mismo punto de partida y las mismas tareas para los dos, cada recorrido empieza con el estado reiniciado para que la selección de una persona no cambie lo que encuentra la siguiente
+Para esta revisión he utilizado los perfiles de David, de 29 años, y Laura, de 24 años, manteniendo el mismo punto de partida y las mismas tareas para los dos, la tarea de medidas cuenta el tiempo desde que se entra en el "Detalle" hasta que se vuelve a la prenda después de localizar la referencia en la tabla, cada recorrido empieza con el estado reiniciado para que la selección de una persona no cambie lo que encuentra la siguiente
 
-| Persona | Tarea | Resultado | Tiempo | Errores | Ayuda |
+| Participante | Tarea | Resultado | Tiempo | Errores | Ayuda |
 | --- | --- | --- | --- | --- | --- |
 | David | Comprar la chaqueta verde oliva de talla 4 y dos unidades | Completa y llega a "Pedido confirmado" con 78 € | 1 min 46 s | Entra primero en "Favoritos" antes de volver al "Catálogo" | No necesita ayuda |
 | David | Consultar las medidas de una talla | Completa la consulta y vuelve al "Detalle" | 42 s | Pulsa primero sobre el texto de la talla antes de localizar "Consultar medidas y tallas" | Una indicación para buscar la ayuda en la ficha |
@@ -428,7 +428,7 @@ Los tres hallazgos más importantes son los siguientes
 | El recorrido de compra se entiende, pero "Favoritos" puede desviar a quien todavía está buscando una prenda | La navegación inferior ofrece varios destinos y no todos forman parte de la compra directa | He conservado los tres destinos, dejando las acciones de compra dentro de "Catálogo", "Detalle" y "Carrito" |
 | El error del email se reconoce cuando aparece junto al campo | Un mensaje separado del formulario obligaría a buscar dónde está el problema | He mantenido el borde de error, el icono y el texto de ayuda en el propio campo |
 
-La revisión del archivo también ha permitido comprobar la relación entre las pantallas, los estados de compra y los componentes que se repiten, las ocho pantallas principales conservan el tamaño de 360 × 800 y están acompañadas de las dos versiones oscuras y de la guía, las acciones de navegación no tienen destinos vacíos y la cantidad del pedido actualiza el resumen de 39 € a 78 €
+La revisión del archivo también ha permitido comprobar la relación entre las pantallas, los estados de compra y los componentes que se repiten, las ocho pantallas principales conservan el tamaño de 360 x 800 y están acompañadas de las dos versiones oscuras y de la guía, las acciones de navegación no tienen destinos vacíos y la cantidad del pedido actualiza el resumen de 39 € a 78 €
 
 ### 4.3 Iteraciones y mejoras
 
@@ -438,7 +438,7 @@ He cambiado el acceso a la ayuda de la ficha de Guía de tallas a Consultar medi
 | --- | --- |
 | ![Detalle antes del cambio de etiqueta](capturas/iteracion/antes.png) | ![Detalle con Consultar medidas y tallas](capturas/iteracion/despues.png) |
 
-Las dos capturas muestran el cambio sobre la misma pantalla, el botón mantiene su espacio de 328 × 48 y la etiqueta completa cabe sin cortar el texto, he elegido esta mejora al revisar la relación entre la duda de talla y el acceso a la ayuda, no a partir de tiempos de participantes, su intención es hacer más comprensible la consulta, para saber si se encuentra antes hay que comparar el tiempo de apertura y los intentos de las personas que utilicen el prototipo
+Las dos capturas muestran el cambio sobre la misma pantalla, el botón mantiene su espacio de 328 x 48 y la etiqueta completa cabe sin cortar el texto, en la prueba simulada David tardó 42 segundos y pulsó primero sobre el texto de la talla porque no identificaba el acceso a la ayuda, por eso he cambiado la etiqueta a "Consultar medidas y tallas", la intención es que la acción se entienda antes de tocarla
 
 ## 5. Entrega y documentación final
 
@@ -492,4 +492,4 @@ Vertbaudet. (s. f.). *Guía de calzado*. <https://www.vertbaudet.es/page/asesora
 
 Zara. (s. f.). *Ayuda*. <https://www.zara.com/es/es/help/compra-segura-h28.html>
 
-Palabra del día - 29
+Palabra del día: 29

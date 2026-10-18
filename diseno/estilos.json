@@ -4,55 +4,18 @@
   "colorSemilla": "#0234AB",
   "esquema": {
     "claro": {
-      "primary": "#65558F",
-      "onPrimary": "#FFFFFF",
-      "primaryContainer": "#EADDFF",
-      "onPrimaryContainer": "#4F378B",
-      "secondary": "#625B71",
-      "onSecondary": "#FFFFFF",
-      "tertiary": "#7D5260",
-      "onTertiary": "#FFFFFF",
-      "error": "#B3261E",
-      "onError": "#FFFFFF",
-      "surface": "#FEF7FF",
-      "onSurface": "#1D1B20"
-    },
-    "oscuro": {
-      "primary": "#D0BCFE",
-      "onPrimary": "#381E72",
-      "primaryContainer": "#4F378B",
-      "onPrimaryContainer": "#EADDFF",
-      "secondary": "#CCC2DC",
-      "onSecondary": "#332D41",
-      "tertiary": "#EFB8C8",
-      "onTertiary": "#492532",
-      "error": "#F2B8B5",
-      "onError": "#601410",
-      "surface": "#141218",
-      "onSurface": "#E6E0E9"
-    }
-  },
-  "origenEsquema": {
-    "archivoFigma": "uM6HT2RdelpEDSTGd4Fnk2",
-    "estilos": "material-theme/sys",
-    "colorSemillaDelEsquema": null,
-    "generacionDesdeColorSemillaVerificada": false,
-    "aplicacionCompletaEnPantallasVerificada": false
-  },
-  "paletaPantallas": {
-    "claro": {
       "primary": "#0234AB",
       "onPrimary": "#FFFFFF",
       "primaryContainer": "#EAF1FC",
       "onPrimaryContainer": "#082B65",
       "secondary": "#2D5FAA",
-      "tertiary": "#FF5B41",
+      "onSecondary": "#FFFFFF",
+      "tertiary": "#B33B24",
+      "onTertiary": "#FFFFFF",
       "surface": "#F5F8FD",
       "onSurface": "#17243D",
       "error": "#B3261E",
-      "surfaceContainer": "#FFFFFF",
-      "onSurfaceVariant": "#475569",
-      "outline": "#D7DFEA"
+      "onError": "#FFFFFF"
     },
     "oscuro": {
       "primary": "#AFC6FF",
@@ -60,11 +23,13 @@
       "primaryContainer": "#173A85",
       "onPrimaryContainer": "#EAF1FC",
       "secondary": "#ADC7F5",
+      "onSecondary": "#0F2F63",
       "tertiary": "#FFB49F",
+      "onTertiary": "#561E0F",
       "surface": "#101B30",
       "onSurface": "#F0F4FC",
-      "onSurfaceVariant": "#B9C7DF",
-      "outline": "#61718A"
+      "error": "#F2B8B5",
+      "onError": "#601410"
     }
   },
   "tipografia": {
@@ -101,12 +66,7 @@
     "base": 8,
     "margenPantalla": 16,
     "columnas": 4,
-    "gutter": 8,
     "areaTactilMinima": 48
-  },
-  "formatoPantalla": {
-    "ancho": 360,
-    "alto": 800
   },
   "componentes": [
     "Top app bar",
@@ -120,187 +80,117 @@
   ],
   "componentesPropios": [
     {
-      "nombre": "Tarjeta de producto",
+      "nombre": "TarjetaProducto",
       "variantes": [
-        "Estado=normal",
-        "Estado=favorito",
-        "Estado=agotado"
-      ],
-      "archivoFigma": "uM6HT2RdelpEDSTGd4Fnk2",
-      "nodeId": "58:713",
-      "autoLayout": "HORIZONTAL",
-      "maestroLocal": true,
-      "variantesNodeId": [
-        "58:714",
-        "58:716",
-        "58:718"
+        "normal",
+        "favorito",
+        "agotado"
       ]
     },
     {
-      "nombre": "Selector de talla",
+      "nombre": "SelectorTalla",
       "variantes": [
-        "Estado=disponible, Tema=claro",
-        "Estado=seleccionada, Tema=claro",
-        "Estado=sin stock, Tema=claro",
-        "Estado=disponible, Tema=oscuro",
-        "Estado=seleccionada, Tema=oscuro",
-        "Estado=sin stock, Tema=oscuro"
-      ],
-      "archivoFigma": "uM6HT2RdelpEDSTGd4Fnk2",
-      "nodeId": "58:792",
-      "autoLayout": "HORIZONTAL",
-      "maestroLocal": true,
-      "variantesNodeId": [
-        "58:793",
-        "58:796",
-        "58:799",
-        "58:802",
-        "58:805",
-        "58:808"
+        "disponible",
+        "seleccionada",
+        "sin stock"
       ]
     }
   ],
+  "formatoPantalla": {
+    "ancho": 360,
+    "alto": 800
+  },
   "contrastes": {
     "minimo": 4.5,
     "transparenciasIncluidas": false,
     "parejas": [
       {
-        "paleta": "material-theme",
-        "modo": "claro",
-        "fondo": "primary",
-        "texto": "onPrimary",
-        "ratio": 6.46
-      },
-      {
-        "paleta": "material-theme",
-        "modo": "claro",
-        "fondo": "primaryContainer",
-        "texto": "onPrimaryContainer",
-        "ratio": 7.23
-      },
-      {
-        "paleta": "material-theme",
-        "modo": "claro",
-        "fondo": "secondary",
-        "texto": "onSecondary",
-        "ratio": 6.45
-      },
-      {
-        "paleta": "material-theme",
-        "modo": "claro",
-        "fondo": "tertiary",
-        "texto": "onTertiary",
-        "ratio": 6.47
-      },
-      {
-        "paleta": "material-theme",
-        "modo": "claro",
-        "fondo": "surface",
-        "texto": "onSurface",
-        "ratio": 16.23
-      },
-      {
-        "paleta": "material-theme",
-        "modo": "claro",
-        "fondo": "error",
-        "texto": "onError",
-        "ratio": 6.54
-      },
-      {
-        "paleta": "material-theme",
-        "modo": "oscuro",
-        "fondo": "primary",
-        "texto": "onPrimary",
-        "ratio": 7.71
-      },
-      {
-        "paleta": "material-theme",
-        "modo": "oscuro",
-        "fondo": "primaryContainer",
-        "texto": "onPrimaryContainer",
-        "ratio": 7.23
-      },
-      {
-        "paleta": "material-theme",
-        "modo": "oscuro",
-        "fondo": "secondary",
-        "texto": "onSecondary",
-        "ratio": 7.74
-      },
-      {
-        "paleta": "material-theme",
-        "modo": "oscuro",
-        "fondo": "tertiary",
-        "texto": "onTertiary",
-        "ratio": 7.75
-      },
-      {
-        "paleta": "material-theme",
-        "modo": "oscuro",
-        "fondo": "surface",
-        "texto": "onSurface",
-        "ratio": 14.35
-      },
-      {
-        "paleta": "material-theme",
-        "modo": "oscuro",
-        "fondo": "error",
-        "texto": "onError",
-        "ratio": 7.66
-      },
-      {
-        "paleta": "pantallas",
+        "paleta": "esquema",
         "modo": "claro",
         "fondo": "primary",
         "texto": "onPrimary",
         "ratio": 10.09
       },
       {
-        "paleta": "pantallas",
+        "paleta": "esquema",
         "modo": "claro",
         "fondo": "primaryContainer",
         "texto": "onPrimaryContainer",
         "ratio": 11.97
       },
       {
-        "paleta": "pantallas",
+        "paleta": "esquema",
+        "modo": "claro",
+        "fondo": "secondary",
+        "texto": "onSecondary",
+        "ratio": 6.31
+      },
+      {
+        "paleta": "esquema",
+        "modo": "claro",
+        "fondo": "tertiary",
+        "texto": "onTertiary",
+        "ratio": 5.89
+      },
+      {
+        "paleta": "esquema",
         "modo": "claro",
         "fondo": "surface",
         "texto": "onSurface",
         "ratio": 14.55
       },
       {
-        "paleta": "pantallas",
+        "paleta": "esquema",
+        "modo": "claro",
+        "fondo": "error",
+        "texto": "onError",
+        "ratio": 6.54
+      },
+      {
+        "paleta": "esquema",
         "modo": "oscuro",
         "fondo": "primary",
         "texto": "onPrimary",
         "ratio": 8.95
       },
       {
-        "paleta": "pantallas",
+        "paleta": "esquema",
         "modo": "oscuro",
         "fondo": "primaryContainer",
         "texto": "onPrimaryContainer",
         "ratio": 9.33
       },
       {
-        "paleta": "pantallas",
+        "paleta": "esquema",
+        "modo": "oscuro",
+        "fondo": "secondary",
+        "texto": "onSecondary",
+        "ratio": 7.63
+      },
+      {
+        "paleta": "esquema",
+        "modo": "oscuro",
+        "fondo": "tertiary",
+        "texto": "onTertiary",
+        "ratio": 7.73
+      },
+      {
+        "paleta": "esquema",
         "modo": "oscuro",
         "fondo": "surface",
         "texto": "onSurface",
         "ratio": 15.6
+      },
+      {
+        "paleta": "esquema",
+        "modo": "oscuro",
+        "fondo": "error",
+        "texto": "onError",
+        "ratio": 7.66
       }
     ]
   },
   "componentesReutilizados": [
-    {
-      "nombre": "Selector de color",
-      "variantes": [
-        "normal",
-        "seleccionado",
-        "sin disponibilidad"
-      ],
-      "origenMaestro": "remoto"
-    }
+    "Selector de color"
   ]
 }

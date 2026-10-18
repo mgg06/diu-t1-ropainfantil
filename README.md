@@ -78,4 +78,4 @@ Los valores están en [diseno/estilos.json](diseno/estilos.json), he recogido en
 
 ## Referencias
 
-Las quince fuentes están al final de [DOCUMENTACION.md](DOCUMENTACION.md#6-referencias-bibliográficas), la carpeta [referencias](referencias/) conserva la bibliografía APA7 y los datos de las entradas utilizadas
+Las quince fuentes están al final de [DOCUMENTACION.md](DOCUMENTACION.md#6-referencias-bibliográficas), dentro de la sección de referencias bibliográficas en formato APA7

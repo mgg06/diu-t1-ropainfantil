@@ -408,6 +408,7 @@ Los objetivos sirven para interpretar esos datos, por ejemplo, terminar una comp
 pruebas simuladas
 
 Para esta revisión he utilizado los perfiles de David, de 29 años, y Laura, de 24 años, manteniendo el mismo punto de partida y las mismas tareas para los dos, la tarea de medidas cuenta el tiempo desde que se entra en el "Detalle" hasta que se vuelve a la prenda después de localizar la referencia en la tabla, cada recorrido empieza con el estado reiniciado para que la selección de una persona no cambie lo que encuentra la siguiente
+Para esta revisión he utilizado los perfiles de David, de 29 años, y Laura, de 24 años, manteniendo el mismo punto de partida y las mismas tareas para los dos, cada recorrido empieza con el estado reiniciado para que la selección de una persona no cambie lo que encuentra la siguiente
 
 | Participante | Tarea | Resultado | Tiempo | Errores | Ayuda |
 | --- | --- | --- | --- | --- | --- |

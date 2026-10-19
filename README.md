@@ -58,9 +58,9 @@ La consulta de medidas se abre sobre el "Detalle" para volver después a la mism
 
 Los [ocho wireframes](capturas/wireframes/) recogen la distribución antes del acabado con fotos y colores, incluido el [wireframe del login](capturas/wireframes/08-inicio-sesion.png), se pueden comparar con las capturas finales de cada pantalla para ver qué lugar ocupa la navegación, dónde se elige una talla o en qué momento se revisa la compra, en el archivo de Figma están separados en las páginas Wireframes y Prototipo
 
-He reunido la tarjeta de producto y el selector de talla en la página Componentes, las tarjetas del Catálogo y de Favoritos utilizan esos conjuntos locales, cada tarjeta conserva la foto y los datos de su prenda, y cada talla mantiene su edad y su disponibilidad, los estados permiten distinguir una prenda favorita de una agotada y una talla disponible de la que ya se ha elegido, las versiones claras y oscuras comparten esa misma idea
+He guardado la tarjeta de producto y el selector de talla en Wireframes, fuera de las pantallas que se exportan, las tarjetas del Catálogo y de Favoritos utilizan esos conjuntos locales, cada tarjeta conserva la foto y los datos de su prenda, y cada talla mantiene su edad y su disponibilidad, los estados permiten distinguir una prenda favorita de una agotada y una talla disponible de la que ya se ha elegido, las versiones claras y oscuras comparten esa misma idea
 
-La [comparación de antes y después](DOCUMENTACION.md#43-iteraciones-y-mejoras) muestra un cambio concreto en el "Detalle", he sustituido Guía de tallas por Consultar medidas y tallas para explicar mejor qué ayuda se abre, el botón conserva su tamaño y su lugar junto a las tallas, esta mejora procede de revisar el diseño, la [sección de resultados](DOCUMENTACION.md#42-resultados) separa esa revisión de las mediciones de uso con participantes
+La [comparación de antes y después](DOCUMENTACION.md#43-iteraciones-y-mejoras) muestra un cambio concreto en el "Detalle", he sustituido Guía de tallas por Consultar medidas y tallas para explicar mejor qué ayuda se abre, el botón conserva su tamaño y su lugar junto a las tallas, la [sección de resultados](DOCUMENTACION.md#42-resultados) recoge los recorridos que he planteado para revisar esa dificultad
 
 ## Medidas y estilos
 

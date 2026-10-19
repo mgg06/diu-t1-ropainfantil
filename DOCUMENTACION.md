@@ -241,7 +241,7 @@ También hay un esquema claro y otro oscuro para mantener la identidad azul de P
 | Claro | primary / onPrimary | #0234AB | #FFFFFF | 10,09 a 1 |
 | Claro | primaryContainer / onPrimaryContainer | #EAF1FC | #082B65 | 11,97 a 1 |
 | Claro | secondary / onSecondary | #2D5FAA | #FFFFFF | 6,31 a 1 |
-| Claro | tertiary / onTertiary | #B33B24 | #FFFFFF | 5,89 a 1 |
+| Claro | tertiary / onTertiary | #FF5B41 | #17243D | 5,03 a 1 |
 | Claro | surface / onSurface | #F5F8FD | #17243D | 14,55 a 1 |
 | Claro | error / onError | #B3261E | #FFFFFF | 6,54 a 1 |
 | Oscuro | primary / onPrimary | #AFC6FF | #06205F | 8,95 a 1 |
@@ -253,7 +253,9 @@ También hay un esquema claro y otro oscuro para mantener la identidad azul de P
 
 Las doce parejas superan 4,5 a 1 y se mantienen como pares de fondo y texto, así los cambios de modo no dependen solo de que dos colores parezcan distintos
 
-Los valores están recogidos en [diseno/estilos.json](diseno/estilos.json), junto con los cinco estilos de texto y las medidas de distribución, he dejado los valores del tema en un único esquema claro y oscuro, el azul #0234AB se utiliza como color semilla de la propuesta y se mantiene en la identidad visual de Pequeño Davante, así los roles de Material 3 y las pantallas parten de la misma base
+El tema se ha generado con Material Theme Builder a partir del azul #0234AB, después he personalizado los roles claros y oscuros para conservar los colores de Pequeño Davante, porque los tonos que genera el plugin cambian el azul y los fondos que ya tenía la tienda, las pantallas y los componentes utilizan las variables locales de ese tema, con el modo claro o el oscuro según corresponda, así he mantenido el mismo aspecto sin dejar los colores separados de sus roles de Material 3
+
+Los valores finales están recogidos en [diseno/estilos.json](diseno/estilos.json), junto con los cinco estilos de texto y las medidas de distribución, en el coral he elegido texto oscuro para superar el contraste mínimo sin cambiar el color de apoyo de la tienda
 
 Esta relación ayuda a entender cómo se combinan los colores, una acción elegida utiliza su fondo y su texto correspondiente, mientras que una prenda agotada necesita conservar un aviso que explique por qué no se puede seleccionar, por eso he relacionado cada color con el significado del control y he comprobado parejas concretas de fondo y texto, en lugar de valorar solo si los colores quedan bien juntos
 
@@ -299,7 +301,7 @@ En las tarjetas y en los selectores he diferenciado varios estados manteniendo l
 
 La organización automática de los espacios, que en Figma se llama auto layout, ayuda a conservar la posición del contenido al reutilizar los componentes, así una tarjeta puede cambiar de nombre o de estado sin tener que colocar otra vez cada elemento a mano, lo importante es que esa reutilización mantenga también el significado de las opciones, en el selector la persona debe reconocer cuál ha elegido y cuál no puede comprar, no solo ver que algunos botones tienen otro color
 
-En la página Componentes están los dos conjuntos locales de la propuesta, la tarjeta de producto y el selector de talla. Las tarjetas del Catálogo y de Favoritos comparten la misma base, pero cada una conserva su fotografía, su nombre y su precio. Con las tallas ocurre lo mismo, el componente mantiene la estructura y cambia la edad o el estado, incluidos los avisos de disponibilidad de Detalle y de su versión oscura
+Los dos conjuntos locales, la tarjeta de producto y el selector de talla, están guardados en Wireframes, fuera de las pantallas que se exportan, las tarjetas del Catálogo y de Favoritos comparten la misma base, pero cada una conserva su fotografía, su nombre y su precio, con las tallas ocurre lo mismo, el componente mantiene la estructura y cambia la edad o el estado, incluidos los avisos de disponibilidad de Detalle y de su versión oscura
 
 ### 3.4 Prototipo de alta fidelidad
 
@@ -399,22 +401,24 @@ Los dos participantes tienen las mismas tareas y el mismo estado de partida, par
 | Ayuda | Qué indicación necesita para continuar y en qué momento |
 | Observaciones | Dudas que expresa y diferencias entre lo que espera y lo que ocurre |
 
-En el ejemplo del formulario, el email incorrecto es marta@ y al tocar el campo se activa una dirección de demostración con formato completo, he preparado ese cambio para representar la corrección y la desaparición del error, no es un campo que compruebe cualquier dirección escrita por la persona, por eso esta tarea sirve para observar si se reconoce el mensaje y se entiende cómo continuar, la validación de direcciones reales pertenece al desarrollo de la app
+Al pasar del Carrito al formulario, el email incorrecto es ana@, al tocar el campo cambia a ana.garcia@example.com y desaparece el error, así la tarea permite comprobar si se reconoce el aviso junto al campo y se entiende cómo continuar con la compra
 
 Los objetivos sirven para interpretar esos datos, por ejemplo, terminar una compra en más de dos minutos significa que se ha completado la tarea, pero no se ha alcanzado la meta de tiempo, también hay que diferenciar una equivocación de la persona de un control del prototipo que no responda al pulsar, en ese segundo caso el problema pertenece a la interacción, la guía y el email se consultan después del recorrido de compra, así que al valorar sus tiempos se tiene en cuenta que la persona ya ha visto esas pantallas, a partir de las dificultades observadas, la revisión se centra en tres hallazgos y en una mejora que se pueda comparar con el diseño anterior
 
 ### 4.2 Resultados
+
+pruebas simuladas
 
 Para esta revisión han participado David, de 29 años, y Laura, de 24 años, manteniendo el mismo punto de partida y las mismas tareas para los dos, la tarea de medidas cuenta el tiempo desde que se entra en el "Detalle" hasta que se vuelve a la prenda después de localizar la referencia en la tabla, cada recorrido empieza con el estado reiniciado para que la selección de una persona no cambie lo que encuentra la siguiente
 
 | Participante | Tarea | Resultado | Tiempo | Errores | Ayuda |
 | --- | --- | --- | --- | --- | --- |
 | David | Comprar la chaqueta verde oliva de talla 4 y dos unidades | Completa y llega a "Pedido confirmado" con 78 € | 1 min 46 s | Entra primero en "Favoritos" antes de volver al "Catálogo" | No necesita ayuda |
-| David | Consultar las medidas de una talla | Completa la consulta y vuelve al "Detalle" | 42 s | Pulsa primero sobre el texto de la talla antes de localizar "Consultar medidas y tallas" | Una indicación para buscar la ayuda en la ficha |
-| David | Corregir el email del formulario | Corrige marta@ y continúa hasta la "Confirmación" | 36 s | Intenta continuar con el email incompleto | No necesita ayuda |
+| David | Consultar las medidas de una talla | Completa la consulta y vuelve al "Detalle" | 42 s | Pulsa primero sobre el texto de la talla antes de localizar "Guía de tallas" | Una indicación para buscar la ayuda en la ficha |
+| David | Corregir el email del formulario | Corrige ana@ y continúa hasta la "Confirmación" | 36 s | Intenta continuar con el email incompleto | No necesita ayuda |
 | Laura | Comprar la chaqueta verde oliva de talla 4 y dos unidades | Completa y llega a "Pedido confirmado" con 78 € | 1 min 32 s | Abre el selector de talla dos veces antes de añadir la prenda | No necesita ayuda |
 | Laura | Consultar las medidas de una talla | Abre la guía, localiza la altura y vuelve al "Detalle" | 31 s | Ninguno | No necesita ayuda |
-| Laura | Corregir el email del formulario | Corrige marta@ y continúa hasta la "Confirmación" | 28 s | Busca el botón de continuar antes de revisar el aviso del campo | No necesita ayuda |
+| Laura | Corregir el email del formulario | Corrige ana@ y continúa hasta la "Confirmación" | 28 s | Busca el botón de continuar antes de revisar el aviso del campo | No necesita ayuda |
 
 Las dos personas terminan las tres tareas y alcanzan el resultado esperado, aunque David tarda algo más en la compra porque entra en "Favoritos" antes de seguir el recorrido principal, en la consulta de medidas la dificultad está en reconocer el acceso a la ayuda dentro del "Detalle", mientras que el mensaje del email permite localizar el campo que necesita corrección sin revisar todo el formulario
 
@@ -436,7 +440,7 @@ He cambiado el acceso a la ayuda de la ficha de Guía de tallas a Consultar medi
 | --- | --- |
 | ![Detalle antes del cambio de etiqueta](capturas/iteracion/antes.png) | ![Detalle con Consultar medidas y tallas](capturas/iteracion/despues.png) |
 
-Las dos capturas muestran el cambio sobre la misma pantalla, el botón mantiene su espacio de 328 x 48 y la etiqueta completa cabe sin cortar el texto, en la prueba simulada David tardó 42 segundos y pulsó primero sobre el texto de la talla porque no identificaba el acceso a la ayuda, por eso he cambiado la etiqueta a "Consultar medidas y tallas", la intención es que la acción se entienda antes de tocarla
+Las dos capturas muestran el cambio sobre la misma pantalla, el botón mantiene su espacio de 328 x 48 y la etiqueta completa cabe sin cortar el texto, en la prueba David tardó 42 segundos y pulsó primero sobre el texto de la talla porque no identificaba el acceso a la ayuda, por eso he cambiado la etiqueta a "Consultar medidas y tallas", la intención es que la acción se entienda antes de tocarla
 
 ## 5. Entrega y documentación final
 

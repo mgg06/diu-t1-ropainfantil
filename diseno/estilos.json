@@ -10,8 +10,8 @@
       "onPrimaryContainer": "#082B65",
       "secondary": "#2D5FAA",
       "onSecondary": "#FFFFFF",
-      "tertiary": "#B33B24",
-      "onTertiary": "#FFFFFF",
+      "tertiary": "#FF5B41",
+      "onTertiary": "#17243D",
       "surface": "#F5F8FD",
       "onSurface": "#17243D",
       "error": "#B3261E",
@@ -130,7 +130,7 @@
         "modo": "claro",
         "fondo": "tertiary",
         "texto": "onTertiary",
-        "ratio": 5.89
+        "ratio": 5.03
       },
       {
         "paleta": "esquema",

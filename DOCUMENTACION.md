@@ -142,11 +142,11 @@ flowchart TD
     FAV -->|"Volver a Inicio"| INI
 ```
 
-He separado el "Catálogo" del "Detalle" porque no se consulta la ropa de la misma manera en los dos sitios, en el "Catálogo" interesa comparar varias prendas y en la ficha hace falta centrarse en una para elegir el color y la talla, la guía queda dentro de esa elección, se abre sobre el "Detalle" y al cerrarla se vuelve a la prenda, así consultar las medidas no se convierte en otra parte de la tienda por la que haya que navegar desde cero, después aparece el "Carrito" como un momento de revisión antes de dar los datos de contacto y dirección
+El mapa distingue la consulta de prendas del proceso de compra. La guía se abre sobre el Detalle y, al cerrarla, se conserva la prenda que se estaba mirando, sin volver al listado. Desde el Carrito se puede avanzar a los Datos de entrega o regresar para cambiar la elección
 
-"Favoritos" no tiene la misma función que el "Carrito", guardar una chaqueta puede significar que gusta, pero todavía no se sabe si se va a comprar o qué talla hace falta, por eso he mantenido ambos espacios separados, la "Confirmación" termina el recorrido con el resumen y la vuelta a "Inicio", mientras que las flechas de las pantallas de compra permiten plantear el regreso al paso anterior, las versiones oscuras de "Inicio" y "Detalle" no añaden destinos al mapa, son las mismas pantallas con otra combinación de colores
+Favoritos queda accesible desde la barra inferior para recuperar una prenda en otra consulta. La Confirmación cierra la compra con el resumen del pedido y una salida a Inicio, mientras que las flechas permiten volver al paso anterior. Las versiones oscuras de Inicio y Detalle representan esos mismos destinos, por eso no aparecen como pantallas nuevas en el mapa
 
-He añadido "Inicio de sesión" como una octava pantalla, desde ella se puede entrar a la tienda o seguir sin cuenta, la he separado de los "Datos de entrega" porque acceder a una cuenta y escribir la dirección de un pedido son cosas distintas, el registro no se convierte en un paso obligatorio para mirar el "Catálogo" ni sustituye al formulario de la compra, en el mapa aparecen las salidas del login hacia "Inicio", los accesos de recuperar y crear cuenta se presentan dentro de esa pantalla, sin añadir recorridos que no están desarrollados en el prototipo
+Inicio de sesión es la octava pantalla y permite acceder a la tienda o seguir sin cuenta. La dirección del pedido se recoge después, en Datos de entrega, para que mirar ropa no obligue a registrarse. El mapa muestra la entrada a Inicio, los accesos de recuperar y crear cuenta quedan representados en el login y no tienen otros formularios desarrollados
 
 ### 3.2 Wireframes
 
@@ -154,13 +154,13 @@ Los wireframes recogen la distribución de las ocho pantallas, he utilizado bloq
 
 #### Inicio
 
-En "Inicio" he planteado dos formas de empezar, entrar por una categoría o ir a mirar el "Catálogo", esto responde a que algunas personas ya saben para qué edad están comprando y otras prefieren ver qué ropa hay antes de decidir, la ropa de temporada sirve para presentar el tipo de tienda y darle un contenido concreto a esa primera visita, pero sin ocupar tanto espacio que se pierdan los demás accesos, desde este primer diseño he mantenido la barra inferior como una referencia común, porque el contenido de temporada puede cambiar y los destinos principales de la app siguen siendo los mismos
+En el wireframe de Inicio he dejado dos formas de empezar, elegir una categoría o explorar el Catálogo. La primera sirve a quien sabe para qué edad compra y la segunda permite mirar antes de decidir. El bloque de temporada presenta una prenda sin desplazar esos accesos, y la barra inferior conserva su lugar aunque cambie el contenido de la tienda
 
 ![Wireframe de "Inicio"](capturas/wireframes/01-inicio.png)
 
 #### Catálogo
 
-Para el "Catálogo" he elegido dos prendas por fila, así se pueden comparar varias opciones sin dejar las imágenes demasiado pequeñas, debajo de cada una aparece la información necesaria para esa primera elección, el nombre y el precio, he mantenido el mismo orden en las tarjetas para que resulte más fácil comparar sin ir buscando el coste en un lugar distinto cada vez, los filtros y la ordenación tienen su propio espacio porque afectan al conjunto de productos, mientras que cada tarjeta pertenece a una prenda, también he incluido la referencia de agotado para que la disponibilidad se conozca antes de entrar en una ficha
+Para el Catálogo he elegido dos prendas por fila, con espacio para reconocer la foto y leer el nombre y el precio debajo. Esos datos ocupan el mismo lugar en todas las tarjetas para facilitar la comparación. Los filtros y la ordenación quedan fuera de cada producto porque afectan al listado completo, y el aviso de agotado permite conocer la disponibilidad antes de abrir la ficha
 
 ![Wireframe de "Catálogo"](capturas/wireframes/02-catalogo.png)
 
@@ -178,13 +178,13 @@ En el "Carrito" he reunido lo que hace falta revisar antes de continuar, qué pr
 
 #### Datos de entrega
 
-Para el formulario he seguido el orden de contacto y dirección, de esta forma los campos forman una secuencia que se puede completar sin ir saltando entre datos de distinto tipo, he mantenido el importe como referencia de la compra y he incluido el ejemplo de error del email con su ayuda, así desde el wireframe ya se tiene en cuenta qué ocurre cuando un dato no está bien escrito, la pantalla está centrada en los "Datos de entrega" y el siguiente paso del recorrido es la "Confirmación"
+El formulario empieza con los datos de contacto y continúa con la dirección, sin mezclar campos de los dos grupos. El importe sigue visible para recordar qué compra se está completando. Desde el wireframe aparece el error del email junto con su ayuda, de modo que la distribución reserva espacio para explicar un dato incorrecto antes de pasar a la Confirmación
 
 ![Wireframe de "Datos de entrega"](capturas/wireframes/05-entrega.png)
 
 #### Pedido confirmado
 
-Después de completar los datos, la persona necesita una respuesta que se pueda relacionar con lo que acaba de elegir, por eso la "Confirmación" incluye el resumen de la chaqueta, la talla 4, una unidad y 39 €, además del número de pedido de demostración 12-PD, un mensaje general de que todo ha ido bien no permitiría comprobar si la selección es la correcta, he mantenido esos datos para que el cierre tenga relación con el "Carrito" y he añadido Volver a "Inicio" como salida, así se puede regresar a la tienda después de terminar el recorrido
+El wireframe de Confirmación incluye la chaqueta, la talla 4, una unidad y 39 €, junto al número de pedido 12-PD. Quería que el final permitiera revisar la selección, en vez de mostrar únicamente un mensaje de que todo ha ido bien. Volver a Inicio ofrece una salida clara después de completar el recorrido
 
 ![Wireframe de "Pedido confirmado"](capturas/wireframes/06-confirmacion.png)
 
@@ -196,7 +196,7 @@ En "Favoritos" he reutilizado la forma de presentar los productos del "Catálogo
 
 #### Inicio de sesión
 
-En el wireframe del login he separado la identificación de la tienda del acceso a la cuenta, la marca y el espacio para la fotografía del centro quedan juntos, y después aparecen los campos de correo y contraseña, así la cabecera no se mezcla con lo que hay que rellenar, he dejado la recuperación cerca de la contraseña porque es donde tiene sentido buscarla si no se recuerda, la aceptación de los términos tiene su propio espacio antes de iniciar sesión y empieza sin marcar, también aparecen las alternativas de Google y cuenta Davante, cada una con una referencia a su icono, Crear cuenta queda separado del botón de acceso para distinguir a quien ya tiene cuenta de quien entra por primera vez, he conservado Seguir sin iniciar sesión como salida para poder consultar la tienda sin registrarse, en esta versión la foto se representa con un bloque gris y los botones mantienen la misma posición y tamaño que en el diseño final
+En el wireframe del login la marca y el espacio de la fotografía presentan la tienda antes de los campos de correo y contraseña. La recuperación queda cerca de la contraseña y la aceptación de términos aparece sin marcar antes del acceso. También están las alternativas de Google y cuenta Davante con sus iconos, Crear cuenta y Seguir sin iniciar sesión. La foto se representa con un bloque gris, los botones conservan la posición y el tamaño del diseño final para poder comparar las dos versiones
 
 ![Wireframe de "Inicio de sesión"](capturas/wireframes/08-inicio-sesion.png)
 
@@ -206,7 +206,7 @@ Para la guía de estilo he partido de la misma idea que da nombre a la tienda, m
 
 #### Color y contraste
 
-El azul principal es #0234AB, lo he utilizado en las acciones y en la navegación para mantener la referencia de Davante, los fondos más suaves permiten separar el contenido sin quitar importancia a la ropa, además del azul secundario he incluido un coral como color de apoyo, así la interfaz tiene una paleta definida y las prendas pueden tener sus propios colores sin que todo compita por destacar, para las versiones oscuras he mantenido esa misma idea con un fondo azul muy oscuro y colores más claros en las acciones, cambia la combinación, pero se sigue reconociendo la tienda
+El azul principal es #0234AB y aparece en las acciones y en la navegación como referencia a Davante. Los fondos suaves dejan más protagonismo a la ropa, mientras que el azul secundario y el coral completan los colores de los controles. En oscuro he elegido un fondo azul muy oscuro y acciones más claras, conservando la identidad de la tienda
 
 | Uso | Claro | Oscuro |
 | --- | --- | --- |
@@ -253,7 +253,7 @@ También hay un esquema claro y otro oscuro para mantener la identidad azul de P
 
 Las doce parejas superan 4,5 a 1 y se mantienen como pares de fondo y texto, así los cambios de modo no dependen solo de que dos colores parezcan distintos
 
-El tema se ha generado con Material Theme Builder a partir del azul #0234AB, después he personalizado los roles claros y oscuros para conservar los colores de Pequeño Davante, porque los tonos que genera el plugin cambian el azul y los fondos que ya tenía la tienda, las pantallas y los componentes utilizan las variables locales de ese tema, con el modo claro o el oscuro según corresponda, así he mantenido el mismo aspecto sin dejar los colores separados de sus roles de Material 3
+El tema se ha generado con Material Theme Builder a partir del azul #0234AB. Después he personalizado los roles claros y oscuros para conservar la paleta que ya tenía Pequeño Davante, ya que el plugin generaba otros tonos para el azul y los fondos. Las pantallas y los componentes utilizan las variables locales de ese tema en el modo correspondiente, con los colores originales asociados a sus roles de Material 3
 
 Los valores finales están recogidos en [diseno/estilos.json](diseno/estilos.json), junto con los cinco estilos de texto y las medidas de distribución, en el coral he elegido texto oscuro para superar el contraste mínimo sin cambiar el color de apoyo de la tienda
 
@@ -261,7 +261,7 @@ Esta relación ayuda a entender cómo se combinan los colores, una acción elegi
 
 #### Tipografía y distribución
 
-He utilizado Roboto y he cambiado el tamaño y el grosor según lo que explica cada texto, el nombre de una prenda necesita reconocerse antes que una descripción, y un botón necesita una etiqueta que se lea rápido, si todo tuviera el mismo tamaño y peso costaría más encontrar lo que interesa, por eso he seguido cinco estilos principales y he mantenido su función entre pantallas, de forma que un título o una acción no cambien de aspecto sin motivo al continuar la compra
+La tipografía es Roboto, con cinco estilos principales según el tipo de contenido. El nombre de una prenda tiene más presencia que su descripción, mientras que el texto de un botón necesita leerse rápido dentro de un espacio pequeño. Cada estilo conserva su función entre pantallas para que los títulos, los precios y las acciones se reconozcan de la misma forma
 
 | Nombre en Figma | Tamaño | Espacio entre líneas | Grosor | Para qué lo uso |
 | --- | --- | --- | --- | --- |
@@ -271,7 +271,7 @@ He utilizado Roboto y he cambiado el tamaño y el grosor según lo que explica c
 | bodyLarge | 16 | 24 | Normal, 400 | Mensajes y textos de contenido |
 | labelLarge | 14 | 20 | Medio, 500 | Etiquetas de botones y controles |
 
-El espacio entre líneas también influye cuando un nombre o un mensaje ocupa más de una línea, si quedan demasiado juntas la lectura se hace incómoda, sobre todo desde el móvil, he mantenido las etiquetas de los botones cortas para que expliquen la acción sin ocupar un párrafo, hay otros tamaños para datos pequeños como la hora de la barra superior, pero los cinco de la tabla son los que organizan el contenido principal de la tienda
+El espacio entre líneas permite leer los nombres y los mensajes que ocupan más de una línea sin que queden amontonados. En los botones he usado etiquetas breves que explican la acción. Hay otros tamaños para detalles como la hora de la barra superior, pero los cinco estilos de la tabla organizan el contenido principal
 
 Para colocar el contenido he usado una rejilla de cuatro columnas con 16 de margen a cada lado y 8 entre columnas, en una pantalla de 360 de ancho esto deja 328 para trabajar, me sirve para alinear un campo, una tarjeta o un botón con el resto del contenido aunque tengan tamaños diferentes, tener cuatro columnas no significa que haya que mostrar cuatro prendas por fila, en el "Catálogo" he utilizado dos tarjetas porque así las fotos y los nombres tienen más espacio y se pueden comparar mejor
 
@@ -284,13 +284,13 @@ Para colocar el contenido he usado una rejilla de cuatro columnas con 16 de marg
 | Base de espaciado | 8 | Referencia para separar los elementos |
 | Área mínima de pulsación que tomo como referencia | 48 x 48 | Espacio para tocar una acción |
 
-He tomado 8 como base para las separaciones, así puedo utilizar espacios de 8, 16 o 24 dependiendo de si dos elementos forman parte del mismo grupo o si empieza otra parte del contenido, por ejemplo, la foto y el nombre de una prenda tienen una relación más cercana que esa tarjeta y el grupo de filtros, para las zonas de pulsación he tomado como referencia 48 x 48, esto se refiere al espacio que responde al tocar, no al tamaño del dibujo, un corazón puede verse pequeño y tener espacio alrededor para que no haya que acertar justo en el centro, algo que importa especialmente al usar la app con una mano
+La base de espaciado es 8, con separaciones de 8, 16 o 24 según la cercanía entre los elementos. La foto y el nombre forman una tarjeta, por eso quedan más próximos entre sí que respecto al grupo de filtros. La referencia de 48 x 48 corresponde al área que responde al tocar, aunque el icono sea menor, un corazón puede tener espacio alrededor para pulsarlo sin acertar justo en el dibujo
 
 #### Componentes y estados
 
-He mantenido una misma forma de presentar los elementos que se repiten, la cabecera sitúa la pantalla y la vuelta atrás, la barra inferior permite reconocer "Inicio", "Catálogo" y "Favoritos", y las tarjetas conservan el orden de foto, nombre y precio, en los campos del formulario la etiqueta y el mensaje de ayuda pertenecen al mismo dato, mientras que los botones principales indican acciones como continuar o añadir al "Carrito", esto evita que en cada pantalla haya que aprender otra forma de utilizar la tienda, la guía de medidas y el aviso con Deshacer completan las ayudas relacionadas con la elección y la revisión de una prenda
+La cabecera y la barra inferior siguen el mismo criterio en las pantallas, con Inicio, Catálogo y Favoritos como destinos principales. Las tarjetas repiten el orden de foto, nombre y precio, y cada campo reúne su etiqueta y su mensaje de ayuda. Para las acciones he usado textos como continuar o añadir al Carrito, la guía de medidas ayuda durante la elección y Deshacer permite recuperar una prenda al revisar la cesta
 
-En las tarjetas y en los selectores he diferenciado varios estados manteniendo la misma estructura, una talla seleccionada no significa lo mismo que una talla sin stock, aunque las dos tengan un aspecto distinto al resto, del mismo modo, marcar una prenda como favorita no cambia su nombre ni su precio, he utilizado estas variantes para que se reconozca qué ha cambiado sin reorganizar todo el componente, la tabla recoge los estados que se necesitan distinguir
+Las variantes conservan la estructura del componente y cambian lo necesario para reconocer su estado. En las tallas, la selección indica la opción elegida y el aviso de stock explica cuál no se puede comprar. En las tarjetas se distingue una prenda guardada de una agotada, los estados utilizados aparecen en la tabla
 
 | Componente | Estados que necesito distinguir | Por qué los separo |
 | --- | --- | --- |
@@ -311,31 +311,31 @@ En esta versión he llevado la distribución al aspecto final de Pequeño Davant
 
 #### Inicio
 
-Para la primera visita me interesaba que se entendiera qué vende la tienda y por dónde empezar, las categorías permiten entrar con una idea de la edad para la que se compra, mientras que el buscador ofrece una consulta más directa, he elegido la chaqueta de temporada para dar un ejemplo concreto de lo que se puede encontrar, con su precio y algunos detalles de la prenda, así la imagen tiene relación con una compra posible y no se queda como una decoración, las novedades amplían esa primera selección y Ver todo pertenece a ese grupo, mientras que Explorar el "Catálogo" da acceso a mirar más ropa, he separado esas acciones para que se entienda qué contenido se está consultando sin llenar el inicio de promociones distintas
+En Inicio he dado protagonismo a la chaqueta de temporada, con su precio y algunos detalles para presentar una prenda concreta de la tienda. Las categorías ayudan a empezar por la edad y el buscador permite una consulta más directa. Las novedades forman otro grupo con su acceso Ver todo, mientras que Explorar el Catálogo lleva al conjunto de prendas, así cada botón indica qué contenido se va a abrir
 
 ![Pantalla final de "Inicio"](capturas/prototipo/01-inicio.png)
 
 #### Catálogo
 
-Al entrar en el "Catálogo" la necesidad cambia, aquí la persona quiere comparar varias prendas y decidir cuál le interesa abrir, he mantenido dos tarjetas por fila con el mismo orden de información para que la foto, el nombre y el precio se puedan consultar sin tener que aprender una tarjeta diferente cada vez, los filtros de edad o talla, color y precio permiten plantear una búsqueda más concreta, y la ordenación ofrece otra forma de comparar esos resultados, por ejemplo, buscar una talla y después mirar los precios no es la misma acción, el aviso de agotado en las zapatillas informa de la disponibilidad durante esa primera consulta, mientras que los corazones representan el interés por guardar una prenda, todavía sin elegir una talla ni añadir unidades a la compra
+El Catálogo presenta dos tarjetas por fila con la foto, el nombre y el precio en posiciones fijas. Para concretar la búsqueda están los filtros de edad o talla, color y precio, además de la ordenación, que permite comparar los resultados con otro criterio. Las zapatillas muestran el aviso de agotado desde el listado y los corazones permiten guardar lo que interesa sin elegir todavía una talla
 
 ![Pantalla final de "Catálogo"](capturas/prototipo/02-catalogo.png)
 
 #### Detalle del producto
 
-En la ficha he dado más espacio a la chaqueta porque ya no se está comparando todo el "Catálogo", se está decidiendo sobre esa prenda, la fotografía y la descripción permiten reconocer detalles como el cuello de pana y los bolsillos, y los indicadores de imagen representan la consulta de más fotografías, para las opciones he combinado el color con su nombre y su estado, Verde oliva aparece como Elegido y Arena como Sin stock, así la diferencia no depende solo de distinguir el tono o ver un borde, con las tallas he seguido la misma idea y la de 8 años lleva el aviso de agotada, la guía permite comparar medidas antes de elegir y el botón en estado Selecciona una talla explica qué falta para continuar, me parecía más claro mostrar esa condición que dejar un botón desactivado sin indicar el motivo
+En el Detalle he dado más espacio a la chaqueta para que se aprecien el cuello de pana y los bolsillos. La descripción acompaña a la foto y los indicadores representan la consulta de más imágenes. En la elección de color, Verde oliva aparece como Elegido y Arena como Sin stock, por lo que no hace falta distinguir únicamente el tono o el borde. Las tallas siguen ese criterio y la de 8 años avisa de que está agotada. La guía permite consultar las medidas antes de decidir, mientras que Selecciona una talla explica por qué aún no se puede añadir la prenda al Carrito
 
 ![Pantalla final de "Detalle del producto"](capturas/prototipo/03-detalle.png)
 
 #### Carrito
 
-He planteado el "Carrito" como una pausa para comprobar la selección antes de rellenar los datos, aquí interesa confirmar que se ha añadido la chaqueta correcta, que la talla es la elegida y que no hay una unidad de más, el ejemplo mostrado tiene una chaqueta verde oliva de talla 4, una unidad y 39 €, he diferenciado el precio de esa unidad del resumen de la cesta porque al aumentar la cantidad también cambia lo que cuesta la compra, además, el aviso de gastos de envío indica que todavía no están calculados, así el importe tiene una explicación, los pasos "Carrito", "Datos de entrega" y "Confirmación" sitúan a la persona dentro del recorrido, y la recuperación con Deshacer responde a un caso bastante normal, eliminar una prenda sin querer y necesitar recuperarla sin volver a buscarla en el "Catálogo"
+El Carrito permite comprobar la chaqueta elegida, la talla y las unidades antes de rellenar la dirección. La captura muestra una chaqueta verde oliva de talla 4 y 39 €, con el precio de la unidad separado del total para entender el cambio al aumentar la cantidad. Los gastos de envío figuran como no calculados y los pasos Carrito, Datos de entrega y Confirmación sitúan el avance de la compra. Si se elimina la prenda por equivocación, Deshacer permite recuperarla sin buscarla otra vez
 
 ![Pantalla final de "Carrito"](capturas/prototipo/04-carrito.png)
 
 #### Datos de entrega
 
-Al pasar al formulario he mantenido la referencia de los pasos y del importe para que se siga reconociendo la compra que se acaba de revisar, los datos se organizan por contacto y dirección, con una etiqueta que permite saber qué pertenece a cada campo incluso cuando ya tiene contenido, para el estado de error he utilizado el ejemplo de email marta@, acompañado de borde rojo, icono y un mensaje sobre el formato esperado, he elegido ese caso porque escribir algo en un campo no significa que el dato esté completo, la ayuda explica el fallo en el mismo sitio donde se corrige, en lugar de obligar a revisar todo el formulario buscando qué está mal, esta pantalla deja preparado el paso siguiente del recorrido
+En Datos de entrega siguen visibles los pasos de la compra y el importe, mientras que los campos se agrupan por contacto y dirección. Cada uno conserva su etiqueta aunque tenga contenido. La captura muestra el email incompleto marta@, con borde rojo, icono y un mensaje que explica el formato esperado. Al llegar desde el Carrito, el recorrido utiliza ana@ para ese mismo estado de error y permite pasar a ana.garcia@example.com al tocar el campo. Son dos ejemplos del mismo aviso, situado junto al dato que hay que corregir
 
 ![Pantalla final de "Datos de entrega"](capturas/prototipo/05-entrega.png)
 
@@ -355,9 +355,9 @@ La "Confirmación" debe permitir comprobar qué ha pasado después de continuar 
 
 El "Inicio de sesión" mantiene la idea de imaginar una tienda infantil de Davante, he colocado el logo en blanco sobre el azul de la marca y lo he acompañado de una fotografía de MEDAC Sevilla Este, la imagen conecta esta parte del diseño con el centro y el nombre Pequeño Davante explica la adaptación a la ropa infantil, he dejado la cabecera como una presentación breve para que los campos se vean sin tener que bajar por la pantalla, el nombre Inicia sesión permite reconocer desde el principio dónde se está
 
-Para entrar con correo he mantenido una etiqueta en cada campo, de esta forma se distingue el correo de la contraseña aunque se escriba dentro, he relacionado la recuperación con la contraseña y he reservado un espacio propio a la aceptación de los términos y condiciones, el control es circular, como un radio button, empieza sin seleccionar y permite marcarlo o desmarcarlo, el botón Iniciar sesión lleva a "Inicio" cuando se aceptan los términos, y el radio button permite revisar esa elección antes de continuar, las etiquetas quedan completas sobre el borde del campo y el logo conserva espacio alrededor para que la marca se reconozca sin mezclarse con la fotografía
+El acceso con correo tiene una etiqueta para cada campo, visible aunque se escriba dentro. La recuperación está junto a la contraseña y la aceptación de términos ocupa su propio espacio antes del botón Iniciar sesión. El control circular empieza sin seleccionar y se puede marcar o desmarcar, al aceptar los términos se permite continuar a Inicio. Las etiquetas caben completas sobre el borde de los campos y el logo tiene margen alrededor para que no se corte ni se mezcle con la fotografía
 
-Google y la cuenta Davante aparecen como otras formas de acceso, he añadido el icono de cada servicio para reconocerlas antes de leer el botón y he mantenido el texto para que no haya que interpretar solo el dibujo, los dos accesos representan alternativas de entrada a la tienda dentro del recorrido, Crear cuenta permite distinguir el registro del acceso de una persona que ya tiene cuenta, tanto esa opción como la recuperación están representadas en el diseño, pero no tienen un formulario adicional, he mantenido Seguir sin iniciar sesión porque quien entra a buscar un regalo puede querer mirar las prendas antes de registrarse, la flecha de regreso ofrece otra forma de volver a "Inicio"
+Google y la cuenta Davante ofrecen otras formas de entrada, con el icono y el nombre de cada servicio para reconocer el acceso. Crear cuenta distingue el registro de quien ya tiene una cuenta, tanto esa opción como la recuperación están representadas sin un formulario adicional. Seguir sin iniciar sesión permite mirar la ropa antes de registrarse y la flecha de regreso lleva a Inicio
 
 ![Pantalla final de "Inicio de sesión"](capturas/prototipo/11-inicio-sesion.png)
 
@@ -444,13 +444,13 @@ Las dos capturas muestran el cambio sobre la misma pantalla, el botón mantiene 
 
 ### 5.1 Justificación del diseño propuesto
 
-La decisión que más ha marcado el diseño ha sido partir de una tienda ficticia de Davante y pensar cómo se adaptaría a la ropa infantil, de ahí salen el nombre Pequeño Davante, la relación con el logo y el uso del azul, he mantenido esa idea en las pantallas, pero dando más importancia a las prendas y a lo que necesita saber quien las compra, una app de este tipo puede tener una imagen reconocible y aun así resultar incómoda si no queda clara la talla o el importe, por eso he unido la identidad de la tienda con decisiones que tienen un motivo dentro de la compra
+Pequeño Davante parte de imaginar una tienda de ropa infantil de Davante. El nombre, el logo y el azul dan continuidad a esa idea, pero las fotografías de las prendas tienen más peso que la marca al consultar los productos. Para mí, lo importante era que esa identidad acompañara a la compra sin quitar espacio a las tallas, la disponibilidad o el precio
 
-La talla es un ejemplo de esa relación, para quien compra habitualmente puede ser un dato conocido, pero para alguien que busca un regalo puede ser la principal duda, he colocado la guía en el "Detalle" para resolver esa consulta junto a la prenda y he diferenciado la talla elegida de la agotada, también he mantenido los nombres y los avisos de color para que la selección se entienda sin depender únicamente de distinguir tonos, la intención es que la persona pueda relacionar lo que le gusta con una opción que realmente pueda elegir
+La duda de talla ha influido especialmente en la ficha. Al comprar un regalo se puede conocer la edad del niño y aun así no saber qué medida elegir, por eso la guía queda junto al selector y los avisos distinguen las opciones disponibles de las agotadas. Los nombres de los colores y las etiquetas de estado complementan el aspecto visual para que la elección no dependa solo del color
 
-He separado la comparación, la elección y la revisión porque en cada momento hace falta información diferente, en el "Catálogo" se miran varias prendas, en el "Detalle" se decide la talla y el color, y en el "Carrito" se comprueba qué se ha añadido y en qué cantidad, así los "Datos de entrega" aparecen después de revisar la compra, el mensaje del email ayuda a corregir el dato dentro del propio formulario y la "Confirmación" vuelve a mostrar la selección para que se pueda reconocer el resultado, esta organización tiene sentido tanto para quien entra con una idea clara como para quien necesita consultar más antes de decidir
+El importe y la selección acompañan el avance hacia la Confirmación. Antes de pedir la dirección, el Carrito permite revisar las unidades y recuperar una prenda eliminada, después el formulario sitúa los errores junto al campo correspondiente. He buscado que la persona pueda corregir una decisión sin tener que empezar de nuevo ni recordar datos de una pantalla anterior
 
-La misma forma de presentar las tarjetas, los botones y la navegación permite mantener esa organización al cambiar de pantalla, "Favoritos" reutiliza las prendas del "Catálogo" porque siguen siendo los mismos productos, aunque se estén guardando para mirarlos otro día, y las versiones oscuras conservan la distribución para que cambiar los colores no cambie la manera de utilizar la app, con todo esto he buscado que Pequeño Davante tenga una identidad propia y que las decisiones visuales se puedan explicar por cómo se compra, no solo por cómo queda una captura
+Las tarjetas reutilizadas y la navegación común evitan que cada parte de la tienda parezca una app diferente. Las versiones oscuras siguen esa misma distribución, por lo que cambiar la paleta no desplaza las opciones. Estos criterios unen la identidad de Davante con el uso diario de una tienda, desde mirar una prenda hasta comprobar el pedido
 
 ### 5.2 Recomendaciones y pasos a seguir
 

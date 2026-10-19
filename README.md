@@ -2,7 +2,7 @@
 
 **Marta González González - 2º DAM - Desarrollo de Interfaces**
 
-Pequeño Davante es la tienda de ropa infantil que he imaginado para Davante, de ahí vienen el nombre, el logo y el azul de las pantallas, la propuesta reúne ropa y calzado para niños de 0 a 14 años, pero quienes utilizan la app son las personas adultas que compran para ellos, he partido de esa diferencia para decidir qué información hacía falta, reconocer una prenda, saber qué talla queda y comprobar cuánto cuesta antes de seguir con la compra
+Pequeño Davante es la tienda de ropa infantil que he imaginado para Davante, de ahí vienen el nombre, el logo y el azul de las pantallas. Reúne ropa y calzado de 0 a 14 años, con la información pensada para las personas adultas que compran, desde elegir una talla hasta revisar el importe del pedido
 
 La tienda es ficticia y el prototipo está hecho en Figma para representar su uso desde un móvil Android, en el repo están la explicación del diseño, los wireframes, las pantallas finales y los valores de estilo
 
@@ -14,9 +14,9 @@ La tienda es ficticia y el prototipo está hecho en Figma para representar su us
 
 ## Una tienda de Davante para los pequeños
 
-Me interesaba que la relación con Davante se entendiera al abrir la app, por eso he conservado la marca y he utilizado Pequeño para explicar a qué tipo de ropa va dirigida, el azul se repite en las acciones y en la navegación, mientras que las fotografías dan variedad al catálogo, la ropa tiene sus propios colores y los controles mantienen una referencia común, así se puede pasar de mirar una chaqueta a revisar el pedido sin perder la relación entre las pantallas
+La marca aparece desde la entrada, acompañada de las fotografías de ropa infantil. El azul identifica los controles y la navegación, mientras que las prendas aportan sus propios colores. El nombre Pequeño Davante recoge esa adaptación de la marca a una tienda para niños
 
-He tenido bastante en cuenta a quien compra un regalo, puede conocer la edad del niño y no saber qué talla utiliza, por eso la consulta de medidas está junto a la elección de talla, guardar una prenda para mirarla otro día tiene su espacio en "Favoritos", y revisar lo que ya se ha decidido comprar corresponde al "Carrito", esta diferencia me ha servido para organizar las partes de la tienda según lo que se necesita en cada momento
+La compra de un regalo ha tenido bastante peso en el diseño, porque conocer la edad no siempre basta para elegir la talla. La guía de medidas queda junto a la selección de talla y Favoritos permite guardar una prenda antes de decidir si se compra
 
 ## Qué hay en la documentación
 
@@ -35,9 +35,9 @@ Los accesos al [mapa de navegación](DOCUMENTACION.md#31-mapa-de-navegación), l
 
 La presentación empieza en "Inicio de sesión", con las opciones de correo, Google y cuenta Davante, también se puede seguir sin cuenta, el login incluye los campos de acceso, la aceptación de términos, recuperar cuenta y crear cuenta, estos dos últimos accesos están representados en la pantalla y no abren otros formularios, los botones de Google y Davante llevan a "Inicio" dentro del recorrido
 
-Desde "Inicio" se pasa al "Catálogo" para mirar las prendas y abrir el "Detalle del producto", he preparado el ejemplo de compra con la chaqueta verde oliva y la talla de 4 años, al elegirla se puede añadir al "Carrito" y revisar la cantidad, una unidad cuesta 39 € y dos suman 78 €, después aparecen los "Datos de entrega" y "Pedido confirmado", en las capturas se muestra el estado inicial de una unidad, el número 12-PD identifica ese pedido de demostración
+La compra preparada en el prototipo utiliza la chaqueta verde oliva de talla 4. Desde Inicio se llega al Catálogo y al Detalle, donde se elige la talla antes de añadirla al Carrito. Una unidad cuesta 39 € y dos suman 78 €, después se completan los Datos de entrega y se llega a Pedido confirmado. Las capturas muestran una unidad y el pedido de ejemplo 12-PD
 
-La consulta de medidas se abre sobre el "Detalle" para volver después a la misma chaqueta, el formulario muestra un email incompleto y tiene preparado el cambio al estado corregido, esta interacción sirve para explicar el error y cómo continuar, no comprueba cualquier dirección que se escriba, el recorrido está centrado en esa compra concreta, las demás prendas completan la propuesta de catálogo y favoritos sin tener todas su compra desarrollada
+La guía de medidas se abre sobre el Detalle y permite regresar a la misma chaqueta. El formulario incluye un email incompleto y el cambio al estado corregido para recorrer ese caso de error, sin validar cualquier dirección escrita. Las demás prendas completan el Catálogo y Favoritos, aunque la compra desarrollada corresponde a la chaqueta
 
 ## Las pantallas
 
@@ -58,7 +58,7 @@ La consulta de medidas se abre sobre el "Detalle" para volver después a la mism
 
 Los [ocho wireframes](capturas/wireframes/) recogen la distribución antes del acabado con fotos y colores, incluido el [wireframe del login](capturas/wireframes/08-inicio-sesion.png), se pueden comparar con las capturas finales de cada pantalla para ver qué lugar ocupa la navegación, dónde se elige una talla o en qué momento se revisa la compra, en el archivo de Figma están separados en las páginas Wireframes y Prototipo
 
-He guardado la tarjeta de producto y el selector de talla en Wireframes, fuera de las pantallas que se exportan, las tarjetas del Catálogo y de Favoritos utilizan esos conjuntos locales, cada tarjeta conserva la foto y los datos de su prenda, y cada talla mantiene su edad y su disponibilidad, los estados permiten distinguir una prenda favorita de una agotada y una talla disponible de la que ya se ha elegido, las versiones claras y oscuras comparten esa misma idea
+La tarjeta de producto y el selector de talla están en Wireframes, fuera de las pantallas exportadas. Las tarjetas del Catálogo y Favoritos utilizan esos componentes locales con la foto y los datos de cada prenda. Sus variantes recogen los estados de favorito, agotado y selección de talla en los dos modos de color
 
 La [comparación de antes y después](DOCUMENTACION.md#43-iteraciones-y-mejoras) muestra un cambio concreto en el "Detalle", he sustituido Guía de tallas por Consultar medidas y tallas para explicar mejor qué ayuda se abre, el botón conserva su tamaño y su lugar junto a las tallas, la [sección de resultados](DOCUMENTACION.md#42-resultados) recoge los recorridos que he planteado para revisar esa dificultad
 
